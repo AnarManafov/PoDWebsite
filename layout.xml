@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE layout PUBLIC "-//Norman Walsh//DTD Website Layout V2.5.0//EN"
+          "http://docbook.sourceforge.net/release/website/2.5.0/schema/dtd/layout.dtd">
+<layout>
+  
+  <config param="title" value="PROOF on Demand" />
+  <config param="text-prefix" value="n-"/>
+
+  <config param="homebanner-tabular" value="graphics/PoD_logo.png"
+    altval="Home Banner"/>
+  <config param="banner-tabular"     value="graphics/PoD_logo.png"
+	  altval="Banner"/>
+
+  <config param="homebanner" value="graphics/PoD_logo.png"
+	  altval="Home Banner"/>
+  <config param="banner"     value="graphics/PoD_logo.png"
+	  altval="Banner"/>
+
+    <config param="navbgcolor" value="#FFFFFF" />
+
+  <copyright>
+    <year>2010</year><year>2009</year>
+    <holder role="http://www.gsi.de">GSI Helmholtzzentrum für Schwerionenforschung GmbH, Scientific Computing group</holder>
+  </copyright>
+
+  <headlink rel="icon" href="http://nwalsh.com/images/nwalsh-icon16.png" type="image/png"/>
+
+  <style src="docbook-website.css" type="text/css"/>
+
+  <toc page="website.xml" filename="index.html">
+    <tocentry page="download.xml" filename="download.html"/>
+    <tocentry page="documentation.xml" filename="documentation.html"/>
+    <tocentry page="support.xml" filename="support.html"/>
+  </toc>
+</layout>
+
