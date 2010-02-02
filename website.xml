@@ -1,7 +1,8 @@
 <!DOCTYPE webpage
   PUBLIC "-//Norman Walsh//DTD Website V2.6//EN"
   "http://docbook.sourceforge.net/release/website/2.6/schema/dtd/website.dtd">
-<webpage id="home">
+
+<webpage id="Home">
 <config param="desc" value="PROOF on Deman"/>
 
 

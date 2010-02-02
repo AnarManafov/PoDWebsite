@@ -36,7 +36,7 @@ TIDY=tidy
 TIDYOPTS=-iq -latin1 -mn
 
 # specifies command for calling your XSLT engine
-# (this default uses Saxon)
+
 #XSLT=java \
 	-Djavax.xml.parsers.DocumentBuilderFactory=org.apache.xerces.jaxp.DocumentBuilderFactoryImpl \
 	-Djavax.xml.parsers.SAXParserFactory=org.apache.xerces.jaxp.SAXParserFactoryImpl \
@@ -71,6 +71,8 @@ DESTPATH=.
 
 # what prefix to use on non-tabular versions HTML files?
 NONTABPREFIX=n-
+
+MY_STYLESHEET=config.xsl
 
 TABSTYLE      =  $(DOCBOOK_WEBSITE)/xsl/tabular.xsl
 WEBSTYLE      =  $(DOCBOOK_WEBSITE)/xsl/website.xsl
