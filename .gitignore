@@ -1,4 +1,5 @@
 build/
+html_out/
 Doxyfile
 src/version.h
 tests/xpd.cf

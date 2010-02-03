@@ -23,11 +23,15 @@
     <holder role="http://www.gsi.de">GSI Helmholtzzentrum für Schwerionenforschung GmbH, Scientific Computing group</holder>
   </copyright>
 
-  <headlink rel="icon" href="http://nwalsh.com/images/nwalsh-icon16.png" type="image/png"/>
+  <!-- TODO: add icon here, defined with URL... -->
+  <headlink rel="icon" href="" type="image/png"/>
 
   <style src="docbook-website.css" type="text/css"/>
 
   <toc page="website.xml" filename="index.html">
+    <tocentry id="HOME" href="index.html">
+    <title>Home</title>
+    </tocentry>
     <tocentry page="download.xml" filename="download.html"/>
     <tocentry page="documentation.xml" filename="documentation.html"/>
     <tocentry page="support.xml" filename="support.html"/>

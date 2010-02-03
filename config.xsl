@@ -13,12 +13,13 @@
 
 
 <!-- ****** Website stylesheet parameters ****** -->
+<xsl:param name="output-root">html-out</xsl:param>
+
 <xsl:template name="home.navhead">
 </xsl:template>
 
 <xsl:template name="home.navhead.upperright">
 </xsl:template>
-
 
 <!-- ****** DocBook stylesheet parameters ****** -->
 

@@ -36,11 +36,13 @@ TIDY=tidy
 TIDYOPTS=-iq -latin1 -mn
 
 # specifies command for calling your XSLT engine
-XSLT=xsltproc
+XSLT=xsltproc --stringparam output-root $(DESTDIR)
 
 # XMLPARSER specifies command for calling your preferred XML
 # parser for validating the DocBook XML sources for your site
 XMLPARSER=xmllint --valid --noout
+
+DESTDIR=html_out
 
 # the following is empty by default; put any custom DocBook
 # stylesheet params you want here; they will be applied globally
@@ -64,7 +66,7 @@ XMLDEPENDS    = autolayout.xml website.database.xml
 
 .PHONY : clean
 
-all:
+all: style images
 	$(MAKE) website
 
 STYLESHEET=$(TABSTYLE)
@@ -96,6 +98,24 @@ depends.tabular depends.nontabular: autolayout.xml
 
 website.database.xml: autolayout.xml
 	$(XSLT) $(MAKETARGETSDB) $< > $@
+
+
+style: $(DESTDIR)/docbook-website.css
+
+$(DESTDIR)/docbook-website.css:
+	mkdir -p $(DESTDIR)
+	cp docbook-website.css $(DESTDIR)
+
+$(DESTDIR)/graphics:
+	mkdir -p $(DESTDIR)/graphics
+
+images: $(DESTDIR)/graphics
+	cp -r graphics $(DESTDIR)/
+
+sync:
+	rsync -avz -e ssh  $(DESTDIR)/* podwww@lxi001.gsi.de:~/web-docs/
+
+
 
 depends: autolayout.xml website.database.xml depends.tabular
 
