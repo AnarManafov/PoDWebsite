@@ -1,17 +1,93 @@
 <!DOCTYPE webpage
-  PUBLIC "-//Norman Walsh//DTD Website V2.6//EN"
-  "http://docbook.sourceforge.net/release/website/2.6/schema/dtd/website.dtd">
+  PUBLIC "-//Norman Walsh//DTD Website Full V2.6//EN"
+         "http://docbook.sourceforge.net/release/website/2.6/schema/dtd/website-full.dtd"[
+  <!ENTITY download.xml SYSTEM "download.xml" NDATA XML>
+]>
 
 <webpage id="Documentation">
 <config param="desc" value="Navigation Layout"/>
 
 <head>
 <title>Documentation</title>
-<summary>Site Navigation Layout Setup</summary>
+<summary>Documentation</summary>
 </head>
 
-<para>Breaking all of the web pages into separate XML documents
-introduces a significant problem: the hierarchical structure of the website
-is no longer manifest in the source document.</para>
+  <table>
+		<title>Documentation list</title>
+  		<tgroup cols="2">
+    		<thead>
+      	<row>
+        		<entry>Link</entry>
+        		<entry>Description</entry>
+      	</row>
+    		</thead>
+    		<tbody>
+      		<row>
+              <entry><ulink url="http://www-linux.gsi.de/~manafov/D-Grid/docz/">Documentation Portal</ulink></entry>
+        			<entry>The documentation portal contains a list of all avaiable documentation for PoD and other related projects.
+              Also it contains a list presentations and publications.</entry>    
+      		</row>
+      		<row>
+              <entry><ulink url="http://www-linux.gsi.de/%7Emanafov/D-Grid/docz/PoD/html/">User’s Manual (Nightly build)</ulink></entry>
+        			<entry>The user's manual of the lates development PoD version, which is build nightly.</entry>
+      		</row>
+          <row>
+              <entry><ulink url="http://pod.gsi.de/doc/2.1.3/index.html">User’s Manual (v2.1.3)</ulink></entry>
+        			<entry>The user's manual of the stable PoD v2.1.3.</entry>
+      		</row>
+        </tbody>
+      </tgroup>
+  </table>
+
+<section><title>Useful Tips</title>
+<para>
+<important>
+<para>
+Don’t forget to add the following to you PROOF script:
+<programlisting>
+proof->SetParameter( "PROOF_MaxSlavesPerNode", (Long_t)100 );
+</programlisting>
+Otherwise PROOF will not use all workers you actually requested.
+<ulink url="http://www-linux.gsi.de/%7Emanafov/D-Grid/docz/PoD/html/html_help/Known_Issues.html#MaxSlavesPerNode">Find out more on this.</ulink>
+</para>
+</important>
+</para>
+
+<section><title>PoD at GSI</title>
+<para>
+For GSI users there is a precompiled and tuned version of PoD. From the  <olink targetdocent="download.xml">Download page</olink> get the tar ball of
+the PoD, which is marked by <emphasis role="bold">"for GSI environment only"</emphasis>. For installation and configuration details please refer
+to user’s manual.
+</para>
+</section>
+
+<section><title>PoD at CERN’s AFS</title>
+<para>
+PoD has been tested and is used at CERN. The following environment settings could help to build PoD from the source in a CERN AFS directory on lxplus.cern.ch.
+<screen>
+export ROOTSYS=/afs/cern.ch/sw/lcg/app/releases/ROOT/5.26.00a/slc4_amd64_gcc34/root/ 
+export PATH=/afs/cern.ch/sw/lcg/external/CMake/2.6.4/slc4_amd64_gcc34/bin:\
+/afs/cern.ch/sw/lcg/external/qt/4.4.2/slc4_amd64_gcc34/bin:$ROOTSYS/bin:$PATH
+export LD_LIBRARY_PATH=/afs/cern.ch/sw/lcg/external/qt/4.4.2/slc4_amd64_gcc34/lib:\
+/afs/cern.ch/sw/lcg/external/Boost/1.35.0_python2.5/slc4_amd64_gcc34/lib:\
+$ROOTSYS/lib:$LD_LIBRARY_PATH
+export BOOST_LOCATION=/afs/cern.ch/sw/lcg/external/Boost/1.35.0_python2.5/slc4_amd64_gcc34/
+export BOOST_ROOT=/afs/cern.ch/sw/lcg/external/Boost/1.35.0_python2.5/slc4_amd64_gcc34/
+</screen>
+</para>
+<para>
+Since AFS doesn’t support pipes you need to change PoD’s working directory in the user defaults configuration file $POD_LOCATION/etc/PoD.cfg to /tmp/[login name]/ or to something like that:
+<programlisting>
+[server]
+#
+# PoD working directory
+#
+work_dir=/tmp/manafov/
+</programlisting>
+</para>
+</section>
+
+</section>
+
 
 </webpage>

@@ -1,0 +1,10 @@
+build/
+Doxyfile
+src/version.h
+tests/xpd.cf
+.DS_Store
+*.swp
+autolayout.xml
+depends.tabular
+website.database.xml
+*.html

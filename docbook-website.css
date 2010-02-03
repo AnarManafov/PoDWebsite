@@ -57,13 +57,13 @@
     }
 
     /* Program listings in tables don't get borders */
-    td .programlisting,
+/*    td .programlisting,
     td .screen
     {
         margin: 0pc 0pc 0pc 0pc;
         padding:  0pc 0pc 0pc 0pc;
     }
-
+*/
 /*=============================================================================
     Headings
 =============================================================================*/
@@ -444,13 +444,13 @@
         {
             border: 1px solid #DCDCDC;
         }
-
+/*
         td .programlisting,
         td .screen
         {
             border: 0px solid #DCDCDC;
         }
-
+*/
     /* Blurbs */
         div.note,
         div.tip,
@@ -686,15 +686,15 @@ SPAN.shrink2           { font-size: 70%; }
 SPAN.shrink3           { font-size: 70%; }
 */
 
-SPAN.curpage           { color: navy; font-weight: bold; font-size: 140%; }
+SPAN.curpage           { color: navy; font-weight: bold; font-size: 130%; }
 /*SPAN.curpage A         { color: white; }
 SPAN.curpage A:link    { color: white; }
 SPAN.curpage A:visited { color: white; }
 */
 
-SPAN.toplevel A          { color: navy; font-size: 140%; }
-SPAN.toplevel A:link     { color: navy; font-size: 140%; }
-SPAN.toplevel A:visited  { color: navy; font-size: 140%; }
+SPAN.toplevel A          { color: navy; font-size: 130%; }
+SPAN.toplevel A:link     { color: navy; font-size: 130%; }
+SPAN.toplevel A:visited  { color: navy; font-size: 130%; }
 
 /* Turn off toc for print output */
 @media print { 
