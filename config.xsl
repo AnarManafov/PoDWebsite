@@ -3,7 +3,7 @@
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns="http://www.w3.org/1999/xhtml">
 
-<xsl:import href="http://docbook.sourceforge.net/release/website/current/xsl/tabular.xsl"/>
+<xsl:import href="http://docbook.sourceforge.net/release/xsl/current/website/tabular.xsl"/>
 
 <!-- ****** Parameters ****** -->
   <xsl:param name="paper.type" select="'A4'"/>

@@ -22,7 +22,7 @@
 # There is nowhere in this makefile where you need to specify that.
 # ------------------------------------------------------------------
 #
-DOCBOOK_WEBSITE=http://docbook.sourceforge.net/release/website/current
+DOCBOOK_WEBSITE=http://docbook.sourceforge.net/release/xsl/current/website
 #DOCBOOK_WEBSITE=/usr/share/xml/docbook/custom/website/current
 
 # generate non-tabular output instead of tabular? 1=Yes 0=No
@@ -57,10 +57,10 @@ MY_STYLESHEET=config.xsl
 #TABSTYLE      =  $(DOCBOOK_WEBSITE)/xsl/tabular.xsl
 # Use our custom stylesheet
 TABSTYLE      =  $(MY_STYLESHEET)
-TABCHUNK      =  $(DOCBOOK_WEBSITE)/xsl/chunk-tabular.xsl
-AUTOLAYOUT    =  $(DOCBOOK_WEBSITE)/xsl/autolayout.xsl 
-MAKEDEPENDS   =  $(DOCBOOK_WEBSITE)/xsl/makefile-dep.xsl
-MAKETARGETSDB =  $(DOCBOOK_WEBSITE)/xsl/website-targets.xsl
+TABCHUNK      =  $(DOCBOOK_WEBSITE)/chunk-tabular.xsl
+AUTOLAYOUT    =  $(DOCBOOK_WEBSITE)/autolayout.xsl 
+MAKEDEPENDS   =  $(DOCBOOK_WEBSITE)/makefile-dep.xsl
+MAKETARGETSDB =  $(DOCBOOK_WEBSITE)/website-targets.xsl
 
 XMLDEPENDS    = autolayout.xml website.database.xml
 
