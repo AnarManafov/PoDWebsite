@@ -604,7 +604,7 @@ sub {
    docbook website
  */
 
-/*
+
    body               {
                    }
 
@@ -618,7 +618,7 @@ sub {
 .navhomehead a:link    { color: black; }
 .navhomehead a:visited { color: black; }
 
-.navhead           { padding-top: 0; 
+/*.navhead           { padding-top: 0; 
                      margin-bottom: 0;
                      padding-bottom: 0;
                      font-size: 80%

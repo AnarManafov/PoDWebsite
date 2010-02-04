@@ -55,7 +55,7 @@ Otherwise PROOF will not use all workers you actually requested.
 
 <section><title>PoD at GSI</title>
 <para>
-For GSI users there is a precompiled and tuned version of PoD. From the  <olink targetdocent="download.xml">Download page</olink> get the tar ball of
+For GSI users there is a pre-compiled and tuned version of PoD. From the  <olink targetdocent="download.xml">Download page</olink> get the tar ball of
 the PoD, which is marked by <emphasis role="bold">"for GSI environment only"</emphasis>. For installation and configuration details please refer
 to user’s manual.
 </para>

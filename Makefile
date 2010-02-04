@@ -119,5 +119,5 @@ sync:
 
 depends: autolayout.xml website.database.xml depends.tabular
 
-cleanall: clean
+clean-all: clean
 	rm -f autolayout.xml depends.tabular website.database.xml

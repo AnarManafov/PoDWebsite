@@ -13,8 +13,6 @@
 
 
 <!-- ****** Website stylesheet parameters ****** -->
-<xsl:param name="output-root">html-out</xsl:param>
-
 <xsl:template name="home.navhead">
 </xsl:template>
 
