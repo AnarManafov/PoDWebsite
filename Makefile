@@ -66,7 +66,7 @@ XMLDEPENDS    = autolayout.xml website.database.xml
 
 .PHONY : clean
 
-all: style images
+all: style images javascript
 	$(MAKE) website
 
 STYLESHEET=$(TABSTYLE)
@@ -111,6 +111,12 @@ $(DESTDIR)/graphics:
 
 images: $(DESTDIR)/graphics
 	cp -r graphics $(DESTDIR)/
+
+$(DESTDIR)/javascript:
+	mkdir -p $(DESTDIR)/javascript
+
+javascript: $(DESTDIR)/javascript
+	cp -r javascript $(DESTDIR)/
 
 sync:
 	rsync -avz -e ssh  $(DESTDIR)/* podwww@lxi001.gsi.de:~/web-docs/
