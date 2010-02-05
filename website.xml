@@ -53,12 +53,6 @@ PoD is a specially designed solution to provide a PROOF cluster on the fly.
 </variablelist>
 </section>
 
-<!-- Google analytics code.
-I didn't find any better solution to insert it to every page.
-Let see, maybe docbook website will open some templates customizations for that 
--->
-<?php include_once('javascript/google-analytics.js'); ?>
-
 </webpage>
 
 <!--
