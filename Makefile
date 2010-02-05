@@ -113,7 +113,7 @@ images: $(DESTDIR)/graphics
 	cp -r graphics $(DESTDIR)/
 
 sync:
-	rsync -avz -e ssh  $(DESTDIR)/* podwww@lxi001.gsi.de:~/web-docs/
+	rsync -avz -e ssh  $(DESTDIR)/* podwww@lxg0527.gsi.de:~/web-docs/
 
 
 
