@@ -13,7 +13,7 @@
 </head>
 
   <table>
-		<title>Documentation list</title>
+		<title></title>
   		<tgroup cols="2">
     		<thead>
       	<row>
@@ -86,14 +86,47 @@ work_dir=/tmp/manafov/
 </programlisting>
 </para>
 </section>
-
 </section>
 
-<!-- Google analytics code.
-I didn't find any better solution to insert it to every page.
-Let see, maybe docbook website will open some templates customizations for that 
--->
-<?php include_once('javascript/google-analytics.js'); ?>
+
+<section><title>Presentations and Papers</title>
+<para>
+
+  <table>
+		<title></title>
+  		<tgroup cols="3">
+    		<thead>
+      	<row>
+            <entry>Date</entry>
+        		<entry>Formats</entry>
+        		<entry>Description</entry>
+      	</row>
+    		</thead>
+    		<tbody>
+      		<row>
+              <entry>2010-02-23</entry>
+              <entry>
+                  <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ACAT/2010/PoD_Poster.pdf;hb=HEAD">pdf</ulink>
+                  <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ACAT/2010/PoD_Poster.pages;hb=HEAD">pages</ulink>
+              </entry>
+        			<entry>
+                  <ulink url="http://indicoprev.cern.ch/conferenceOtherViews.py?confId=59397&amp;view=static&amp;showDate=all&amp;showSession=all&amp;detailLevel=contribution">ACAT 2010:</ulink> PoD poster
+                  </entry>
+      		</row>
+          <row>
+              <entry>2009-10-28</entry>
+              <entry>
+                  <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE%20Offlineweek/PoD_ALICE_Offline_10_2009.pdf;hb=HEAD">pdf</ulink>
+                  <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE%20Offlineweek/PoD_ALICE_Offline_10_2009.key;hb=HEAD">key</ulink>
+              </entry>
+        			<entry><ulink url="http://indico.cern.ch/conferenceDisplay.py?confId=69951">ALICE Offline week:</ulink> PoD status report</entry>
+      		</row>
+        </tbody>
+      </tgroup>
+  </table>
+
+</para>
+</section>
 
 
 </webpage>
