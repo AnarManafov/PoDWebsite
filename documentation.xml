@@ -104,6 +104,16 @@ work_dir=/tmp/manafov/
     		</thead>
     		<tbody>
       		<row>
+              <entry>2010-03-09</entry>
+              <entry>
+                  <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=GSI-Palaver/PoD_09_03_2010.pdf;hb=HEAD">pdf</ulink>
+                  <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=GSI-Palaver/PoD_09_03_2010.key;hb=HEAD">keynote</ulink>
+              </entry>
+        			<entry>
+                  <ulink url="https://indico.gsi.de/conferenceDisplay.py?confId=882">GSI IT/EE-Palaver:</ulink> PoD presentation + Live Demo
+                  </entry>
+      		</row>
+          <row>
               <entry>2010-02-23</entry>
               <entry>
                   <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ACAT/2010/PoD_Poster.pdf;hb=HEAD">pdf</ulink>
@@ -117,7 +127,7 @@ work_dir=/tmp/manafov/
               <entry>2009-10-28</entry>
               <entry>
                   <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE%20Offlineweek/PoD_ALICE_Offline_10_2009.pdf;hb=HEAD">pdf</ulink>
-                  <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE%20Offlineweek/PoD_ALICE_Offline_10_2009.key;hb=HEAD">key</ulink>
+                  <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE%20Offlineweek/PoD_ALICE_Offline_10_2009.key;hb=HEAD">keynote</ulink>
               </entry>
         			<entry><ulink url="http://indico.cern.ch/conferenceDisplay.py?confId=69951">ALICE Offline week:</ulink> PoD status report</entry>
       		</row>
