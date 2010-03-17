@@ -103,6 +103,14 @@ work_dir=/tmp/manafov/
       	</row>
     		</thead>
     		<tbody>
+          <row>
+              <entry>2010-03-17</entry>
+              <entry>
+                  <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE%20Offlineweek/PoD_ALICE_Offline_17_03_2010.pdf;hb=HEAD">pdf</ulink>
+                  <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE%20Offlineweek/PoD_ALICE_Offline_17_03_2010.key;hb=HEAD">keynote</ulink>
+              </entry>
+        			<entry><ulink url="http://indico.cern.ch/conferenceDisplay.py?confId=66646">ALICE Offline week:</ulink> PoD status report</entry>
+      		</row>
       		<row>
               <entry>2010-03-09</entry>
               <entry>
