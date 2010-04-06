@@ -1,0 +1,38 @@
+<!DOCTYPE webpage
+  PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
+  "http://docbook.sourceforge.net/release/website/2.6.0/schema/dtd/website.dtd">
+
+<webpage id="Development">
+<config param="desc" value="Development"/>
+
+
+<head>
+<title>Development</title>
+<summary>Development</summary>
+<keywords>PoD, Anar Manafov, PROOF on Demand</keywords>
+</head>
+
+<webtoc/>
+
+
+<section><title>Continuous integration</title>
+
+<itemizedlist>
+<listitem><para><ulink url="http://depc218.gsi.de:22000/">PoD's Buildbot</ulink></para></listitem>
+<listitem><para><ulink url="http://depc218.gsi.de:22000/waterfall">Direct to Waterfall Display</ulink></para></listitem>
+</itemizedlist>
+
+</section>
+
+<section><title>Code Metrics</title>
+<para>
+</para>
+</section>
+
+</webpage>
+
+<!--
+Local variables:
+mode: docbook
+End:
+-->
