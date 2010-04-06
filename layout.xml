@@ -51,6 +51,7 @@
     <tocentry page="download.xml" filename="download.html"/>
     <tocentry page="documentation.xml" filename="documentation.html"/>
     <tocentry page="support.xml" filename="support.html"/>
+    <tocentry page="development.xml" filename="development.html"/>
   </toc>
 </layout>
 
