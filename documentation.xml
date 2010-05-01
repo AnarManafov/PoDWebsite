@@ -103,10 +103,18 @@ work_dir=/tmp/manafov/
       	</row>
     		</thead>
     		<tbody>
+           <row>
+              <entry>2010-04-15</entry>
+              <entry>
+                  <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=EGEE-User-Forum/PoD_Anar_Manafov-5th_EGEE_UF.pdf;hb=HEAD">pdf</ulink>,
+                  <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=EGEE-User-Forum/PoD_Anar_Manafov-5th_EGEE_UF.key;hb=HEAD">keynote</ulink>
+              </entry>
+        			<entry><ulink url="http://indico.cern.ch/conferenceCFA.py?confId=69338">5th EGEE User Forum:</ulink> PROOF on Demand</entry>
+      		</row>
           <row>
               <entry>2010-03-17</entry>
               <entry>
-                  <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE%20Offlineweek/PoD_ALICE_Offline_17_03_2010.pdf;hb=HEAD">pdf</ulink>
+                  <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE%20Offlineweek/PoD_ALICE_Offline_17_03_2010.pdf;hb=HEAD">pdf</ulink>,
                   <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE%20Offlineweek/PoD_ALICE_Offline_17_03_2010.key;hb=HEAD">keynote</ulink>
               </entry>
         			<entry><ulink url="http://indico.cern.ch/conferenceDisplay.py?confId=66646">ALICE Offline week:</ulink> PoD status report</entry>
@@ -114,7 +122,7 @@ work_dir=/tmp/manafov/
       		<row>
               <entry>2010-03-09</entry>
               <entry>
-                  <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=GSI-Palaver/PoD_09_03_2010.pdf;hb=HEAD">pdf</ulink>
+                  <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=GSI-Palaver/PoD_09_03_2010.pdf;hb=HEAD">pdf</ulink>,
                   <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=GSI-Palaver/PoD_09_03_2010.key;hb=HEAD">keynote</ulink>
               </entry>
         			<entry>
@@ -124,7 +132,7 @@ work_dir=/tmp/manafov/
           <row>
               <entry>2010-02-23</entry>
               <entry>
-                  <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ACAT/2010/PoD_Poster.pdf;hb=HEAD">pdf</ulink>
+                  <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ACAT/2010/PoD_Poster.pdf;hb=HEAD">pdf</ulink>,
                   <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ACAT/2010/PoD_Poster.pages;hb=HEAD">pages</ulink>
               </entry>
         			<entry>
@@ -134,7 +142,7 @@ work_dir=/tmp/manafov/
           <row>
               <entry>2009-10-28</entry>
               <entry>
-                  <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE%20Offlineweek/PoD_ALICE_Offline_10_2009.pdf;hb=HEAD">pdf</ulink>
+                  <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE%20Offlineweek/PoD_ALICE_Offline_10_2009.pdf;hb=HEAD">pdf</ulink>,
                   <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE%20Offlineweek/PoD_ALICE_Offline_10_2009.key;hb=HEAD">keynote</ulink>
               </entry>
         			<entry><ulink url="http://indico.cern.ch/conferenceDisplay.py?confId=69951">ALICE Offline week:</ulink> PoD status report</entry>
