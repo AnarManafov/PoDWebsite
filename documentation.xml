@@ -103,6 +103,14 @@ work_dir=/tmp/manafov/
       	</row>
     		</thead>
     		<tbody>
+          <row>
+              <entry>2010-05-17</entry>
+              <entry>
+                  <ulink url="http://iopscience.iop.org/1742-6596/219/7/072009/pdf/1742-6596_219_7_072009.pdf">paper (pdf)</ulink>,
+                  <ulink url="http://iopscience.iop.org/1742-6596/219/7/072009">link</ulink>
+              </entry>
+        			<entry>17th International Conference on Computing in High Energy and Nuclear Physics (CHEP09) proceedings</entry>
+      		</row>
            <row>
               <entry>2010-04-15</entry>
               <entry>
