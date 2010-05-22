@@ -24,12 +24,12 @@
     		<tbody>
       		<row>
               <entry><ulink url="http://www-linux.gsi.de/~manafov/D-Grid/docz/">Documentation Portal</ulink></entry>
-        			<entry>The documentation portal contains a list of all avaiable documentation for PoD and other related projects.
+        			<entry>The documentation portal contains a list of all available documentation for PoD and other related projects.
               Also it contains a list presentations and publications.</entry>    
       		</row>
       		<row>
               <entry><ulink url="http://www-linux.gsi.de/%7Emanafov/D-Grid/docz/PoD/html/">User’s Manual (Nightly build)</ulink></entry>
-        			<entry>The user's manual of the lates development PoD version, which is build nightly.</entry>
+        			<entry>The user's manual of the latest development PoD version, which is build nightly.</entry>
       		</row>
           <row>
               <entry><ulink url="http://pod.gsi.de/doc/2.1.3/index.html">User’s Manual (v2.1.3)</ulink></entry>
@@ -61,7 +61,7 @@ to user’s manual.
 </para>
 </section>
 
-<section><title>PoD at CERN’s AFS</title>
+<section><title>PoD at CERN's AFS</title>
 <para>
 PoD has been tested and is used at CERN. The following environment settings could help to build PoD from the source in a CERN AFS directory on lxplus.cern.ch.
 <screen>
@@ -76,7 +76,7 @@ export BOOST_ROOT=/afs/cern.ch/sw/lcg/external/Boost/1.35.0_python2.5/slc4_amd64
 </screen>
 </para>
 <para>
-Since AFS doesn’t support pipes you need to change PoD’s working directory in the user defaults configuration file $POD_LOCATION/etc/PoD.cfg to /tmp/[login name]/ or to something like that:
+Since AFS doesn't support pipes you need to change PoD’s working directory in the user defaults configuration file $POD_LOCATION/etc/PoD.cfg to /tmp/[login name]/ or to something like that:
 <programlisting>
 [server]
 #
