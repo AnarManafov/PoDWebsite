@@ -32,6 +32,10 @@
         			<entry>The user's manual of the latest development PoD version, which is build nightly.</entry>
       		</row>
           <row>
+              <entry><ulink url="http://pod.gsi.de/doc/2.1.4/index.html">User’s Manual (v2.1.4)</ulink></entry>
+        			<entry>The user's manual of the stable PoD v2.1.4.</entry>
+      		</row>
+          <row>
               <entry><ulink url="http://pod.gsi.de/doc/2.1.3/index.html">User’s Manual (v2.1.3)</ulink></entry>
         			<entry>The user's manual of the stable PoD v2.1.3.</entry>
       		</row>
@@ -55,7 +59,7 @@ Otherwise PROOF will not use all workers you actually requested.
 
 <section><title>PoD at GSI</title>
 <para>
-For GSI users there is a pre-compiled and tuned version of PoD. From the  <olink targetdocent="download.xml">Download page</olink> get the tar ball of
+For GSI users there is a pre-compiled and tuned version of PoD. From the <olink targetdocent="download.xml">Download page</olink> get the tar ball of
 the PoD, which is marked by <emphasis role="bold">"for GSI environment only"</emphasis>. For installation and configuration details please refer
 to user’s manual.
 </para>
