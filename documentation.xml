@@ -43,18 +43,30 @@
   </table>
 
 <section><title>Useful Tips</title>
+<itemizedlist>
+<listitem>
 <para>
-<important>
-<para>
-Don’t forget to add the following to you PROOF script:
+If the packet-forwarding is used to connect workers, than don't forget to add the following to you PROOF script:
 <programlisting>
 proof->SetParameter( "PROOF_MaxSlavesPerNode", (Long_t)100 );
 </programlisting>
 Otherwise PROOF will not use all workers you actually requested.
 <ulink url="http://www-linux.gsi.de/%7Emanafov/D-Grid/docz/PoD/html/html_help/Known_Issues.html#MaxSlavesPerNode">Find out more on this.</ulink>
 </para>
-</important>
+</listitem>
+<listitem>
+<para>
+Automate your connection string by using the <command>pod-info</command> command:
+<programlisting>
+TProof::Open(gSystem->GetFromPipe("pod-info -c"));
+</programlisting>
+This is needed, since PoD's automatic port mapping will time to time assign PROOF's server to a different ports. The <command>pod-info</command> command
+insures you that you always get the current connection string.
 </para>
+</listitem>
+</itemizedlist>
+
+
 
 <section><title>PoD at GSI</title>
 <para>
