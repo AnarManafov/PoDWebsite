@@ -20,7 +20,7 @@
 
   <copyright>
     <year>2010</year><year>2009</year>
-    <holder role="http://www.gsi.de">GSI Helmholtzzentrum für Schwerionenforschung GmbH, Scientific Computing group</holder>
+    <holder role="http://www.gsi.de">GSI Helmholtzzentrum für Schwerionenforschung GmbH, Scientific Computing devision.</holder>
   </copyright>
 
   <!--headlink rel="icon"
@@ -49,6 +49,9 @@
 
   <toc page="website.xml" filename="index.html">
     <tocentry page="download.xml" filename="download.html"/>
+    <tocentry id="tocentry-quick-start"
+        href="http://www-linux.gsi.de/%7Emanafov/D-Grid/docz/PoD/html/html_help/QuickStart.html">
+        <title>Quick Start</title></tocentry>
     <tocentry page="documentation.xml" filename="documentation.html"/>
     <tocentry page="support.xml" filename="support.html"/>
     <tocentry page="development.xml" filename="development.html"/>
