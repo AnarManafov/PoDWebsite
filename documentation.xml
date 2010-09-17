@@ -22,21 +22,21 @@
       	</row>
     		</thead>
     		<tbody>
-      		<row>
-              <entry><ulink url="http://www-linux.gsi.de/%7Emanafov/D-Grid/docz/PoD/html/">User’s Manual (Nightly build)</ulink></entry>
-        			<entry>The user's manual of the latest development PoD version, which is build nightly.</entry>
+      	        <row>
+                   <entry><ulink url="http://www-linux.gsi.de/%7Emanafov/D-Grid/docz/PoD/html/">User’s Manual (Nightly build)</ulink></entry>
+        	   <entry>The user's manual of the latest development PoD version, which is build nightly.</entry>
       		</row>
-          <row>
-              <entry><ulink url="http://pod.gsi.de/doc/2.1.4/index.html">User’s Manual (v2.1.4)</ulink></entry>
-        			<entry>The user's manual of the stable PoD v2.1.4.</entry>
+                <row>
+                   <entry><ulink url="http://pod.gsi.de/doc/2.2/index.html">User’s Manual (v2.2)</ulink></entry>
+        	   <entry>The user's manual of the stable PoD v2.2.</entry>
       		</row>
-          <row>
-              <entry><ulink url="http://pod.gsi.de/doc/2.1.3/index.html">User’s Manual (v2.1.3)</ulink></entry>
-        			<entry>The user's manual of the stable PoD v2.1.3.</entry>
+                <row>
+                   <entry><ulink url="http://pod.gsi.de/doc/2.1.4/index.html">User’s Manual (v2.1.4)</ulink></entry>
+        	   <entry>The user's manual of the stable PoD v2.1.4.</entry>
       		</row>
-          <row>
-              <entry><ulink url="http://pod.gsi.de/doc/api-docs/index.html">Private API Documentation</ulink></entry>
-        			<entry>A source code documentation of all PoD submodules.</entry>    
+                <row>
+                   <entry><ulink url="http://pod.gsi.de/doc/api-docs/index.html">Private API Documentation</ulink></entry>
+        	   <entry>A source code documentation of all PoD submodules.</entry>    
       		</row>
         </tbody>
       </tgroup>
@@ -72,8 +72,23 @@ insures you that you always get the current connection string.
 <para>
 For GSI users there is a pre-compiled and tuned version of PoD. From the <olink targetdocent="download.xml">Download page</olink> get the tar ball of
 the PoD, which is marked by <emphasis role="bold">"for GSI environment only"</emphasis>. For installation and configuration details please refer
-to user’s manual.
+to user's manual.
 </para>
+<note><para>
+Be advised, that PoD 2.2 requires at least cmake 2.6.2. As you may know GSI environment provides an antic version of cmake, which can't be used.
+In order to instal PoD you need either <ulink url="http://www.cmake.org/cmake/resources/software.html">to install cmake</ulink>
+locally to you home folder (it is very easy and fast process) or just use Anar's pre-compiled cmake by exporting it to your <envar>$PATH</envar> variable.
+</para>
+<para>
+For 64bit Etch:
+<screen>
+export PATH=/misc/manafov/cmake/cmake_64bit/cmake/bin:$PATH
+</screen>
+For 32bit Etch:
+<screen>
+export PATH=/misc/manafov/cmake/cmake_32bit/bin:$PATH
+</screen>
+</para></note>
 </section>
 
 <section><title>PoD at CERN's AFS</title>
