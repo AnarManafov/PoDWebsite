@@ -27,7 +27,7 @@
     		<tbody>
 
       		<row>
-              <entry><ulink url="http://pod.gsi.de/releases/pod/2.2/PoD_Package.2.2.tar.gz">Source tarball (3.8MB)</ulink></entry>
+              <entry><ulink url="http://pod.gsi.de/releases/pod/2.2/PoD-2.2-Source.tar.gz">Source tarball (3.8MB)</ulink></entry>
         			<entry>2.2</entry>
         			<entry>2010-09-17</entry>
         			<entry><ulink url="http://pod.gsi.de/doc/2.2/html_help/Requirements.html">requirements</ulink></entry>
@@ -35,7 +35,7 @@
         			<entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>        
       		</row>
       		<row>
-              <entry><ulink url="http://pod.gsi.de/releases/pod/2.2/PoD_Package.2.2.GSI-etch32.bin.tar.gz">Binary Distr. (tuned for GSI environment only) (3.2MB)</ulink></entry>
+              <entry><ulink url="http://pod.gsi.de/releases/pod/2.2/PoD-2.2-GSI-etch32-bin.tar.gz">Binary Distr. (tuned for GSI environment only) (3.2MB)</ulink></entry>
         			<entry>2.2</entry>
         			<entry>2010-09-17</entry>
         			<entry><ulink url="http://pod.gsi.de/doc/2.2/html_help/Requirements.html">requirements</ulink></entry>
