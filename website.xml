@@ -93,7 +93,7 @@ In future versions more plug-ins will be implemented (SGE, AliEn and Condor).
 
 <varlistentry><term>2010-10-03</term>
 <listitem>
-<para> PoD v2.3 has been <olink targetdocent="download.xml">released</olink>. It is a patch release. Fixes a critical regression bug.</para>
+<para> PoD v2.3 has been <olink targetdocent="download.xml">released</olink>. It is a patch release, fixes a critical regression bug.</para>
 </listitem>
 </varlistentry>
 
