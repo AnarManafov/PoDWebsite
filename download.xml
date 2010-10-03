@@ -27,19 +27,19 @@
     		<tbody>
 
       		<row>
-              <entry><ulink url="http://pod.gsi.de/releases/pod/2.2/PoD-2.2-Source.tar.gz">Source tarball (3.8MB)</ulink></entry>
-        			<entry>2.2</entry>
-        			<entry>2010-09-17</entry>
+              <entry><ulink url="http://pod.gsi.de/releases/pod/2.3/PoD-2.3-Source.tar.gz">Source tarball (3.8MB)</ulink></entry>
+        			<entry>2.3</entry>
+        			<entry>2010-10-03</entry>
         			<entry><ulink url="http://pod.gsi.de/doc/2.2/html_help/Requirements.html">requirements</ulink></entry>
-              <entry><ulink url="http://depc218.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=69064ea5d797ccce8ed38f63b45335970e7220df">ReleaseNotes</ulink></entry>
+              <entry><ulink url="http://depc218.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=9708a2c190fb7f3027f7f1fc47e481013008cf43">ReleaseNotes</ulink></entry>
         			<entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>        
       		</row>
       		<row>
-              <entry><ulink url="http://pod.gsi.de/releases/pod/2.2/PoD-2.2-GSI-etch32-bin.tar.gz">Binary Distr. (tuned for GSI environment only) (3.2MB)</ulink></entry>
-        			<entry>2.2</entry>
-        			<entry>2010-09-17</entry>
+              <entry><ulink url="http://pod.gsi.de/releases/pod/2.3/PoD-2.3-GSI-etch32-bin.tar.gz">Binary Distr. (tuned for GSI environment only) (3.2MB)</ulink></entry>
+        			<entry>2.3</entry>
+        			<entry>2010-10-03</entry>
         			<entry><ulink url="http://pod.gsi.de/doc/2.2/html_help/Requirements.html">requirements</ulink></entry>
-              <entry><ulink url="http://depc218.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=69064ea5d797ccce8ed38f63b45335970e7220df">ReleaseNotes</ulink></entry>
+              <entry><ulink url="http://depc218.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=9708a2c190fb7f3027f7f1fc47e481013008cf43">ReleaseNotes</ulink></entry>
         			<entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>      
       		</row> 
 
