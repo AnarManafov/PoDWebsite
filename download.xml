@@ -53,7 +53,7 @@
       		</row>
       		<row>
               <entry><ulink url="http://pod.gsi.de/releases/pod/2.1.4/PoD-2.1.4-GSI-etch32-bin.tar.gz">Binary Distr. (tuned for GSI environment only) (6,1MB)</ulink></entry>
-        			<entry>2.1.4</entry>
+        			 <entry>2.1.4</entry>
         			<entry>2010-05-26</entry>
         			<entry><ulink url="http://pod.gsi.de/doc/2.1.4/html_help/Requirements.html">requirements</ulink></entry>
               <entry><ulink url="http://depc218.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=a5819e43324f06cd5a3ed6f329a15607e9e44374">ReleaseNotes</ulink></entry>
