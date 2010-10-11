@@ -31,7 +31,7 @@
         			<entry>2.2</entry>
         			<entry>2010-09-17</entry>
         			<entry><ulink url="http://pod.gsi.de/doc/2.2/html_help/Requirements.html">requirements</ulink></entry>
-              <entry><ulink url="http://depc218.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=69064ea5d797ccce8ed38f63b45335970e7220df">ReleaseNotes</ulink></entry>
+              <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=69064ea5d797ccce8ed38f63b45335970e7220df">ReleaseNotes</ulink></entry>
         			<entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>        
       		</row>
       		<row>
@@ -39,7 +39,7 @@
         			<entry>2.2</entry>
         			<entry>2010-09-17</entry>
         			<entry><ulink url="http://pod.gsi.de/doc/2.2/html_help/Requirements.html">requirements</ulink></entry>
-              <entry><ulink url="http://depc218.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=69064ea5d797ccce8ed38f63b45335970e7220df">ReleaseNotes</ulink></entry>
+              <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=69064ea5d797ccce8ed38f63b45335970e7220df">ReleaseNotes</ulink></entry>
         			<entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>      
       		</row> 
 
@@ -48,7 +48,7 @@
         			<entry>2.1.4</entry>
         			<entry>2010-05-26</entry>
         			<entry><ulink url="http://pod.gsi.de/doc/2.1.4/html_help/Requirements.html">requirements</ulink></entry>
-              <entry><ulink url="http://depc218.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=a5819e43324f06cd5a3ed6f329a15607e9e44374">ReleaseNotes</ulink></entry>
+              <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=a5819e43324f06cd5a3ed6f329a15607e9e44374">ReleaseNotes</ulink></entry>
         			<entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>        
       		</row>
       		<row>
@@ -56,7 +56,7 @@
         			<entry>2.1.4</entry>
         			<entry>2010-05-26</entry>
         			<entry><ulink url="http://pod.gsi.de/doc/2.1.4/html_help/Requirements.html">requirements</ulink></entry>
-              <entry><ulink url="http://depc218.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=a5819e43324f06cd5a3ed6f329a15607e9e44374">ReleaseNotes</ulink></entry>
+              <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=a5819e43324f06cd5a3ed6f329a15607e9e44374">ReleaseNotes</ulink></entry>
         			<entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>      
       		</row>          
          
@@ -74,7 +74,7 @@
 
 <section><title>Source code</title>
 <para>
- <ulink url="http://depc218.gsi.de:22222/git/">Browse and Download source code</ulink> 
+ <ulink url="http://demac012.gsi.de:22222/git/">Browse and Download source code</ulink> 
 </para>
 </section>
 
