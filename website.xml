@@ -78,13 +78,15 @@ Private PoD instances can’t disturb each other.
 <para>
 PoD supports different job managers via a plug-in system. It is a very easy to extend system.
 PoD currently is shipped with the following plug-ins:
- <itemizedlist>
+</para>
+    <itemizedlist>
        <listitem><para>SSH,</para></listitem>
        <listitem><para>LSF (Load Sharing Facility),</para></listitem>
        <listitem><para>PBS Pro/OpenPBS/Torque (Portable Batch System),</para></listitem>
        <listitem><para>OGE (Oracle/Sun Grid Engine),</para></listitem>
        <listitem><para>gLite.</para></listitem>
     </itemizedlist>
+<para>
 In future versions more plug-ins will be implemented (AliEn, Condor and some more).
 </para>
 </listitem>
