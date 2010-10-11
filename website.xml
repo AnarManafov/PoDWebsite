@@ -98,22 +98,28 @@ In future versions more plug-ins will be implemented (AliEn, Condor and some mor
 <title>What's New</title>
 <variablelist>
 
+<varlistentry><term>2010-10-03</term>
+<listitem>
+<para> PoD v2.3 has been <olink targetdocent="download.xml">released</olink>. It is a patch release, fixes a critical regression bug.</para>
+</listitem>
+</varlistentry>
+
 <varlistentry><term>2010-09-17</term>
 <listitem>
-<para> PoD v2.2 has been <olink targetdocent="download.xml">released</olink></para>
+<para> PoD v2.2 has been <olink targetdocent="download.xml">released</olink>.</para>
 </listitem>
 </varlistentry>
 
 <varlistentry><term>2010-05-26</term>
 <listitem>
-<para> PoD v2.1.4 has been <olink targetdocent="download.xml">released</olink></para>
+<para> PoD v2.1.4 has been <olink targetdocent="download.xml">released</olink>.</para>
 </listitem>
 </varlistentry>
 
 
 <varlistentry><term>2010-04-08</term>
 <listitem>
-<para>TORQUE/PBS plug-in beta is out. See a PoD blog <ulink url="http://proof-on-demand.blogspot.com/2010/04/torquepbs-plug-in.html">post</ulink></para>
+<para>TORQUE/PBS plug-in beta is out. See a PoD blog <ulink url="http://proof-on-demand.blogspot.com/2010/04/torquepbs-plug-in.html">post</ulink>.</para>
 </listitem>
 </varlistentry>
 
