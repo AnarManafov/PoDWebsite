@@ -10,7 +10,7 @@
 <summary>Download Statistics</summary>
 </head>
 
-<para><emphasis role="bold">Total: 130</emphasis></para>
+<section><title>Total: 130</title>
 
 <section><title>Date Stats</title>
 <para>
@@ -63,47 +63,6 @@ PoD-2.1.4-GSI-etch32-bin                : 43
 </screen>
 </para>
 </section>
-
-<section><title>Stable</title>
-  <table>
-		<title>Date Stats</title>
-  		<tgroup cols="2">
-    		<thead>
-      	        <row>
-                   <entry>Date</entry>
-        	   <entry>Downloads Count</entry>
-               	</row>
-    		</thead>
-    		<tbody>
-
-      		<row>
-                   <entry>2010/11</entry>
-                   <entry>1</entry>
-      		</row>
-      	        </tbody>
-      </tgroup>
-  </table>
-</section>
-
-<section><title>Stable</title>
-  <table>
-		<title>Totals by versions</title>
-  		<tgroup cols="2">
-    		<thead>
-      	        <row>
-                   <entry>Version</entry>
-        	   <entry>Downloads Count</entry>
-               	</row>
-    		</thead>
-    		<tbody>
-
-      		<row>
-                   <entry>PoD-2.3.48.g79aa-Source</entry>
-                   <entry>1</entry>
-      		</row>
-      	        </tbody>
-      </tgroup>
-  </table>
 </section>
 
 </webpage>
