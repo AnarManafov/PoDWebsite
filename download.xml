@@ -5,7 +5,7 @@
 ]>
 
 <webpage id="Download">
-<config param="desc" value="Navigation Layout"/>
+config param="desc" value="Navigation Layout"/>
 
 <head>
 <title>Download</title>
