@@ -1,6 +1,8 @@
 <!DOCTYPE webpage
   PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
-  "http://docbook.sourceforge.net/release/website/2.6.0/schema/dtd/website.dtd">
+         "http://docbook.sourceforge.net/release/website/2.6.0/schema/dtd/website-full.dtd"[
+  <!ENTITY download_stat.xml SYSTEM "download_stat.xml" NDATA XML>
+]>
 
 <webpage id="Download">
 <config param="desc" value="Navigation Layout"/>
@@ -80,7 +82,7 @@
 
 <section><title>Download statistics</title>
 <para>
-  <ulink url="">Download Statistics</ulink>
+  <olink targetdocent="download_stat.xml">Download Statistics</olink>
 </para>
 </section>
 

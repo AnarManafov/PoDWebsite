@@ -56,5 +56,6 @@
     <tocentry page="support.xml" filename="support.html"/>
     <tocentry page="development.xml" filename="development.html"/>
   </toc>
+  <notoc page="download_stat.xml" filename="download_stat.html"/>
 </layout>
 

@@ -1,0 +1,58 @@
+<!DOCTYPE webpage
+  PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
+  "http://docbook.sourceforge.net/release/website/2.6.0/schema/dtd/website.dtd">
+
+<webpage id="download_stat">
+<config param="desc" value="Navigation Layout"/>
+
+<head>
+<title>Download Statistics</title>
+<summary>Download Statistics</summary>
+</head>
+
+<section><title>Total: 130</title></section>
+
+<section><title>Stable</title>
+  <table>
+		<title>Date Stats</title>
+  		<tgroup cols="2">
+    		<thead>
+      	        <row>
+                   <entry>Date</entry>
+        	   <entry>Downloads Count</entry>
+               	</row>
+    		</thead>
+    		<tbody>
+
+      		<row>
+                   <entry>2010/11</entry>
+                   <entry>1</entry>
+      		</row>
+      	        </tbody>
+      </tgroup>
+  </table>
+</section>
+
+<section><title>Stable</title>
+  <table>
+		<title>Totals by versions</title>
+  		<tgroup cols="2">
+    		<thead>
+      	        <row>
+                   <entry>Version</entry>
+        	   <entry>Downloads Count</entry>
+               	</row>
+    		</thead>
+    		<tbody>
+
+      		<row>
+                   <entry>PoD-2.3.48.g79aa-Source</entry>
+                   <entry>1</entry>
+      		</row>
+      	        </tbody>
+      </tgroup>
+  </table>
+</section>
+
+</webpage>
+
