@@ -1,6 +1,6 @@
 <!DOCTYPE webpage
-  PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
-  "http://docbook.sourceforge.net/release/website/2.6.0/schema/dtd/website-full.dtd">
+PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
+"http://docbook.sourceforge.net/release/website/2.6.0/schema/dtd/website-full.dtd">
 
 <webpage id="download_stat">
 <config param="desc" value="Navigation Layout"/>
@@ -9,9 +9,7 @@
 <title>Download Statistics</title>
 <summary>Download Statistics</summary>
 </head>
-
-<section><title>Total: 130</title>
-
+<section><title>Total: 130 Downloads (last updated: Thu Nov  4 14:41:39 2010)</title>
 <section><title>Date Stats</title>
 <para>
 <screen>
@@ -24,7 +22,6 @@
 </screen>
 </para>
 </section>
-
 <section><title>Totals by versions</title>
 <para>
 <screen>
@@ -66,4 +63,3 @@ PoD-2.1.4-GSI-etch32-bin                : 43
 </section>
 
 </webpage>
-
