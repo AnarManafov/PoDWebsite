@@ -1,84 +1,84 @@
 <!DOCTYPE webpage
-  PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
-         "http://docbook.sourceforge.net/release/website/2.6.0/schema/dtd/website-full.dtd"[
-  <!ENTITY download_stat.xml SYSTEM "download_stat.xml" NDATA XML>
+PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
+"http://docbook.sourceforge.net/release/website/2.6.0/schema/dtd/website-full.dtd"[
+<!ENTITY download_stat.xml SYSTEM "download_stat.xml" NDATA XML>
 ]>
 
 <webpage id="Download">
-<config param="desc" value="Navigation Layout"/>
-
-<head>
-<title>Download</title>
-<summary>Download</summary>
-</head>
-
-<section><title>Stable</title>
-  <table>
-		<title>Available versions to download</title>
-  		<tgroup cols="6">
-    		<thead>
-      	<row>
-        		<entry>Release</entry>
-        		<entry>Version</entry>
-            <entry>Date</entry>
-        		<entry>Requirements</entry>  
-            <entry>Changes</entry>
-        		<entry>License</entry>  
-      	</row>
-    		</thead>
-    		<tbody>
-
-      		<row>
-              <entry><ulink url="http://pod.gsi.de/releases/pod/2.3/PoD-2.3-Source.tar.gz">Source tarball (3.8MB)</ulink></entry>
-        			<entry>2.3</entry>
-        			<entry>2010-10-03</entry>
-        			<entry><ulink url="http://pod.gsi.de/doc/2.2/html_help/Requirements.html">requirements</ulink></entry>
-              <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=9708a2c190fb7f3027f7f1fc47e481013008cf43">ReleaseNotes</ulink></entry>
-        			<entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>        
-      		</row>
-      		<row>
-              <entry><ulink url="http://pod.gsi.de/releases/pod/2.3/PoD-2.3-GSI-etch32-bin.tar.gz">Binary Distr. (tuned for GSI environment only) (3.2MB)</ulink></entry>
-        			<entry>2.3</entry>
-        			<entry>2010-10-03</entry>
-        			<entry><ulink url="http://pod.gsi.de/doc/2.2/html_help/Requirements.html">requirements</ulink></entry>
-              <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=9708a2c190fb7f3027f7f1fc47e481013008cf43">ReleaseNotes</ulink></entry>
-        			<entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>      
-      		</row> 
-
- 	      	<row>
-              <entry><ulink url="http://pod.gsi.de/releases/pod/2.1.4/PoD-2.1.4-Source.tar.gz">Source tarball (5,3MB)</ulink></entry>
-        			<entry>2.1.4</entry>
-        			<entry>2010-05-26</entry>
-        			<entry><ulink url="http://pod.gsi.de/doc/2.1.4/html_help/Requirements.html">requirements</ulink></entry>
-              <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=a5819e43324f06cd5a3ed6f329a15607e9e44374">ReleaseNotes</ulink></entry>
-        			<entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>        
-      		</row>
-      		<row>
-              <entry><ulink url="http://pod.gsi.de/releases/pod/2.1.4/PoD-2.1.4-GSI-etch32-bin.tar.gz">Binary Distr. (tuned for GSI environment only) (6,1MB)</ulink></entry>
-        			<entry>2.1.4</entry>
-        			<entry>2010-05-26</entry>
-        			<entry><ulink url="http://pod.gsi.de/doc/2.1.4/html_help/Requirements.html">requirements</ulink></entry>
-              <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=a5819e43324f06cd5a3ed6f329a15607e9e44374">ReleaseNotes</ulink></entry>
-        			<entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>      
-      		</row>          
-         
-        </tbody>
-      </tgroup>
-  </table>
-</section>
-
-
-<section><title>Nightly Builds</title>
-<para>
- <ulink url="http://pod.gsi.de/releases/pod/nightly/">Browse and Download nightly builds</ulink> 
-</para>
-</section>
-
-<section><title>Download statistics</title>
-<para>
-  <olink targetdocent="download_stat.xml">Download Statistics</olink>
-</para>
-</section>
-
-
+    <config param="desc" value="Navigation Layout"/>
+    
+    <head>
+        <title>Download</title>
+        <summary>Download</summary>
+    </head>
+    
+    <section><title>Stable</title>
+        <table>
+            <title>Available versions to download</title>
+            <tgroup cols="6">
+                <thead>
+                    <row>
+                        <entry>Release</entry>
+                        <entry>Version</entry>
+                        <entry>Date</entry>
+                        <entry>Requirements</entry>  
+                        <entry>Changes</entry>
+                        <entry>License</entry>  
+                    </row>
+                </thead>
+                <tbody>
+                    
+                    <row>
+                        <entry><ulink url="http://pod.gsi.de/releases/pod/2.4/PoD-2.4-Source.tar.gz">Source tarball (3.8MB)</ulink></entry>
+                        <entry>2.4</entry>
+                        <entry>2010-11-14</entry>
+                        <entry><ulink url="http://pod.gsi.de/doc/2.4/html_help/Requirements.html">requirements</ulink></entry>
+                        <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=a5a919482ec206aac3a93b5c95bfb0cbdcbc436d">ReleaseNotes</ulink></entry>
+                        <entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>        
+                    </row>
+                    <row>
+                        <entry><ulink url="http://pod.gsi.de/releases/pod/2.4/PoD-2.4-GSI-etch32-bin.tar.gz">Binary Distr. (tuned for GSI environment only) (3.3MB)</ulink></entry>
+                        <entry>2.4</entry>
+                        <entry>2010-11-14</entry>
+                        <entry><ulink url="http://pod.gsi.de/doc/2.4/html_help/Requirements.html">requirements</ulink></entry>
+                        <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=a5a919482ec206aac3a93b5c95bfb0cbdcbc436d">ReleaseNotes</ulink></entry>
+                        <entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>      
+                    </row>
+                    
+                    <row>
+                        <entry><ulink url="http://pod.gsi.de/releases/pod/2.3/PoD-2.3-Source.tar.gz">Source tarball (3.8MB)</ulink></entry>
+                        <entry>2.3</entry>
+                        <entry>2010-10-03</entry>
+                        <entry><ulink url="http://pod.gsi.de/doc/2.2/html_help/Requirements.html">requirements</ulink></entry>
+                        <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=9708a2c190fb7f3027f7f1fc47e481013008cf43">ReleaseNotes</ulink></entry>
+                        <entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>        
+                    </row>
+                    <row>
+                        <entry><ulink url="http://pod.gsi.de/releases/pod/2.3/PoD-2.3-GSI-etch32-bin.tar.gz">Binary Distr. (tuned for GSI environment only) (3.2MB)</ulink></entry>
+                        <entry>2.3</entry>
+                        <entry>2010-10-03</entry>
+                        <entry><ulink url="http://pod.gsi.de/doc/2.2/html_help/Requirements.html">requirements</ulink></entry>
+                        <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=9708a2c190fb7f3027f7f1fc47e481013008cf43">ReleaseNotes</ulink></entry>
+                        <entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>      
+                    </row>         
+                    
+                </tbody>
+            </tgroup>
+        </table>
+    </section>
+    
+    
+    <section><title>Nightly Builds</title>
+        <para>
+            <ulink url="http://pod.gsi.de/releases/pod/nightly/">Browse and Download nightly builds</ulink> 
+        </para>
+    </section>
+    
+    <section><title>Download statistics</title>
+        <para>
+            <olink targetdocent="download_stat.xml">Download Statistics</olink>
+        </para>
+    </section>
+    
+    
 </webpage>
