@@ -29,7 +29,7 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
                 <tbody>
                     
                     <row>
-                        <entry><ulink url="http://pod.gsi.de/releases/pod/2.4/PoD-2.4-Source.tar.gz">Source tarball (3.8MB)</ulink></entry>
+                        <entry><ulink url="http://pod.gsi.de/releases/pod/2.4/PoD-2.4.1.g0230-Source.tar.gz">Source tarball (3.8MB)</ulink></entry>
                         <entry>2.4</entry>
                         <entry>2010-11-14</entry>
                         <entry><ulink url="http://pod.gsi.de/doc/2.4/html_help/Requirements.html">requirements</ulink></entry>
@@ -37,7 +37,7 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
                         <entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>        
                     </row>
                     <row>
-                        <entry><ulink url="http://pod.gsi.de/releases/pod/2.4/PoD-2.4-GSI-etch32-bin.tar.gz">Binary Distr. (tuned for GSI environment only) (3.3MB)</ulink></entry>
+                        <entry><ulink url="http://pod.gsi.de/releases/pod/2.4/PoD-2.4.1.g0230-GSI-etch32-bin.tar.gz">Binary Distr. (tuned for GSI environment only) (3.3MB)</ulink></entry>
                         <entry>2.4</entry>
                         <entry>2010-11-14</entry>
                         <entry><ulink url="http://pod.gsi.de/doc/2.4/html_help/Requirements.html">requirements</ulink></entry>
