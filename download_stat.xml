@@ -9,11 +9,11 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
 <title>Download Statistics</title>
 <summary>Download Statistics</summary>
 </head>
-<section><title>Total: 140 Downloads (last updated: Wed Nov 17 23:00:03 2010)</title>
+<section><title>Total: 141 Downloads (last updated: Thu Nov 18 23:00:12 2010)</title>
 <section><title>Date Stats</title>
 <para>
 <screen>
-2010/11: 11
+2010/11: 12
 2010/10: 36
 2010/9 : 56
 2010/8 : 18
@@ -25,7 +25,7 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
 <section><title>Totals by versions (unique IPs)</title>
 <para>
 <screen>
-v2.4   : 2  (2)
+v2.4   : 3  (3)
 v2.3   : 14 (11)
 v2.2   : 2  (2)
 v2.1   : 78 (33)
@@ -35,7 +35,7 @@ v2.1   : 78 (33)
 <section><title>Detailed by versions</title>
 <para>
 <screen>
-PoD-2.4.1.g0230-Source                  : 1
+PoD-2.4.1.g0230-Source                  : 2
 PoD-2.4.1.g0230-GSI-etch32-bin          : 1
 PoD-2.4-Source                          : 1
 PoD-2.3.90.g42a8-Source                 : 1
