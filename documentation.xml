@@ -136,7 +136,6 @@ work_dir=/tmp/manafov/
             <table>
                 <title></title>
                 <tgroup cols="3">
-                    <colspec colwidth="2*" />
                     <thead>
                         <row>
                             <entry>Date</entry>
