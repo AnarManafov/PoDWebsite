@@ -155,7 +155,7 @@ work_dir=/tmp/manafov/
                         <row>
                             <entry>2010-10-18</entry>
                             <entry>
-                                <ulink url="http://demac012.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=CHEP/CHEP2010/PoD_Poster.pdf;hb=HEAD">paper (pdf)</ulink>,
+                                <ulink url="http://demac012.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=CHEP/CHEP2010/PoD_Poster.pdf;hb=HEAD">pdf</ulink>
                             </entry>
                             <entry><ulink url="http://event.twgrid.org/chep2010/">18th International Conference on Computing in High Energy and Nuclear Physics (CHEP10):</ulink>
                                 PoD Poster + Live Demo</entry>
