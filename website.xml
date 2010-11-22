@@ -103,7 +103,7 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
             
             <varlistentry><term>2010-11-14</term>
                 <listitem>
-                    <para> PoD v2.4 has been <olink targetdocent="download.xml">released</olink>.</para>
+                    <para> PoD v2.4 was <olink targetdocent="download.xml">released</olink>.</para>
                 </listitem>
             </varlistentry>
             
@@ -116,7 +116,7 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
             
             <varlistentry><term>2010-10-03</term>
                 <listitem>
-                    <para> PoD v2.3 has been <olink targetdocent="download.xml">released</olink>. It is a patch release, fixes a critical regression bug.</para>
+                    <para> PoD v2.3 was <olink targetdocent="download.xml">released</olink>. It is a patch release, fixes a critical regression bug.</para>
                 </listitem>
             </varlistentry>
             
