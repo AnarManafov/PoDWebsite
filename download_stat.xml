@@ -9,11 +9,11 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
 <title>Download Statistics</title>
 <summary>Download Statistics</summary>
 </head>
-<section><title>Total: 142 Downloads (last updated: Tue Nov 23 23:00:02 2010)</title>
+<section><title>Total: 147 Downloads (last updated: Wed Nov 24 23:00:03 2010)</title>
 <section><title>Date Stats</title>
 <para>
 <screen>
-2010/11: 13
+2010/11: 18
 2010/10: 36
 2010/9 : 56
 2010/8 : 18
@@ -25,18 +25,21 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
 <section><title>Totals by versions (unique IPs)</title>
 <para>
 <screen>
-v2.4   : 4  (4)
+v3.0   : 2  (1)
+v2.4   : 5  (5)
 v2.3   : 14 (11)
 v2.2   : 2  (2)
-v2.1   : 78 (33)
+v2.1   : 79 (34)
 </screen>
 </para>
 </section>
 <section><title>Detailed by versions</title>
 <para>
 <screen>
+PoD-3.0.25.geaa77-Source                : 1
+PoD-3.0.15.g54ea-Source                 : 1
 PoD-2.4.1.g0230-Source                  : 3
-PoD-2.4.1.g0230-GSI-etch32-bin          : 1
+PoD-2.4.1.g0230-GSI-etch32-bin          : 2
 PoD-2.4-Source                          : 1
 PoD-2.3.90.g42a8-Source                 : 1
 PoD-2.3.48.g79aa-Source                 : 3
@@ -49,7 +52,7 @@ PoD-2.3.28.g776b-GSI-etch32-bin         : 1
 PoD-2.3.20.gf1d9-GSI-etch32-bin         : 1
 PoD-2.3.115.g719f-Source                : 1
 PoD-2.3-Source                          : 22
-PoD-2.3-GSI-etch32-bin                  : 6
+PoD-2.3-GSI-etch32-bin                  : 7
 PoD-2.2.6.g5233-Source                  : 1
 PoD-2.2.3.g8447-Source                  : 1
 PoD-2.2-Source                          : 9
@@ -71,7 +74,7 @@ PoD-2.1.4.1174.g3300-GSI-etch32-bin     : 1
 PoD-2.1.4.1167.g6a3e-GSI-etch32-bin     : 1
 PoD-2.1.4.1166.g42ab-GSI-etch32-bin     : 1
 PoD-2.1.4-Source                        : 13
-PoD-2.1.4-GSI-etch32-bin                : 43
+PoD-2.1.4-GSI-etch32-bin                : 44
 </screen>
 </para>
 </section>
