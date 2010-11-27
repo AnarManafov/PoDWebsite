@@ -9,13 +9,13 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
 <title>Download Statistics</title>
 <summary>Download Statistics</summary>
 </head>
-<section><title>Total: 163 Downloads (last updated: Fri Nov 26 23:00:03 2010)</title>
-<section><title>Date Stats</title>
+<section><title>Total: 159 Downloads (last updated: Sat Nov 27 14:38:42 2010)</title>
+<section><title>Stats by Date</title>
 <para>
 <screen>
-2010/11: 34
+2010/11: 32
 2010/10: 36
-2010/9 : 56
+2010/9 : 54
 2010/8 : 18
 2010/7 : 8
 2010/6 : 11
@@ -25,21 +25,19 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
 <section><title>Totals by versions (unique IPs)</title>
 <para>
 <screen>
-vPoD-3.0: 1  (1)
-v3.0   : 9  (5)
+v3.0   : 8  (5)
 v2.4   : 13 (8)
 v2.3   : 14 (11)
 v2.2   : 2  (2)
-v2.1   : 79 (34)
+v2.1   : 77 (34)
 </screen>
 </para>
 </section>
 <section><title>Detailed by versions</title>
 <para>
 <screen>
-PoD-PoD-3.0.37.ge7be-Source             : 1
 PoD-3.0.38.g6c39-Source                 : 3
-PoD-3.0.37.ge7be-Source                 : 2
+PoD-3.0.37.ge7be-Source                 : 1
 PoD-3.0.36.g1f3d-Source                 : 2
 PoD-3.0.25.geaa77-Source                : 1
 PoD-3.0.15.g54ea-Source                 : 1
@@ -79,7 +77,7 @@ PoD-2.1.4.1174.g3300-GSI-etch32-bin     : 1
 PoD-2.1.4.1167.g6a3e-GSI-etch32-bin     : 1
 PoD-2.1.4.1166.g42ab-GSI-etch32-bin     : 1
 PoD-2.1.4-Source                        : 13
-PoD-2.1.4-GSI-etch32-bin                : 44
+PoD-2.1.4-GSI-etch32-bin                : 42
 </screen>
 </para>
 </section>
