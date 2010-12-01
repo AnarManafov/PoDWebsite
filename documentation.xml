@@ -1,106 +1,117 @@
 <!DOCTYPE webpage
-  PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
-         "http://docbook.sourceforge.net/release/website/2.6.0/schema/dtd/website-full.dtd"[
-  <!ENTITY download.xml SYSTEM "download.xml" NDATA XML>
+PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
+"http://docbook.sourceforge.net/release/website/2.6.0/schema/dtd/website-full.dtd"[
+<!ENTITY download.xml SYSTEM "download.xml" NDATA XML>
 ]>
 
 <webpage id="Documentation">
-<config param="desc" value="Navigation Layout"/>
+    <config param="desc" value="Navigation Layout"/>
 
-<head>
- <title>Documentation</title>
-<summary>Documentation</summary>
-</head>
+    <head>
+        <title>Documentation</title>
+        <summary>Documentation</summary>
+    </head>
 
-  <table>
+    <table>
 		<title></title>
   		<tgroup cols="2">
     		<thead>
-      	<row>
-        		<entry>Link</entry>
-        		<entry>Description</entry>
-      	</row>
+                <row>
+                    <entry>Link</entry>
+                    <entry>Description</entry>
+                </row>
     		</thead>
     		<tbody>
       	        <row>
-                   <entry><ulink url="http://www-linux.gsi.de/%7Emanafov/D-Grid/docz/PoD/html/">User’s Manual (Nightly build)</ulink></entry>
-        	   <entry>The user's manual of the latest development PoD version, which is build nightly.</entry>
-      		</row>
+                    <entry><ulink url="http://www-linux.gsi.de/%7Emanafov/D-Grid/docz/PoD/html/">User's Manual (Nightly build)</ulink></entry>
+                    <entry>The user's manual of the latest development PoD version, which is build nightly.</entry>
+                </row>
                 <row>
-                   <entry><ulink url="http://pod.gsi.de/doc/2.2/index.html">User’s Manual (v2.2)</ulink></entry>
-        	   <entry>The user's manual of the stable PoD v2.2.</entry>
-      		</row>
+                    <entry><ulink url="http://pod.gsi.de/doc/2.4/index.html">User's Manual (v2.4)</ulink></entry>
+                    <entry>The user's manual of the stable PoD v2.4.</entry>
+                </row>
                 <row>
-                   <entry><ulink url="http://pod.gsi.de/doc/2.1.4/index.html">User’s Manual (v2.1.4)</ulink></entry>
-        	   <entry>The user's manual of the stable PoD v2.1.4.</entry>
-      		</row>
+                    <entry><ulink url="http://pod.gsi.de/doc/2.2/index.html">User's Manual (v2.2)</ulink></entry>
+                    <entry>The user's manual of the stable PoD v2.2.</entry>
+                </row>
                 <row>
-                   <entry><ulink url="http://pod.gsi.de/doc/api-docs/index.html">Private API Documentation</ulink></entry>
-        	   <entry>A source code documentation of all PoD submodules.</entry>    
-      		</row>
-        </tbody>
-      </tgroup>
-  </table>
+                    <entry><ulink url="http://pod.gsi.de/doc/api-docs/index.html">Private API Documentation</ulink></entry>
+                    <entry>A source code documentation of all PoD submodules.</entry>    
+                </row>
+            </tbody>
+        </tgroup>
+    </table>
+    
+    <section><title>Useful Tips</title>
+        <itemizedlist>
+            <listitem>
+                <para>
+                    If the packet-forwarding is used to connect workers, than don't forget to add the following to you PROOF script:
+                    <programlisting>
+                        proof->SetParameter( "PROOF_MaxSlavesPerNode", (Long_t)100 );
+                    </programlisting>
+                    Otherwise PROOF will not use all workers you actually requested.
+                    <ulink url="http://www-linux.gsi.de/%7Emanafov/D-Grid/docz/PoD/html/html_help/Known_Issues.html#MaxSlavesPerNode">Find out more on this.</ulink>
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Automate your connection string by using the <command>pod-info</command> command:
+                    <programlisting>
+                        TProof::Open(gSystem->GetFromPipe("pod-info -c"));
+                    </programlisting>
+                    This is needed, since PoD's automatic port mapping will time to time assign PROOF's server to a different ports. The <command>pod-info</command> command
+                    insures you that you always get the current connection string.
+                </para>
+            </listitem>
+        </itemizedlist>
+        
 
-<section><title>Useful Tips</title>
-<itemizedlist>
-<listitem>
-<para>
-If the packet-forwarding is used to connect workers, than don't forget to add the following to you PROOF script:
-<programlisting>
-proof->SetParameter( "PROOF_MaxSlavesPerNode", (Long_t)100 );
-</programlisting>
-Otherwise PROOF will not use all workers you actually requested.
-<ulink url="http://www-linux.gsi.de/%7Emanafov/D-Grid/docz/PoD/html/html_help/Known_Issues.html#MaxSlavesPerNode">Find out more on this.</ulink>
-</para>
-</listitem>
-<listitem>
-<para>
-Automate your connection string by using the <command>pod-info</command> command:
-<programlisting>
-TProof::Open(gSystem->GetFromPipe("pod-info -c"));
-</programlisting>
-This is needed, since PoD's automatic port mapping will time to time assign PROOF's server to a different ports. The <command>pod-info</command> command
-insures you that you always get the current connection string.
-</para>
-</listitem>
-</itemizedlist>
-
-
-
-<section><title>PoD at GSI</title>
-<para>
-For GSI users there is a pre-compiled and tuned version of PoD. From the <olink targetdocent="download.xml">Download page</olink> get the tar ball of
-the PoD, which is marked by <emphasis role="bold">"for GSI environment only"</emphasis>. For installation and configuration details please refer
-to user's manual.
-</para>
-<note><para>
-Be advised, that PoD 2.2 requires at least cmake 2.6.2. As you may know GSI environment provides an antic version of cmake, which can't be used.
-In order to instal PoD you need either <ulink url="http://www.cmake.org/cmake/resources/software.html">to install cmake</ulink>
-locally to you home folder (it is very easy and fast process) or just use Anar's pre-compiled cmake by exporting it to your <envar>$PATH</envar> variable.
-</para>
-<para>
-For 64bit Etch:
+        <section><title>PoD at GSI (OGE)</title>
+            <para>
+                For GSI users, who wants to use PoD with our new OGE cluster. You need to build source package of PoD using the following environment.
+            </para>
+<screen>
+export LD_LIBRARY_PATH=$SGE_ROOT/lib/$SGE_ARCH/:$LD_LIBRARY_PATH
+export PATH=/misc/manafov/cmake/cmake_64bit/cmake/bin:$PATH
+export PATH=/misc/manafov/Qt/4.4.2_lenny64/bin:$PATH
+export LD_LIBRARY_PATH=/misc/manafov/Qt/4.4.2_lenny64/lib:$LD_LIBRARY_PATH
+</screen>
+        </section>
+        
+        <section><title>PoD at GSI (LSF)</title>
+            <para>
+                For GSI users there is a pre-compiled and tuned version of PoD. From the <olink targetdocent="download.xml">Download page</olink> get the tar ball of
+                the PoD, which is marked by <emphasis role="bold">"for GSI environment only"</emphasis>. For installation and configuration details please refer
+                to user's manual.
+            </para>
+            <note><para>
+                Be advised, that PoD 2.2 requires at least cmake 2.6.2. As you may know GSI environment provides an antic version of cmake, which can't be used.
+                In order to instal PoD you need either <ulink url="http://www.cmake.org/cmake/resources/software.html">to install cmake</ulink>
+                locally to you home folder (it is very easy and fast process) or just use Anar's pre-compiled cmake by exporting it to your <envar>$PATH</envar> variable.
+            </para>
+                <para>
+                    For 64bit Etch:
 <screen>
 export PATH=/misc/manafov/cmake/cmake_64bit/cmake/bin:$PATH
 </screen>
-For 32bit Etch:
+                    For 32bit Etch:
 <screen>
 export PATH=/misc/manafov/cmake/cmake_32bit/bin:$PATH
 </screen>
-</para></note>
-</section>
-
-<section><title>PoD at CERN's AFS</title>
-<para>
-PoD has been tested and is used at CERN. The following environment settings could help to build PoD from the source in a CERN AFS directory on lxplus.cern.ch.
+                </para></note>
+        </section>
+        
+        <section><title>PoD at CERN's AFS</title>
+            <para>
+                PoD has been tested and is used at CERN. The following environment settings could help to build PoD from the source in a CERN AFS directory on lxplus.cern.ch.
 <screen>
 # cmake
 export PATH=/afs/cern.ch/sw/lcg/external/CMake/2.8.2/x86_64-slc5-gcc43-opt/bin:$PATH
 </screen>
-</para>
-<para>
-Since AFS doesn't support pipes you need to change PoD’s working directory in the user defaults configuration file $POD_LOCATION/etc/PoD.cfg to /tmp/[login name]/ or to something like that:
+            </para>
+            <para>
+                Since AFS doesn't support pipes you need to change PoD’s working directory in the user defaults configuration file $POD_LOCATION/etc/PoD.cfg to /tmp/[login name]/ or to something like that:
 <programlisting>
 [server]
 #
@@ -108,87 +119,103 @@ Since AFS doesn't support pipes you need to change PoD’s working directory in 
 #
 work_dir=/tmp/manafov/
 </programlisting>
-</para>
-</section>
-</section>
-
-
-<section><title>Presentations and Papers</title>
-<para>
-
-  <table>
-	<title></title>
-  	<tgroup cols="3">
-    	<thead>
-      	<row>
-            <entry>Date</entry>
-            <entry>Formats</entry>
-            <entry>Description</entry>
-      	</row>
-    	</thead>
-    	<tbody>
-	          <row>
-              		<entry>2010-07-08</entry>
-              		<entry>
-                  	<ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE+Offlineweek/PoD_ALICE_Offline_07_2010.pdf;hb=HEAD">pdf</ulink>,
-                  	<ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE+Offlineweek/PoD_ALICE_Offline_07_2010.key;hb=HEAD">keynote</ulink>
-              		</entry>
-        		<entry><ulink url="http://indico.cern.ch/conferenceDisplay.py?confId=97355">ALICE Offline week:</ulink> PoD status report</entry>
-      		</row>
-          	<row>
-              		<entry>2010-05-17</entry>
-              		<entry>
-                  	<ulink url="http://iopscience.iop.org/1742-6596/219/7/072009/pdf/1742-6596_219_7_072009.pdf">paper (pdf)</ulink>,
-                  	<ulink url="http://iopscience.iop.org/1742-6596/219/7/072009">link</ulink>
-              		</entry>
-        		<entry>17th International Conference on Computing in High Energy and Nuclear Physics (CHEP09) proceedings</entry>
-      		</row>
-                <row>
-              		<entry>2010-04-15</entry>
-              		<entry>
-                        <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=EGEE-User-Forum/PoD_Anar_Manafov-5th_EGEE_UF.pdf;hb=HEAD">pdf</ulink>,
-                        <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=EGEE-User-Forum/PoD_Anar_Manafov-5th_EGEE_UF.key;hb=HEAD">keynote</ulink>
-                        </entry>
-        		<entry><ulink url="http://indico.cern.ch/conferenceCFA.py?confId=69338">5th EGEE User Forum:</ulink> PROOF on Demand</entry>
-      		</row>
-                <row>
-                        <entry>2010-03-17</entry>
-                        <entry>
-                        <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE%20Offlineweek/PoD_ALICE_Offline_17_03_2010.pdf;hb=HEAD">pdf</ulink>,
-                        <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE%20Offlineweek/PoD_ALICE_Offline_17_03_2010.key;hb=HEAD">keynote</ulink>
-                        </entry>
-        		<entry><ulink url="http://indico.cern.ch/conferenceDisplay.py?confId=66646">ALICE Offline week:</ulink> PoD status report</entry>
-      		</row>
-      		<row>
-                        <entry>2010-03-09</entry>
-                        <entry>
-                        <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=GSI-Palaver/PoD_09_03_2010.pdf;hb=HEAD">pdf</ulink>,
-                        <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=GSI-Palaver/PoD_09_03_2010.key;hb=HEAD">keynote</ulink>
-                        </entry>
-        		<entry><ulink url="https://indico.gsi.de/conferenceDisplay.py?confId=882">GSI IT/EE-Palaver:</ulink> PoD presentation + Live Demo</entry>
-      		</row>
-                <row>
-                        <entry>2010-02-23</entry>
-                        <entry>
-                        <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ACAT/2010/PoD_Poster.pdf;hb=HEAD">pdf</ulink>,
-                        <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ACAT/2010/PoD_Poster.pages;hb=HEAD">pages</ulink>
-                        </entry>
-        		<entry><ulink url="http://indicoprev.cern.ch/conferenceOtherViews.py?confId=59397&amp;view=static&amp;showDate=all&amp;showSession=all&amp;detailLevel=contribution">ACAT 2010:</ulink> PoD poster</entry>
-      		</row>
-                <row>
-                        <entry>2009-10-28</entry>
-                        <entry>
-                        <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE%20Offlineweek/PoD_ALICE_Offline_10_2009.pdf;hb=HEAD">pdf</ulink>,
-                        <ulink url="http://depc218.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE%20Offlineweek/PoD_ALICE_Offline_10_2009.key;hb=HEAD">keynote</ulink>
-                        </entry>
-        		<entry><ulink url="http://indico.cern.ch/conferenceDisplay.py?confId=69951">ALICE Offline week:</ulink> PoD status report</entry>
-      		</row>
-        </tbody>
-        </tgroup>
-  </table>
-
-</para>
-</section>
-
-
+            </para>
+        </section>
+    </section>
+    
+    
+    <section><title>Presentations and Papers</title>
+        <para>
+            
+            <table>
+                <title></title>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>Date</entry>
+                            <entry>Formats</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>2010-11-18</entry>
+                            <entry>
+                                <ulink url="http://demac012.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE+Offlineweek/PoD_ALICE_Offline_11_2010.pdf;hb=HEAD">pdf</ulink>,
+                                <ulink url="http://demac012.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE+Offlineweek/PoD_ALICE_Offline_11_2010.key;hb=HEAD">keynote</ulink>
+                            </entry>
+                            <entry><ulink url="http://indico.cern.ch/conferenceDisplay.py?confId=111325">ALICE Offline week:</ulink> PoD status report</entry>
+                        </row>
+                        <row>
+                            <entry>2010-10-18</entry>
+                            <entry>
+                                <ulink url="http://demac012.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=CHEP/CHEP2010/PoD_Poster.pdf;hb=HEAD">pdf</ulink>
+                            </entry>
+                            <entry><ulink url="http://event.twgrid.org/chep2010/">18th International Conference on Computing in High Energy and Nuclear Physics (CHEP10):</ulink>
+                                PoD Poster + Live Demo</entry>
+                        </row>
+                        <row>
+                            <entry>2010-07-08</entry>
+                            <entry>
+                                <ulink url="http://demac012.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE+Offlineweek/PoD_ALICE_Offline_07_2010.pdf;hb=HEAD">pdf</ulink>,
+                                <ulink url="http://demac012.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE+Offlineweek/PoD_ALICE_Offline_07_2010.key;hb=HEAD">keynote</ulink>
+                            </entry>
+                            <entry><ulink url="http://indico.cern.ch/conferenceDisplay.py?confId=97355">ALICE Offline week:</ulink> PoD status report</entry>
+                        </row>
+                        <row>
+                            <entry>2010-05-17</entry>
+                            <entry>
+                                <ulink url="http://iopscience.iop.org/1742-6596/219/7/072009/pdf/1742-6596_219_7_072009.pdf">paper (pdf)</ulink>,
+                                <ulink url="http://iopscience.iop.org/1742-6596/219/7/072009">link</ulink>
+                            </entry>
+                            <entry>17th International Conference on Computing in High Energy and Nuclear Physics (CHEP09) proceedings</entry>
+                        </row>
+                        <row>
+                            <entry>2010-04-15</entry>
+                            <entry>
+                                <ulink url="http://demac012.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=EGEE-User-Forum/PoD_Anar_Manafov-5th_EGEE_UF.pdf;hb=HEAD">pdf</ulink>,
+                                <ulink url="http://demac012.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=EGEE-User-Forum/PoD_Anar_Manafov-5th_EGEE_UF.key;hb=HEAD">keynote</ulink>
+                            </entry>
+                            <entry><ulink url="http://indico.cern.ch/conferenceCFA.py?confId=69338">5th EGEE User Forum:</ulink> PROOF on Demand</entry>
+                        </row>
+                        <row>
+                            <entry>2010-03-17</entry>
+                            <entry>
+                                <ulink url="http://demac012.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE%20Offlineweek/PoD_ALICE_Offline_17_03_2010.pdf;hb=HEAD">pdf</ulink>,
+                                <ulink url="http://demac012.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE%20Offlineweek/PoD_ALICE_Offline_17_03_2010.key;hb=HEAD">keynote</ulink>
+                            </entry>
+                            <entry><ulink url="http://indico.cern.ch/conferenceDisplay.py?confId=66646">ALICE Offline week:</ulink> PoD status report</entry>
+                        </row>
+                        <row>
+                            <entry>2010-03-09</entry>
+                            <entry>
+                                <ulink url="http://demac012.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=GSI-Palaver/PoD_09_03_2010.pdf;hb=HEAD">pdf</ulink>,
+                                <ulink url="http://demac012.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=GSI-Palaver/PoD_09_03_2010.key;hb=HEAD">keynote</ulink>
+                            </entry>
+                            <entry><ulink url="https://indico.gsi.de/conferenceDisplay.py?confId=882">GSI IT/EE-Palaver:</ulink> PoD presentation + Live Demo</entry>
+                        </row>
+                        <row>
+                            <entry>2010-02-23</entry>
+                            <entry>
+                                <ulink url="http://demac012.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ACAT/2010/PoD_Poster.pdf;hb=HEAD">pdf</ulink>,
+                                <ulink url="http://demac012.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ACAT/2010/PoD_Poster.pages;hb=HEAD">pages</ulink>
+                            </entry>
+                            <entry><ulink url="http://indicoprev.cern.ch/conferenceOtherViews.py?confId=59397&amp;view=static&amp;showDate=all&amp;showSession=all&amp;detailLevel=contribution">ACAT 2010:</ulink> PoD poster</entry>
+                        </row>
+                        <row>
+                            <entry>2009-10-28</entry>
+                            <entry>
+                                <ulink url="http://demac012.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE%20Offlineweek/PoD_ALICE_Offline_10_2009.pdf;hb=HEAD">pdf</ulink>,
+                                <ulink url="http://demac012.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE%20Offlineweek/PoD_ALICE_Offline_10_2009.key;hb=HEAD">keynote</ulink>
+                            </entry>
+                            <entry><ulink url="http://indico.cern.ch/conferenceDisplay.py?confId=69951">ALICE Offline week:</ulink> PoD status report</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            
+        </para>
+    </section>
+    
+    
 </webpage>
