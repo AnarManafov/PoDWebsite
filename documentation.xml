@@ -95,14 +95,8 @@ export PATH=/misc/manafov/cmake/cmake_32bit/bin:$PATH
 <para>
 PoD has been tested and is used at CERN. The following environment settings could help to build PoD from the source in a CERN AFS directory on lxplus.cern.ch.
 <screen>
-export ROOTSYS=/afs/cern.ch/sw/lcg/app/releases/ROOT/5.26.00a/slc4_amd64_gcc34/root/ 
-export PATH=/afs/cern.ch/sw/lcg/external/CMake/2.6.4/slc4_amd64_gcc34/bin:\
-/afs/cern.ch/sw/lcg/external/qt/4.4.2/slc4_amd64_gcc34/bin:$ROOTSYS/bin:$PATH
-export LD_LIBRARY_PATH=/afs/cern.ch/sw/lcg/external/qt/4.4.2/slc4_amd64_gcc34/lib:\
-/afs/cern.ch/sw/lcg/external/Boost/1.35.0_python2.5/slc4_amd64_gcc34/lib:\
-$ROOTSYS/lib:$LD_LIBRARY_PATH
-export BOOST_LOCATION=/afs/cern.ch/sw/lcg/external/Boost/1.35.0_python2.5/slc4_amd64_gcc34/
-export BOOST_ROOT=/afs/cern.ch/sw/lcg/external/Boost/1.35.0_python2.5/slc4_amd64_gcc34/
+# cmake
+export PATH=/afs/cern.ch/sw/lcg/external/CMake/2.8.2/x86_64-slc5-gcc43-opt/bin:$PATH
 </screen>
 </para>
 <para>
