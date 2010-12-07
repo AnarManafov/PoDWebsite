@@ -67,9 +67,9 @@ TProof::Open(gSystem->GetFromPipe("pod-info -c"));
         </itemizedlist>
         
 
-        <section><title>PoD at GSI (OGE)</title>
+        <section><title>PoD at GSI (Grid Engine)</title>
             <para>
-                For GSI users, who wants to use PoD with our new OGE cluster. You need to build source package of PoD using the following environment.
+                For GSI users, who wants to use PoD with our new SGE cluster. You need to build a source package of PoD using the following environment.
             </para>
 <screen>
 export LD_LIBRARY_PATH=$SGE_ROOT/lib/$SGE_ARCH/:$LD_LIBRARY_PATH
@@ -81,8 +81,9 @@ export LD_LIBRARY_PATH=/misc/manafov/Qt/4.4.2_lenny64/lib:$LD_LIBRARY_PATH
         
         <section><title>PoD at GSI (LSF)</title>
             <para>
-                User's at GSI can install PoD from source or they can use a central installation of PoD.
-                To enable a central installation the following command must be issued on any LSF submitter machine:
+                User's at GSI can install PoD from a source package or they can use a central installation of PoD.
+                To enable a central installation the following command must be issued on any LSF submitter machine. The command will
+                setup the environment for PoD and enable a given version (new, pro, or old).
             </para>
 <screen>
 <command>source pod_setup <replaceable>new|pro|old</replaceable></command>
