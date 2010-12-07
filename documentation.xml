@@ -82,7 +82,7 @@ export LD_LIBRARY_PATH=/misc/manafov/Qt/4.4.2_lenny64/lib:$LD_LIBRARY_PATH
         <section><title>PoD at GSI (LSF)</title>
             <para>
                 User's at GSI can install PoD from a source package or they can use a central installation of PoD.
-                To enable a central installation the following command must be issued on any LSF submitter machine. The command will
+                To enable a central installation the following command must be issued. The command will
                 setup the environment for PoD and enable a given version (new, pro, or old).
             </para>
 <screen>
