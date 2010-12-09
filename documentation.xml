@@ -104,14 +104,8 @@ export LD_LIBRARY_PATH=/afs/cern.ch/sw/lcg/external/qt/4.4.2/x86_64-slc5-gcc43-o
 </screen>
             </para>
             <para>
-                Since AFS doesn't support pipes you need to change PoD’s working directory in the user defaults configuration file $POD_LOCATION/etc/PoD.cfg to /tmp/[login name]/ or to something like that:
-<programlisting>
-[server]
-#
-# PoD working directory
-#
-work_dir=/tmp/manafov/
-</programlisting>
+                Since AFS doesn't support pipes you need to change PoD server working directory in the user defaults configuration.
+                <ulink url="http://www-linux.gsi.de/%7Emanafov/D-Grid/docz/PoD/html/html_help/Known_Issues.html#PoDonAFS">Find out more on this.</ulink>
             </para>
         </section>
     </section>
