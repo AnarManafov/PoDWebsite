@@ -88,9 +88,6 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
                     <listitem><para>Condor,</para></listitem>                    
                     <listitem><para>gLite.</para></listitem>
                 </itemizedlist>
-                <para>
-                    In future versions more plug-ins will be implemented (AliEn, Condor and some more).
-                </para>
             </listitem>
             
             
