@@ -102,6 +102,15 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
         <title>What's New</title>
         <variablelist>
             
+            <varlistentry><term>2010-12-09</term>
+                <listitem>
+                    <para> A Condor plug-in for PoD was released in early beta.
+                        Please check <ulink url="http://proof-on-demand.blogspot.com/2010/12/condor-plug-in-for-pod.html">the blog post</ulink>.
+                        If you want to check this release out, please use the latest <ulink url="http://pod.gsi.de/releases/pod/nightly/">nightly build</ulink>.
+                    </para>
+                </listitem>
+            </varlistentry>            
+            
             <varlistentry><term>2010-11-14</term>
                 <listitem>
                     <para> PoD v2.4 was <olink targetdocent="download.xml">released</olink>.</para>
