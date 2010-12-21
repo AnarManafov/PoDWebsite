@@ -60,7 +60,7 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
         </para>
 <mediaobject>
   <imageobject>
-    <imagedata fileref="graphics/PoD_Monthly_Download_Statistics.png" format="PNG" width="10in" depth="8in" />
+    <imagedata fileref="graphics/PoD_Monthly_Download_Statistics.png" format="PNG" width="8in" depth="4in" />
   </imageobject>
   <textobject>
     <phrase>PoD Monthly Download Statistics</phrase>
