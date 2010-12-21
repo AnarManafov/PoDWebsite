@@ -12,7 +12,8 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
 <section><title></title>
 <mediaobject>
 <imageobject>
-<imagedata fileref="graphics/PoD_Monthly_Download_Statistics.png" format="PNG" width="8in" depth="3.5in" />
+<!--imagedata fileref="graphics/PoD_Monthly_Download_Statistics.png" format="PNG" width="8in" depth="3.5in" /-->
+<imagedata fileref="http://chart.apis.google.com/chart?cht=p3&chd=t:60,40&chs=250x100&chl=Hello|World" format="PNG" width="8in" depth="3.5in" />
 </imageobject>
 <textobject>
 <phrase>PoD Monthly Download Statistics</phrase>
