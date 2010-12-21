@@ -43,8 +43,6 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
 </para>
 <?dbhtml-include href="mycode.html"?>
 <para>
-
-<div id="visualization" style="width: 600px; height: 400px;"></div>
 <mediaobject>
 <imageobject>
 <imagedata fileref="graphics/PoD_Monthly_Download_Statistics.png" format="PNG" width="8in" depth="3.5in" />
@@ -99,7 +97,7 @@ Taiwan                          : 1
 2010/7 : 8
 2010/6 : 11
 </screen>
-<div id="visualization" style="width: 600px; height: 400px;"></div>
+<!--div id="visualization" style="width: 600px; height: 400px;"></div-->
 </para>
 </section>
 <section><title>Totals by versions (unique IPs)</title>
