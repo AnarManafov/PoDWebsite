@@ -9,7 +9,30 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
 <title>Download Statistics</title>
 <summary>Download Statistics</summary>
 </head>
-<section><title>Total: 178 Downloads (last updated: Mon Dec 20 23:00:02 2010)</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="graphics/PoD_Monthly_Download_Statistics.png" format="PNG" width="8in" depth="3.5in" />
+</imageobject>
+<textobject>
+<phrase>PoD Monthly Download Statistics</phrase>
+</textobject>
+<caption>
+<para>PoD Monthly Download Statistics</para>
+</caption>
+</mediaobject>
+<mediaobject>
+<imageobject>
+<imagedata fileref="graphics/PoD_Downloads_by_Country.png" format="PNG" width="8in" depth="3.5in" />
+</imageobject>
+<textobject>
+<phrase>PoD Downloads by Country</phrase>
+</textobject>
+<caption>
+<para>PoD Downloads by Country</para>
+</caption>
+</mediaobject>
+</section>
+<section><title>Total: 178 Downloads (last updated: Tue Dec 21 12:48:01 2010)</title>
 <section><title>Downloads by Country</title>
 <para>
 <screen>
