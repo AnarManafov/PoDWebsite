@@ -59,6 +59,16 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
             <olink targetdocent="download_stat.xml">Download Statistics</olink>
         </para>
     </section>
-    
+
+    <figure>
+       <title>PoD Monthly Download Statistics</title>
+       <graphic fileref="graphics/PoD_Monthly_Download_Statistics.png"></graphic>
+    </figure>
+
+    <figure>
+       <title>PoD Downloads by Country</title>
+       <graphic fileref="graphics/PoD_Downloads_by_Country.png"></graphic>
+    </figure>
+        
     
 </webpage>
