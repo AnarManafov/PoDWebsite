@@ -59,16 +59,12 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
             <olink targetdocent="download_stat.xml">Download Statistics</olink>
         </para>
 <mediaobject>
-   <textobject>
-    <phrase>PoD Monthly Download Statistics</phrase>
-  </textobject>
   <caption>
-   <para>PoD Monthly Download Statistics</para>
+     <para>PoD Monthly Download Statistics</para>
   </caption>
- <imageobject>
-    <imagedata fileref="graphics/PoD_Monthly_Download_Statistics.png" format="PNG" scale="-200" />
+  <imageobject>
+     <imagedata fileref="graphics/PoD_Monthly_Download_Statistics.png" format="PNG" scale="-200" />
   </imageobject>
-
 </mediaobject>
 
         <!--imagedata fileref="graphics/PoD_Monthly_Download_Statistics.png" width="6in" depth="5.5in" scalefit="0"/-->
