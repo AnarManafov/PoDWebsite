@@ -1,0 +1,134 @@
+<!DOCTYPE webpage
+PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
+"http://docbook.sourceforge.net/release/website/2.6.0/schema/dtd/website-full.dtd">
+
+<webpage id="download_stat">
+<config param="desc" value="Navigation Layout"/>
+
+<head>
+<title>Download Statistics</title>
+<summary>Download Statistics</summary>
+</head>
+<section><title></title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="graphics/PoD_Monthly_Download_Statistics.png" format="PNG" width="8in" depth="3.5in" />
+</imageobject>
+<textobject>
+<phrase>PoD Monthly Download Statistics</phrase>
+</textobject>
+<caption>
+<para>PoD Monthly Download Statistics (last updated on Tue Dec 21 12:48:00 2010)</para>
+</caption>
+</mediaobject>
+<mediaobject>
+<imageobject>
+<imagedata fileref="graphics/PoD_Downloads_by_Country.png" format="PNG" width="8in" depth="3.5in" />
+</imageobject>
+<textobject>
+<phrase>PoD Downloads by Country</phrase>
+</textobject>
+<caption>
+<para>PoD Downloads by Country (last updated on Tue Dec 21 12:48:00 2010)</para>
+</caption>
+</mediaobject>
+</section>
+<section><title>Total: 178 Downloads (last updated: Tue Dec 21 13:54:59 2010)</title>
+<section><title>Downloads by Country</title>
+<para>
+<screen>
+Germany                         : 100
+Switzerland                     : 20
+Spain                           : 8
+United States of America        : 8
+??                              : 7
+France                          : 7
+China                           : 6
+Russian Federation              : 6
+Slovak Republic                 : 6
+Denmark                         : 5
+Italy                           : 2
+Netherlands                     : 2
+Taiwan                          : 1
+</screen>
+</para>
+</section>
+<section><title>Stats by Date</title>
+<para>
+<screen>
+2010/12: 17
+2010/11: 34
+2010/10: 36
+2010/9 : 54
+2010/8 : 18
+2010/7 : 8
+2010/6 : 11
+</screen>
+</para>
+</section>
+<section><title>Totals by versions (unique IPs)</title>
+<para>
+<screen>
+v3.0   : 14 (8)
+v2.4   : 26 (14)
+v2.3   : 14 (11)
+v2.2   : 2  (2)
+v2.1   : 77 (34)
+</screen>
+</para>
+</section>
+<section><title>Detailed by versions</title>
+<para>
+<screen>
+PoD-3.0.70.g9078c-Source                : 3
+PoD-3.0.66.g83090-Source                : 1
+PoD-3.0.51.g090ef-Source                : 1
+PoD-3.0.46.g1460-Source                 : 1
+PoD-3.0.38.g6c39-Source                 : 3
+PoD-3.0.37.ge7be-Source                 : 1
+PoD-3.0.36.g1f3d-Source                 : 2
+PoD-3.0.25.geaa77-Source                : 1
+PoD-3.0.15.g54ea-Source                 : 1
+PoD-2.4.1.g0230-Source                  : 20
+PoD-2.4.1.g0230-GSI-etch32-bin          : 6
+PoD-2.4-Source                          : 1
+PoD-2.3.90.g42a8-Source                 : 1
+PoD-2.3.48.g79aa-Source                 : 3
+PoD-2.3.47.gacc2-Source                 : 1
+PoD-2.3.47.gacc2-GSI-etch32-bin         : 1
+PoD-2.3.43.gb2f8-Source                 : 1
+PoD-2.3.3.g4844-Source                  : 3
+PoD-2.3.28.g776b-Source                 : 1
+PoD-2.3.28.g776b-GSI-etch32-bin         : 1
+PoD-2.3.20.gf1d9-GSI-etch32-bin         : 1
+PoD-2.3.115.g719f-Source                : 1
+PoD-2.3-Source                          : 22
+PoD-2.3-GSI-etch32-bin                  : 7
+PoD-2.2.6.g5233-Source                  : 1
+PoD-2.2.3.g8447-Source                  : 1
+PoD-2.2-Source                          : 9
+PoD-2.2-GSI-etch32-bin                  : 6
+PoD-2.1.4.1272.ga5a7-Source             : 3
+PoD-2.1.4.1242.gf5d9-Source             : 2
+PoD-2.1.4.1237.gddd8-Source             : 3
+PoD-2.1.4.1226.g01b69-Source            : 1
+PoD-2.1.4.1226.g01b69-GSI-etch32-bin    : 2
+PoD-2.1.4.1223.g0259-GSI-etch32-bin     : 1
+PoD-2.1.4.1214.g0ccb-GSI-etch32-bin     : 1
+PoD-2.1.4.1212.g2944-GSI-etch32-bin     : 1
+PoD-2.1.4.1183.g41d8-GSI-etch32-bin     : 1
+PoD-2.1.4.1180.g5cf3-GSI-etch32-bin     : 1
+PoD-2.1.4.1178.g5144-GSI-etch32-bin     : 1
+PoD-2.1.4.1176.g454a-GSI-etch32-bin     : 1
+PoD-2.1.4.1175.g4fcf-GSI-etch32-bin     : 1
+PoD-2.1.4.1174.g3300-GSI-etch32-bin     : 1
+PoD-2.1.4.1167.g6a3e-GSI-etch32-bin     : 1
+PoD-2.1.4.1166.g42ab-GSI-etch32-bin     : 1
+PoD-2.1.4-Source                        : 13
+PoD-2.1.4-GSI-etch32-bin                : 42
+</screen>
+</para>
+</section>
+</section>
+
+</webpage>
