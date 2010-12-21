@@ -34,6 +34,7 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
     </script>
 </head>
 <section><title></title>
+<div id="visualization" style="width: 600px; height: 400px;"></div>
 <mediaobject>
 <imageobject>
 <imagedata fileref="graphics/PoD_Monthly_Download_Statistics.png" format="PNG" width="8in" depth="3.5in" />
