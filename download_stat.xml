@@ -8,11 +8,13 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
 <head>
 <title>Download Statistics</title>
 <summary>Download Statistics</summary>
-    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+       <script type="text/javascript" src="http://www.google.com/jsapi"></script>
     <script type="text/javascript">
-      google.load("visualization", "1", {packages:["corechart"]});
-      google.setOnLoadCallback(drawChart);
-      function drawChart() {
+      google.load('visualization', '1', {packages: ['corechart']});
+    </script>
+    <script type="text/javascript">
+      function drawVisualization() {
+        // Create and populate the data table.
         var data = new google.visualization.DataTable();
         data.addColumn('string', 'Task');
         data.addColumn('number', 'Hours per Day');
@@ -27,13 +29,21 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
         data.setValue(3, 1, 2);
         data.setValue(4, 0, 'Sleep');
         data.setValue(4, 1, 7);
-
-        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
-        chart.draw(data, {width: 450, height: 300, title: 'My Daily Activities'});
+      
+        // Create and draw the visualization.
+        new google.visualization.PieChart(document.getElementById('visualization')).
+            draw(data, {title:"So, how was your day?"});
       }
+      
+
+      google.setOnLoadCallback(drawVisualization);
     </script>
 </head>
 <section><title></title>
+</para>
+<?dbhtml-include href="mycode.html"?>
+<para>
+
 <div id="visualization" style="width: 600px; height: 400px;"></div>
 <mediaobject>
 <imageobject>
@@ -89,6 +99,7 @@ Taiwan                          : 1
 2010/7 : 8
 2010/6 : 11
 </screen>
+<div id="visualization" style="width: 600px; height: 400px;"></div>
 </para>
 </section>
 <section><title>Totals by versions (unique IPs)</title>
