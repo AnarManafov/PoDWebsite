@@ -1,10 +1,13 @@
 <!DOCTYPE webpage
 PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
-"http://docbook.sourceforge.net/release/website/2.6.0/schema/dtd/website-full.dtd">
-<!--[
-<!ENTITY % local.effectivity.attrib 
-   "chart  CDATA  #IMPLIED">
-]-->
+"http://docbook.sourceforge.net/release/website/2.6.0/schema/dtd/website-full.dtd" [
+
+<!ELEMENT my_chart EMPTY>
+<!ATTLIST my_chart name CDATA #IMPLIED>
+<!ENTITY % local.para.char.mix
+        "|my_chart">
+
+]>
 
 <webpage id="download_stat">
 <config param="desc" value="Navigation Layout"/>
@@ -100,7 +103,6 @@ Taiwan                          : 1
 </screen>
 <my_chart name="visualization" />
 </para>
-<!--para chart="visualization"-->
 </section>
 <section><title>Totals by versions (unique IPs)</title>
 <para>
