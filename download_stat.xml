@@ -26,24 +26,43 @@ function drawVisualization() {
 data.addRows(13);data.setValue(0, 0, 'Germany');data.setValue(0, 1, 100);data.setValue(1, 0, 'Switzerland');data.setValue(1, 1, 20);data.setValue(2, 0, 'United States of America');data.setValue(2, 1, 9);data.setValue(3, 0, 'Spain');data.setValue(3, 1, 8);data.setValue(4, 0, '??');data.setValue(4, 1, 7);data.setValue(5, 0, 'France');data.setValue(5, 1, 7);data.setValue(6, 0, 'China');data.setValue(6, 1, 6);data.setValue(7, 0, 'Russian Federation');data.setValue(7, 1, 6);data.setValue(8, 0, 'Slovak Republic');data.setValue(8, 1, 6);data.setValue(9, 0, 'Denmark');data.setValue(9, 1, 5);data.setValue(10, 0, 'Italy');data.setValue(10, 1, 2);data.setValue(11, 0, 'Netherlands');data.setValue(11, 1, 2);data.setValue(12, 0, 'Taiwan');data.setValue(12, 1, 1);// Create and draw the visualization.
 new google.visualization.PieChart(document.getElementById('chart_countries')).
 draw(data, {width: 700, height: 500, title:"Downloads by Country"});
-}google.setOnLoadCallback(drawVisualization);</script></head>
-<section><title>Total: 179 Downloads (last updated: Wed Dec 22 19:18:08 2010)</title>
+}google.setOnLoadCallback(drawVisualization);</script><script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+google.load('visualization', '1', {packages: ['corechart']});
+</script>
+<script type="text/javascript">
+function drawVisualization() {
+    // Create and populate the data table.
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Month');
+    data.addColumn('number', 'Downloads');
+data.addRow(["2010%2F12", 18]);
+data.addRow(["2010%2F11", 34]);
+data.addRow(["2010%2F10", 36]);
+data.addRow(["2010%2F9", 54]);
+data.addRow(["2010%2F8", 18]);
+data.addRow(["2010%2F7", 8]);
+data.addRow(["2010%2F6", 11]);
+// Create and draw the visualization.
+new google.visualization.LineChart(document.getElementById('monthly_downloads')).
+draw(data, {curveType: "function",
+width: 500, height: 400,
+legend: "none",
+title: "Monthly Download Statistics",
+    vAxis: {maxValue: 10}}
+     );
+}
+google.setOnLoadCallback(drawVisualization);
+</script>
+</head>
+<section><title>Total: 179 Downloads (last updated: Wed Dec 22 19:52:31 2010)</title>
 <section><title></title>
 <para>
 <my_chart name="chart_countries" /></para>
 </section>
-<section><title>Stats by Date</title>
+<section><title></title>
 <para>
-<screen>
-2010/12: 18
-2010/11: 34
-2010/10: 36
-2010/9 : 54
-2010/8 : 18
-2010/7 : 8
-2010/6 : 11
-</screen>
-</para>
+<my_chart name="monthly_downloads" /></para>
 </section>
 <section><title>Totals by versions (unique IPs)</title>
 <para>
