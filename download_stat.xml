@@ -94,7 +94,7 @@ Taiwan                          : 1
 2010/7 : 8
 2010/6 : 11
 </screen>
-<div id="visualization" style="width: 600px; height: 400px;"></div>
+ <my_chart name="visualization" />
 </para>
 </section>
 <section><title>Totals by versions (unique IPs)</title>

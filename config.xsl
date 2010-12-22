@@ -45,6 +45,11 @@ It is used in the table of contents when a table of tables is generated.
 
 <xsl:template match="table" mode="label.markup"/>
 
+<!-- Custom tags -->
+<xsl:template match="my_chart">
+    <div id="<xsl:value-of select="@name" />" style="width: 600px; height: 400px;"></div>
+</xsl:template>
+
 <!-- ****** Template customizations go here ****** -->
 <xsl:template match="webpage">
 
