@@ -23,53 +23,42 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
       function drawVisualization() {
         // Create and populate the data table.
         var data = new google.visualization.DataTable();
-        data.addColumn('string', 'Task');
-        data.addColumn('number', 'Hours per Day');
-        data.addRows(5);
-        data.setValue(0, 0, 'Work');
+        data.addColumn('string', 'Country');
+        data.addColumn('number', 'Download');
+        data.addRows(13);
+        data.setValue(0, 0, 'Germany');
         data.setValue(0, 1, 11);
-        data.setValue(1, 0, 'Eat');
+        data.setValue(1, 0, 'Switzerland');
         data.setValue(1, 1, 2);
-        data.setValue(2, 0, 'Commute');
+        data.setValue(2, 0, 'United States of America');
         data.setValue(2, 1, 2);
-        data.setValue(3, 0, 'Watch TV');
+        data.setValue(3, 0, '??');
         data.setValue(3, 1, 2);
-        data.setValue(4, 0, 'Sleep');
+        data.setValue(4, 0, 'France');
+        data.setValue(4, 1, 7);
+        data.setValue(4, 0, 'China');
+        data.setValue(4, 1, 7);
+        data.setValue(4, 0, 'Russian Federation');
+        data.setValue(4, 1, 7);
+        data.setValue(4, 0, 'Slovak Republic');
+        data.setValue(4, 1, 7);
+        data.setValue(4, 0, 'Denmark');
+        data.setValue(4, 1, 7);
+        data.setValue(4, 0, 'Italy');
+        data.setValue(4, 1, 7);
+        data.setValue(4, 0, 'Netherlands');
+        data.setValue(4, 1, 7);
+        data.setValue(4, 0, 'Taiwan');
         data.setValue(4, 1, 7);
       
         // Create and draw the visualization.
-        new google.visualization.PieChart(document.getElementById('visualization')).
-            draw(data, {title:"So, how was your day?"});
+        new google.visualization.PieChart(document.getElementById('chart_countries')).
+            draw(data, {title:"Downloads by Country"});
       }
       
-
       google.setOnLoadCallback(drawVisualization);
     </script>
 </head>
-<section><title></title>
-<mediaobject>
-<imageobject>
-<imagedata fileref="graphics/PoD_Monthly_Download_Statistics.png" format="PNG" width="8in" depth="3.5in" />
-</imageobject>
-<textobject>
-<phrase>PoD Monthly Download Statistics</phrase>
-</textobject>
-<caption>
-<para>PoD Monthly Download Statistics (last updated on Tue Dec 21 12:48:00 2010)</para>
-</caption>
-</mediaobject>
-<mediaobject>
-<imageobject>
-<imagedata fileref="graphics/PoD_Downloads_by_Country.png" format="PNG" width="8in" depth="3.5in" />
-</imageobject>
-<textobject>
-<phrase>PoD Downloads by Country</phrase>
-</textobject>
-<caption>
-<para>PoD Downloads by Country (last updated on Tue Dec 21 12:48:00 2010)</para>
-</caption>
-</mediaobject>
-</section>
 <section><title>Total: 178 Downloads (last updated: Tue Dec 21 13:54:59 2010)</title>
 <section><title>Downloads by Country</title>
 <para>
@@ -88,6 +77,7 @@ Italy                           : 2
 Netherlands                     : 2
 Taiwan                          : 1
 </screen>
+<my_chart name="chart_countries" />
 </para>
 </section>
 <section><title>Stats by Date</title>
@@ -101,7 +91,6 @@ Taiwan                          : 1
 2010/7 : 8
 2010/6 : 11
 </screen>
-<my_chart name="visualization" />
 </para>
 </section>
 <section><title>Totals by versions (unique IPs)</title>
