@@ -27,29 +27,31 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
         data.addColumn('number', 'Download');
         data.addRows(13);
         data.setValue(0, 0, 'Germany');
-        data.setValue(0, 1, 11);
+        data.setValue(0, 1, 100);
         data.setValue(1, 0, 'Switzerland');
-        data.setValue(1, 1, 2);
+        data.setValue(1, 1, 20);
+        data.setValue(12, 0, 'Spain');
+        data.setValue(12, 1, 8);
         data.setValue(2, 0, 'United States of America');
-        data.setValue(2, 1, 2);
+        data.setValue(2, 1, 9);
         data.setValue(3, 0, '??');
-        data.setValue(3, 1, 2);
+        data.setValue(3, 1, 7);
         data.setValue(4, 0, 'France');
         data.setValue(4, 1, 7);
         data.setValue(5, 0, 'China');
-        data.setValue(5, 1, 7);
+        data.setValue(5, 1, 6);
         data.setValue(6, 0, 'Russian Federation');
-        data.setValue(6, 1, 7);
+        data.setValue(6, 1, 6);
         data.setValue(7, 0, 'Slovak Republic');
-        data.setValue(7, 1, 7);
+        data.setValue(7, 1, 6);
         data.setValue(8, 0, 'Denmark');
-        data.setValue(8, 1, 7);
+        data.setValue(8, 1, 5);
         data.setValue(9, 0, 'Italy');
-        data.setValue(9, 1, 7);
+        data.setValue(9, 1, 2);
         data.setValue(10, 0, 'Netherlands');
-        data.setValue(10, 1, 7);
+        data.setValue(10, 1, 2);
         data.setValue(11, 0, 'Taiwan');
-        data.setValue(11, 1, 7);
+        data.setValue(11, 1, 1);
       
         // Create and draw the visualization.
         new google.visualization.PieChart(document.getElementById('chart_countries')).
