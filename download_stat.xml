@@ -36,13 +36,13 @@ function drawVisualization() {
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Month');
     data.addColumn('number', 'Downloads');
-data.addRow(["2010/6", 11]);
-data.addRow(["2010/7", 8]);
-data.addRow(["2010/8", 18]);
-data.addRow(["2010/9", 54]);
-data.addRow(["2010/10", 36]);
-data.addRow(["2010/11", 34]);
-data.addRow(["2010/12", 18]);
+data.addRow(["Jun. 2010", 11]);
+data.addRow(["Jul. 2010", 8]);
+data.addRow(["Avg. 2010", 18]);
+data.addRow(["Sep. 2010", 54]);
+data.addRow(["Okt. 2010", 36]);
+data.addRow(["Nov. 2010", 34]);
+data.addRow(["Dec. 2010", 18]);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {
@@ -54,7 +54,7 @@ title: "Monthly Download Statistics" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 179 Downloads (last updated: Wed Dec 22 20:05:20 2010)</title>
+<section><title>Total: 179 Downloads (last updated: Wed Dec 22 20:15:19 2010)</title>
 <section><title></title>
 <para>
 <my_chart name="chart_countries" /></para>
