@@ -4,7 +4,7 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
 <!ELEMENT my_chart EMPTY>
 <!ATTLIST my_chart name CDATA #IMPLIED>
 <!ENTITY % local.para.char.mix
-"|my4_chart">
+"|my_chart">
 ]>
 
 <webpage id="download_stat">
@@ -14,7 +14,7 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
 <title>Download Statistics</title>
 <summary>Download Statistics</summary>
 </head>
-<section><title>Total: 179 Downloads (last updated: Wed Dec 22 19:08:27 2010)</title>
+<section><title>Total: 179 Downloads (last updated: Wed Dec 22 19:10:26 2010)</title>
 <section><title></title>
 <para>
 <my_chart name="chart_countries" /></para>
