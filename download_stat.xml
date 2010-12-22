@@ -36,20 +36,20 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
         data.setValue(3, 1, 2);
         data.setValue(4, 0, 'France');
         data.setValue(4, 1, 7);
-        data.setValue(4, 0, 'China');
-        data.setValue(4, 1, 7);
-        data.setValue(4, 0, 'Russian Federation');
-        data.setValue(4, 1, 7);
-        data.setValue(4, 0, 'Slovak Republic');
-        data.setValue(4, 1, 7);
-        data.setValue(4, 0, 'Denmark');
-        data.setValue(4, 1, 7);
-        data.setValue(4, 0, 'Italy');
-        data.setValue(4, 1, 7);
-        data.setValue(4, 0, 'Netherlands');
-        data.setValue(4, 1, 7);
-        data.setValue(4, 0, 'Taiwan');
-        data.setValue(4, 1, 7);
+        data.setValue(5, 0, 'China');
+        data.setValue(5, 1, 7);
+        data.setValue(6, 0, 'Russian Federation');
+        data.setValue(6, 1, 7);
+        data.setValue(7, 0, 'Slovak Republic');
+        data.setValue(7, 1, 7);
+        data.setValue(8, 0, 'Denmark');
+        data.setValue(8, 1, 7);
+        data.setValue(9, 0, 'Italy');
+        data.setValue(9, 1, 7);
+        data.setValue(10, 0, 'Netherlands');
+        data.setValue(10, 1, 7);
+        data.setValue(11, 0, 'Taiwan');
+        data.setValue(11, 1, 7);
       
         // Create and draw the visualization.
         new google.visualization.PieChart(document.getElementById('chart_countries')).
