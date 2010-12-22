@@ -47,7 +47,10 @@ It is used in the table of contents when a table of tables is generated.
 
 <!-- Custom tags -->
 <xsl:template match="my_chart">
-    <div id="<xsl:value-of select="@name" />" style="width: 600px; height: 400px;"></div>
+ <xsl:variable name="chart_name">
+    <xsl:value-of select="@name" />
+  </xsl:variable>
+    <div id="{$chart_name}" style="width: 600px; height: 400px;"></div>
 </xsl:template>
 
 <!-- ****** Template customizations go here ****** -->
