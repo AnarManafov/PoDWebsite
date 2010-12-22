@@ -46,7 +46,7 @@ It is used in the table of contents when a table of tables is generated.
 <xsl:template match="table" mode="label.markup"/>
 
 <!-- Custom tags -->
-<xsl:template match="para.my_chart">
+<xsl:template match="para/my_chart">
  <xsl:variable name="chart_name">
     <xsl:value-of select="@name" />
   </xsl:variable>
