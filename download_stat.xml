@@ -55,7 +55,7 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
       
         // Create and draw the visualization.
         new google.visualization.PieChart(document.getElementById('chart_countries')).
-            draw(data, {title:"Downloads by Country"});
+            draw(data, {width: 800, height: 600, title:"Downloads by Country"});
       }
       
       google.setOnLoadCallback(drawVisualization);
