@@ -46,7 +46,7 @@ data.addRow(["2010/12", 18]);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {
-width: 500, height: 400,
+width: 800, height: 400,
 legend: "none",
 title: "Monthly Download Statistics"
      );
@@ -54,7 +54,7 @@ title: "Monthly Download Statistics"
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 179 Downloads (last updated: Wed Dec 22 19:59:38 2010)</title>
+<section><title>Total: 179 Downloads (last updated: Wed Dec 22 20:00:23 2010)</title>
 <section><title></title>
 <para>
 <my_chart name="chart_countries" /></para>
