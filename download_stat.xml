@@ -60,13 +60,13 @@ data.setValue(11, 1, 18);
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
 width: 800, height: 400,
-title: "Monthly Download Statistics (last 12 Months)" }
+title: "Monthly Download Statistics" }
      );
 }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 179 Downloads (last updated: Thu Dec 23 16:16:04 2010)</title>
+<section><title>Total: 179 Downloads (last updated: Thu Dec 23 16:17:43 2010)</title>
 <section><title></title>
 <para>
 <my_chart name="chart_countries" /></para>
