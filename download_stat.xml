@@ -73,7 +73,7 @@ title: "Monthly Download Statistics (last 12 Months)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 179 Downloads (last updated: Thu Dec 23 15:02:48 2010)</title>
+<section><title>Total: 179 Downloads (last updated: Thu Dec 23 15:09:22 2010)</title>
 <section><title></title>
 <para>
 <my_chart name="chart_countries" /></para>
