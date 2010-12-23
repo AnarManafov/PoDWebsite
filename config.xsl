@@ -50,7 +50,7 @@ It is used in the table of contents when a table of tables is generated.
  <xsl:variable name="chart_name">
     <xsl:value-of select="@name" />
   </xsl:variable>
-    <div id="{$chart_name}" style="width: 600px; height: 400px;"></div>
+    <div id="{$chart_name}" style="width: 800px; height: 400px;"></div>
 </xsl:template>
 
 <!-- ****** Template customizations go here ****** -->
