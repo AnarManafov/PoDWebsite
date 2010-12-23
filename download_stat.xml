@@ -33,7 +33,9 @@ google.load('visualization', '1', {packages: ['corechart']});
 <script type="text/javascript">
 function drawVisualization() {
     // Create and populate the data table.
-    var data = new google.visualization.DataTable();var raw_data = [['Downloads', 100, 20, 9, 8, 7, 7, 6, 6, 6, 5, 2, 2, 1]];var country = [0x7fffa9a9dad8];data.addColumn('string', 'Country');
+    var data = new google.visualization.DataTable();var raw_data = [['Downloads', 100, 20, 9, 8, 7, 7, 6, 6, 6, 5, 2, 2, 1]];
+var country = [Germany, Switzerland, United States of America, Spain, ??, France, China, Russian Federation, Slovak Republic, Denmark, Italy, Netherlands, Taiwan];
+data.addColumn('string', 'Country');
 for (var i = 0; i  &lt; raw_data.length; ++i) {
     data.addColumn('number', raw_data[i][0]);
 }
@@ -98,7 +100,7 @@ title: "Monthly Download Statistics" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 179 Downloads (last updated: Thu Dec 23 20:42:51 2010)</title>
+<section><title>Total: 179 Downloads (last updated: Thu Dec 23 20:52:07 2010)</title>
 <section><title></title>
 <para>
 <my_chart name="chart_countries" /><my_chart name="bar_chart_countries" /></para>
