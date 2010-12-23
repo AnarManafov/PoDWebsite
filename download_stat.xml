@@ -53,7 +53,7 @@ new google.visualization.BarChart(document.getElementById('bar_chart_countries')
 draw(data,
      {title:"Downloads by Country",
      legend:"none",
-     width:800, height:600,
+     width:800, height:400,
      vAxis: {title: "Country"},
          hAxis: {title: "Downloads"}}
      );
@@ -100,7 +100,7 @@ title: "Monthly Download Statistics" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 179 Downloads (last updated: Thu Dec 23 20:55:36 2010)</title>
+<section><title>Total: 179 Downloads (last updated: Thu Dec 23 21:06:07 2010)</title>
 <section><title></title>
 <para>
 <my_chart name="chart_countries" /><my_chart name="bar_chart_countries" /></para>
