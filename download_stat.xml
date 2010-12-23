@@ -33,16 +33,16 @@ google.load('visualization', '1', {packages: ['corechart']});
 <script type="text/javascript">
 function drawVisualization() {
     // Create and populate the data table.
-    var data = new google.visualization.DataTable();var raw_data = [['Downloads', 100, 20, 9, 8, 7, 7, 6, 6, 6, 5, 2, 2, 1]];var country = [0x7fff26e63e48];data.addColumn('string', 'Country');
-for (var i = 0; i  < raw_data.length; ++i) {
+    var data = new google.visualization.DataTable();var raw_data = [['Downloads', 100, 20, 9, 8, 7, 7, 6, 6, 6, 5, 2, 2, 1]];var country = [0x7fffa9a9dad8];data.addColumn('string', 'Country');
+for (var i = 0; i  &lt; raw_data.length; ++i) {
     data.addColumn('number', raw_data[i][0]);
 }
 data.addRows(country.length);
-for (var j = 0; j < country.length; ++j) {
+for (var j = 0; j &lt; country.length; ++j) {
     data.setValue(j, 0, country[j].toString());
 }
-for (var i = 0; i  < raw_data.length; ++i) {
-    for (var j = 1; j  < raw_data[i].length; ++j) {
+for (var i = 0; i  &lt; raw_data.length; ++i) {
+    for (var j = 1; j  &lt; raw_data[i].length; ++j) {
         data.setValue(j-1, i+1, raw_data[i][j]);
     }
 }
@@ -98,7 +98,7 @@ title: "Monthly Download Statistics" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 179 Downloads (last updated: Thu Dec 23 20:39:27 2010)</title>
+<section><title>Total: 179 Downloads (last updated: Thu Dec 23 20:42:51 2010)</title>
 <section><title></title>
 <para>
 <my_chart name="chart_countries" /><my_chart name="bar_chart_countries" /></para>
