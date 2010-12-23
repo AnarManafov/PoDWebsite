@@ -36,8 +36,6 @@ function drawVisualization() {
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Month');
 data.addColumn('number', '2010');
-data.addColumn('number', '2011');
-data.addColumn('number', '2012');
 data.addRows(12);
 data.setValue(0, 0 , 'Jan.');
 data.setValue(1, 0 , 'Feb.');
@@ -51,18 +49,13 @@ data.setValue(8, 0 , 'Sep.');
 data.setValue(9, 0 , 'Okt.');
 data.setValue(10, 0 , 'Nov.');
 data.setValue(11, 0 , 'Dec.');
-data.setValue(5, 1, 10);
+data.setValue(5, 1, 11);
 data.setValue(6, 1, 8);
 data.setValue(7, 1, 18);
-data.setValue(8, 1, 50);
-data.setValue(9, 1, 29);
+data.setValue(8, 1, 54);
+data.setValue(9, 1, 36);
 data.setValue(10, 1, 34);
-data.setValue(11, 1, 14);
-data.setValue(8, 2, 4);
-data.setValue(9, 2, 6);
-data.setValue(11, 2, 4);
-data.setValue(5, 3, 1);
-data.setValue(9, 3, 1);
+data.setValue(11, 1, 18);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -73,7 +66,7 @@ title: "Monthly Download Statistics (last 12 Months)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 179 Downloads (last updated: Thu Dec 23 16:11:13 2010)</title>
+<section><title>Total: 179 Downloads (last updated: Thu Dec 23 16:16:04 2010)</title>
 <section><title></title>
 <para>
 <my_chart name="chart_countries" /></para>
