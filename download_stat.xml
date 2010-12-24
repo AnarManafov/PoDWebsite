@@ -110,32 +110,32 @@ function drawVisualization() {
     data.addColumn('number', 'unique IP');
     data.addColumn('number', 'Unique IP addresses');
 data.addRows(5);
-data.setValue(0, 0, 3.0);
+data.setValue(0, 0, 'v3.0');
 data.setValue(0, 1, 15);
 data.setValue(0, 2, 9);
-data.setValue(1, 0, 2.4);
+data.setValue(1, 0, 'v2.4');
 data.setValue(1, 1, 26);
 data.setValue(1, 2, 14);
-data.setValue(2, 0, 2.3);
+data.setValue(2, 0, 'v2.3');
 data.setValue(2, 1, 14);
 data.setValue(2, 2, 11);
-data.setValue(3, 0, 2.2);
+data.setValue(3, 0, 'v2.2');
 data.setValue(3, 1, 2);
 data.setValue(3, 2, 2);
-data.setValue(4, 0, 2.1);
+data.setValue(4, 0, 'v2.1');
 data.setValue(4, 1, 77);
 data.setValue(4, 2, 34);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('totals_by_versions')).
 draw(data, {interpolateNulls: 'true',
 width: 800, height: 400,
-title: "Monthly Download Statistics" }
+title: "Downloads by Versions" }
      );
 }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 179 Downloads (last auto. update: Fri Dec 24 10:32:17 2010)</title>
+<section><title>Total: 179 Downloads (last auto. update: Fri Dec 24 10:33:56 2010)</title>
 <section><title></title>
 <para>
 <my_chart name="chart_countries" /><my_chart name="bar_chart_countries" /></para>
