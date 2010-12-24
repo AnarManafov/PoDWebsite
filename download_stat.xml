@@ -107,7 +107,7 @@ function drawVisualization() {
     // Create and populate the data table.
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Version');
-    data.addColumn('number', 'unique IP');
+    data.addColumn('number', 'IP addresses');
     data.addColumn('number', 'Unique IP addresses');
 data.addRows(5);
 data.setValue(0, 0, 'v3.0');
@@ -135,7 +135,7 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 179 Downloads (last auto. update: Fri Dec 24 10:33:56 2010)</title>
+<section><title>Total: 179 Downloads (last auto. update: Fri Dec 24 10:35:39 2010)</title>
 <section><title></title>
 <para>
 <my_chart name="chart_countries" /><my_chart name="bar_chart_countries" /></para>
