@@ -24,15 +24,15 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
     		<tbody>
       	        <row>
                     <entry><ulink url="http://www-linux.gsi.de/%7Emanafov/D-Grid/docz/PoD/html/">User's Manual (Nightly build)</ulink></entry>
-                    <entry>The user's manual of the latest development PoD version, which is build nightly.</entry>
+                    <entry>User's manual of the latest development PoD version, which is build nightly.</entry>
+                </row>
+                <row>
+                    <entry><ulink url="http://pod.gsi.de/doc/3.1/index.html">User's Manual (v3.1)</ulink></entry>
+                    <entry>User's manual of the stable PoD v3.1.</entry>
                 </row>
                 <row>
                     <entry><ulink url="http://pod.gsi.de/doc/2.4/index.html">User's Manual (v2.4)</ulink></entry>
-                    <entry>The user's manual of the stable PoD v2.4.</entry>
-                </row>
-                <row>
-                    <entry><ulink url="http://pod.gsi.de/doc/2.2/index.html">User's Manual (v2.2)</ulink></entry>
-                    <entry>The user's manual of the stable PoD v2.2.</entry>
+                    <entry>User's manual of the stable PoD v2.4.</entry>
                 </row>
                 <row>
                     <entry><ulink url="http://pod.gsi.de/doc/api-docs/index.html">Private API Documentation</ulink></entry>
