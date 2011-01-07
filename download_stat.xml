@@ -25,7 +25,7 @@ function drawVisualization() {
     data.addColumn('number', 'Download');
 data.addRows(13);
 data.setValue(0, 0, 'Germany');
-data.setValue(0, 1, 105);
+data.setValue(0, 1, 100);
 data.setValue(1, 0, 'Switzerland');
 data.setValue(1, 1, 22);
 data.setValue(2, 0, 'United States of America');
@@ -36,14 +36,14 @@ data.setValue(4, 0, '??');
 data.setValue(4, 1, 7);
 data.setValue(5, 0, 'France');
 data.setValue(5, 1, 7);
-data.setValue(6, 0, 'China');
+data.setValue(6, 0, 'Russian Federation');
 data.setValue(6, 1, 6);
-data.setValue(7, 0, 'Russian Federation');
+data.setValue(7, 0, 'Slovak Republic');
 data.setValue(7, 1, 6);
-data.setValue(8, 0, 'Slovak Republic');
-data.setValue(8, 1, 6);
-data.setValue(9, 0, 'Denmark');
-data.setValue(9, 1, 5);
+data.setValue(8, 0, 'Denmark');
+data.setValue(8, 1, 5);
+data.setValue(9, 0, 'China');
+data.setValue(9, 1, 2);
 data.setValue(10, 0, 'Italy');
 data.setValue(10, 1, 2);
 data.setValue(11, 0, 'Netherlands');
@@ -90,12 +90,12 @@ data.setValue(10, 0 , 'Nov.');
 data.setValue(11, 0 , 'Dec.');
 data.setValue(5, 1, 11);
 data.setValue(6, 1, 8);
-data.setValue(7, 1, 18);
-data.setValue(8, 1, 54);
+data.setValue(7, 1, 15);
+data.setValue(8, 1, 53);
 data.setValue(9, 1, 36);
 data.setValue(10, 1, 34);
-data.setValue(11, 1, 18);
-data.setValue(0, 2, 7);
+data.setValue(11, 1, 14);
+data.setValue(0, 2, 6);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -118,22 +118,22 @@ function drawVisualization() {
     data.addColumn('number', 'Unique IP addresses');
 data.addRows(6);
 data.setValue(0, 0, 'v3.1');
-data.setValue(0, 1, 4);
+data.setValue(0, 1, 3);
 data.setValue(0, 2, 2);
 data.setValue(1, 0, 'v3.0');
 data.setValue(1, 1, 18);
 data.setValue(1, 2, 11);
 data.setValue(2, 0, 'v2.4');
-data.setValue(2, 1, 27);
+data.setValue(2, 1, 23);
 data.setValue(2, 2, 15);
 data.setValue(3, 0, 'v2.3');
 data.setValue(3, 1, 43);
 data.setValue(3, 2, 34);
 data.setValue(4, 0, 'v2.2');
-data.setValue(4, 1, 17);
+data.setValue(4, 1, 16);
 data.setValue(4, 2, 12);
 data.setValue(5, 0, 'v2.1');
-data.setValue(5, 1, 77);
+data.setValue(5, 1, 74);
 data.setValue(5, 2, 34);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('totals_by_versions')).
@@ -145,7 +145,7 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 186 Downloads (last auto. update: Fri Jan  7 14:42:08 2011)</title>
+<section><title>Total: 177 Downloads (last auto. update: Fri Jan  7 14:51:29 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="chart_countries" /><my_chart name="bar_chart_countries" /></para>
@@ -161,7 +161,7 @@ google.setOnLoadCallback(drawVisualization);
 <section><title>Detailed by versions</title>
 <para>
 <screen>
-PoD-3.1-Source                          : 4
+PoD-3.1-Source                          : 3
 PoD-3.0.86.g5c5e-Source                 : 2
 PoD-3.0.77.g1335-Source                 : 1
 PoD-3.0.75.g7311-Source                 : 1
@@ -174,7 +174,7 @@ PoD-3.0.37.ge7be-Source                 : 1
 PoD-3.0.36.g1f3d-Source                 : 2
 PoD-3.0.25.geaa77-Source                : 1
 PoD-3.0.15.g54ea-Source                 : 1
-PoD-2.4.1.g0230-Source                  : 20
+PoD-2.4.1.g0230-Source                  : 16
 PoD-2.4.1.g0230-GSI-etch32-bin          : 6
 PoD-2.4-Source                          : 1
 PoD-2.3.90.g42a8-Source                 : 1
@@ -192,7 +192,7 @@ PoD-2.3-GSI-etch32-bin                  : 7
 PoD-2.2.6.g5233-Source                  : 1
 PoD-2.2.3.g8447-Source                  : 1
 PoD-2.2-Source                          : 9
-PoD-2.2-GSI-etch32-bin                  : 6
+PoD-2.2-GSI-etch32-bin                  : 5
 PoD-2.1.4.1272.ga5a7-Source             : 3
 PoD-2.1.4.1242.gf5d9-Source             : 2
 PoD-2.1.4.1237.gddd8-Source             : 3
@@ -210,7 +210,7 @@ PoD-2.1.4.1174.g3300-GSI-etch32-bin     : 1
 PoD-2.1.4.1167.g6a3e-GSI-etch32-bin     : 1
 PoD-2.1.4.1166.g42ab-GSI-etch32-bin     : 1
 PoD-2.1.4-Source                        : 13
-PoD-2.1.4-GSI-etch32-bin                : 42
+PoD-2.1.4-GSI-etch32-bin                : 39
 </screen>
 </para>
 </section>
