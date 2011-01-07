@@ -23,9 +23,33 @@ function drawVisualization() {
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Country');
     data.addColumn('number', 'Download');
-data.addRows(1);
+data.addRows(13);
 data.setValue(0, 0, 'Germany');
-data.setValue(0, 1, 6);
+data.setValue(0, 1, 104);
+data.setValue(1, 0, 'Switzerland');
+data.setValue(1, 1, 22);
+data.setValue(2, 0, 'United States of America');
+data.setValue(2, 1, 9);
+data.setValue(3, 0, 'Spain');
+data.setValue(3, 1, 8);
+data.setValue(4, 0, '??');
+data.setValue(4, 1, 7);
+data.setValue(5, 0, 'France');
+data.setValue(5, 1, 7);
+data.setValue(6, 0, 'China');
+data.setValue(6, 1, 6);
+data.setValue(7, 0, 'Russian Federation');
+data.setValue(7, 1, 6);
+data.setValue(8, 0, 'Slovak Republic');
+data.setValue(8, 1, 6);
+data.setValue(9, 0, 'Denmark');
+data.setValue(9, 1, 5);
+data.setValue(10, 0, 'Italy');
+data.setValue(10, 1, 2);
+data.setValue(11, 0, 'Netherlands');
+data.setValue(11, 1, 2);
+data.setValue(12, 0, 'Taiwan');
+data.setValue(12, 1, 1);
 // Create and draw the visualization.
 new google.visualization.PieChart(document.getElementById('chart_countries')).
 draw(data, {width: 700, height: 500, title:"Downloads by Country"});
@@ -64,10 +88,14 @@ data.setValue(8, 0 , 'Sep.');
 data.setValue(9, 0 , 'Okt.');
 data.setValue(10, 0 , 'Nov.');
 data.setValue(11, 0 , 'Dec.');
-data.setValue(8, 1, 2);
-data.setValue(10, 1, 2);
-data.setValue(11, 1, 1);
-data.setValue(0, 2, 1);
+data.setValue(5, 1, 11);
+data.setValue(6, 1, 8);
+data.setValue(7, 1, 18);
+data.setValue(8, 1, 54);
+data.setValue(9, 1, 36);
+data.setValue(10, 1, 34);
+data.setValue(11, 1, 18);
+data.setValue(0, 2, 6);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -88,19 +116,25 @@ function drawVisualization() {
     data.addColumn('string', 'Version');
     data.addColumn('number', 'IP addresses');
     data.addColumn('number', 'Unique IP addresses');
-data.addRows(4);
-data.setValue(0, 0, 'vPoD-3.0');
-data.setValue(0, 1, 1);
-data.setValue(0, 2, 1);
-data.setValue(1, 0, 'v3.1');
-data.setValue(1, 1, 1);
-data.setValue(1, 2, 1);
-data.setValue(2, 0, 'v3.0');
-data.setValue(2, 1, 2);
-data.setValue(2, 2, 1);
-data.setValue(3, 0, 'v2.1');
-data.setValue(3, 1, 2);
-data.setValue(3, 2, 1);
+data.addRows(6);
+data.setValue(0, 0, 'v3.1');
+data.setValue(0, 1, 3);
+data.setValue(0, 2, 2);
+data.setValue(1, 0, 'v3.0');
+data.setValue(1, 1, 18);
+data.setValue(1, 2, 11);
+data.setValue(2, 0, 'v2.4');
+data.setValue(2, 1, 27);
+data.setValue(2, 2, 15);
+data.setValue(3, 0, 'v2.3');
+data.setValue(3, 1, 43);
+data.setValue(3, 2, 34);
+data.setValue(4, 0, 'v2.2');
+data.setValue(4, 1, 17);
+data.setValue(4, 2, 12);
+data.setValue(5, 0, 'v2.1');
+data.setValue(5, 1, 77);
+data.setValue(5, 2, 34);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('totals_by_versions')).
 draw(data, {reverseCategories: 'true',
@@ -111,7 +145,7 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 6 Downloads (last auto. update: Fri Jan  7 14:55:46 2011)</title>
+<section><title>Total: 185 Downloads (last auto. update: Fri Jan  7 14:57:19 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="chart_countries" /><my_chart name="bar_chart_countries" /></para>
@@ -127,11 +161,56 @@ google.setOnLoadCallback(drawVisualization);
 <section><title>Detailed by versions</title>
 <para>
 <screen>
-PoD-PoD-3.0.37.ge7be-Source             : 1
-PoD-3.1-Source                          : 1
+PoD-3.1-Source                          : 3
+PoD-3.0.86.g5c5e-Source                 : 2
+PoD-3.0.77.g1335-Source                 : 1
+PoD-3.0.75.g7311-Source                 : 1
+PoD-3.0.70.g9078c-Source                : 3
 PoD-3.0.66.g83090-Source                : 1
+PoD-3.0.51.g090ef-Source                : 1
+PoD-3.0.46.g1460-Source                 : 1
+PoD-3.0.38.g6c39-Source                 : 3
 PoD-3.0.37.ge7be-Source                 : 1
-PoD-2.1.4-GSI-etch32-bin                : 2
+PoD-3.0.36.g1f3d-Source                 : 2
+PoD-3.0.25.geaa77-Source                : 1
+PoD-3.0.15.g54ea-Source                 : 1
+PoD-2.4.1.g0230-Source                  : 20
+PoD-2.4.1.g0230-GSI-etch32-bin          : 6
+PoD-2.4-Source                          : 1
+PoD-2.3.90.g42a8-Source                 : 1
+PoD-2.3.48.g79aa-Source                 : 3
+PoD-2.3.47.gacc2-Source                 : 1
+PoD-2.3.47.gacc2-GSI-etch32-bin         : 1
+PoD-2.3.43.gb2f8-Source                 : 1
+PoD-2.3.3.g4844-Source                  : 3
+PoD-2.3.28.g776b-Source                 : 1
+PoD-2.3.28.g776b-GSI-etch32-bin         : 1
+PoD-2.3.20.gf1d9-GSI-etch32-bin         : 1
+PoD-2.3.115.g719f-Source                : 1
+PoD-2.3-Source                          : 22
+PoD-2.3-GSI-etch32-bin                  : 7
+PoD-2.2.6.g5233-Source                  : 1
+PoD-2.2.3.g8447-Source                  : 1
+PoD-2.2-Source                          : 9
+PoD-2.2-GSI-etch32-bin                  : 6
+PoD-2.1.4.1272.ga5a7-Source             : 3
+PoD-2.1.4.1242.gf5d9-Source             : 2
+PoD-2.1.4.1237.gddd8-Source             : 3
+PoD-2.1.4.1226.g01b69-Source            : 1
+PoD-2.1.4.1226.g01b69-GSI-etch32-bin    : 2
+PoD-2.1.4.1223.g0259-GSI-etch32-bin     : 1
+PoD-2.1.4.1214.g0ccb-GSI-etch32-bin     : 1
+PoD-2.1.4.1212.g2944-GSI-etch32-bin     : 1
+PoD-2.1.4.1183.g41d8-GSI-etch32-bin     : 1
+PoD-2.1.4.1180.g5cf3-GSI-etch32-bin     : 1
+PoD-2.1.4.1178.g5144-GSI-etch32-bin     : 1
+PoD-2.1.4.1176.g454a-GSI-etch32-bin     : 1
+PoD-2.1.4.1175.g4fcf-GSI-etch32-bin     : 1
+PoD-2.1.4.1174.g3300-GSI-etch32-bin     : 1
+PoD-2.1.4.1167.g6a3e-GSI-etch32-bin     : 1
+PoD-2.1.4.1166.g42ab-GSI-etch32-bin     : 1
+PoD-2.1.4-Source                        : 13
+PoD-2.1.4-GSI-etch32-bin                : 42
 </screen>
 </para>
 </section>
