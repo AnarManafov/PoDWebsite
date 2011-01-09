@@ -36,9 +36,9 @@ data.setValue(4, 0, '??');
 data.setValue(4, 1, 7);
 data.setValue(5, 0, 'France');
 data.setValue(5, 1, 7);
-data.setValue(6, 0, 'China');
-data.setValue(6, 1, 6);
-data.setValue(7, 0, 'Russian Federation');
+data.setValue(6, 0, 'Russian Federation');
+data.setValue(6, 1, 7);
+data.setValue(7, 0, 'China');
 data.setValue(7, 1, 6);
 data.setValue(8, 0, 'Slovak Republic');
 data.setValue(8, 1, 6);
@@ -95,7 +95,7 @@ data.setValue(8, 1, 54);
 data.setValue(9, 1, 36);
 data.setValue(10, 1, 34);
 data.setValue(11, 1, 18);
-data.setValue(0, 2, 6);
+data.setValue(0, 2, 7);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -116,25 +116,28 @@ function drawVisualization() {
     data.addColumn('string', 'Version');
     data.addColumn('number', 'IP addresses');
     data.addColumn('number', 'Unique IP addresses');
-data.addRows(6);
-data.setValue(0, 0, 'v3.1');
-data.setValue(0, 1, 3);
-data.setValue(0, 2, 2);
-data.setValue(1, 0, 'v3.0');
-data.setValue(1, 1, 18);
-data.setValue(1, 2, 11);
-data.setValue(2, 0, 'v2.4');
-data.setValue(2, 1, 27);
-data.setValue(2, 2, 15);
-data.setValue(3, 0, 'v2.3');
-data.setValue(3, 1, 43);
-data.setValue(3, 2, 34);
-data.setValue(4, 0, 'v2.2');
-data.setValue(4, 1, 17);
-data.setValue(4, 2, 12);
-data.setValue(5, 0, 'v2.1');
-data.setValue(5, 1, 77);
-data.setValue(5, 2, 34);
+data.addRows(7);
+data.setValue(0, 0, 'v3.2');
+data.setValue(0, 1, 1);
+data.setValue(0, 2, 1);
+data.setValue(1, 0, 'v3.1');
+data.setValue(1, 1, 3);
+data.setValue(1, 2, 2);
+data.setValue(2, 0, 'v3.0');
+data.setValue(2, 1, 18);
+data.setValue(2, 2, 11);
+data.setValue(3, 0, 'v2.4');
+data.setValue(3, 1, 27);
+data.setValue(3, 2, 15);
+data.setValue(4, 0, 'v2.3');
+data.setValue(4, 1, 43);
+data.setValue(4, 2, 34);
+data.setValue(5, 0, 'v2.2');
+data.setValue(5, 1, 17);
+data.setValue(5, 2, 12);
+data.setValue(6, 0, 'v2.1');
+data.setValue(6, 1, 77);
+data.setValue(6, 2, 34);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('totals_by_versions')).
 draw(data, {reverseCategories: 'true',
@@ -145,7 +148,7 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 185 Downloads (last auto. update: Sat Jan  8 23:00:03 2011)</title>
+<section><title>Total: 186 Downloads (last auto. update: Sun Jan  9 23:00:10 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="chart_countries" /><my_chart name="bar_chart_countries" /></para>
@@ -161,6 +164,7 @@ google.setOnLoadCallback(drawVisualization);
 <section><title>Detailed by versions</title>
 <para>
 <screen>
+PoD-3.2-Source                          : 1
 PoD-3.1-Source                          : 3
 PoD-3.0.86.g5c5e-Source                 : 2
 PoD-3.0.77.g1335-Source                 : 1
