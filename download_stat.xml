@@ -32,20 +32,20 @@ data.setValue(2, 0, 'United States of America');
 data.setValue(2, 1, 9);
 data.setValue(3, 0, 'Spain');
 data.setValue(3, 1, 8);
-data.setValue(4, 0, '??');
-data.setValue(4, 1, 7);
-data.setValue(5, 0, 'France');
+data.setValue(4, 0, 'France');
+data.setValue(4, 1, 8);
+data.setValue(5, 0, '??');
 data.setValue(5, 1, 7);
-data.setValue(6, 0, 'Russian Federation');
+data.setValue(6, 0, 'Italy');
 data.setValue(6, 1, 7);
-data.setValue(7, 0, 'China');
-data.setValue(7, 1, 6);
-data.setValue(8, 0, 'Slovak Republic');
+data.setValue(7, 0, 'Russian Federation');
+data.setValue(7, 1, 7);
+data.setValue(8, 0, 'China');
 data.setValue(8, 1, 6);
-data.setValue(9, 0, 'Denmark');
-data.setValue(9, 1, 5);
-data.setValue(10, 0, 'Italy');
-data.setValue(10, 1, 2);
+data.setValue(9, 0, 'Slovak Republic');
+data.setValue(9, 1, 6);
+data.setValue(10, 0, 'Denmark');
+data.setValue(10, 1, 5);
 data.setValue(11, 0, 'Netherlands');
 data.setValue(11, 1, 2);
 data.setValue(12, 0, 'Taiwan');
@@ -95,7 +95,7 @@ data.setValue(8, 1, 54);
 data.setValue(9, 1, 36);
 data.setValue(10, 1, 34);
 data.setValue(11, 1, 18);
-data.setValue(0, 2, 7);
+data.setValue(0, 2, 13);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -121,8 +121,8 @@ data.setValue(0, 0, 'v3.2');
 data.setValue(0, 1, 1);
 data.setValue(0, 2, 1);
 data.setValue(1, 0, 'v3.1');
-data.setValue(1, 1, 3);
-data.setValue(1, 2, 2);
+data.setValue(1, 1, 9);
+data.setValue(1, 2, 6);
 data.setValue(2, 0, 'v3.0');
 data.setValue(2, 1, 18);
 data.setValue(2, 2, 11);
@@ -148,7 +148,7 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 186 Downloads (last auto. update: Tue Jan 11 23:00:02 2011)</title>
+<section><title>Total: 192 Downloads (last auto. update: Wed Jan 12 23:03:26 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="chart_countries" /><my_chart name="bar_chart_countries" /></para>
@@ -165,7 +165,7 @@ google.setOnLoadCallback(drawVisualization);
 <para>
 <screen>
 PoD-3.2-Source                          : 1
-PoD-3.1-Source                          : 3
+PoD-3.1-Source                          : 9
 PoD-3.0.86.g5c5e-Source                 : 2
 PoD-3.0.77.g1335-Source                 : 1
 PoD-3.0.75.g7311-Source                 : 1
