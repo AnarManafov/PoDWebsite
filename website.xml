@@ -99,6 +99,14 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
         <title>What's New</title>
         <variablelist>
 
+            <varlistentry><term>2011-01-13</term>
+                <listitem>
+                    <para> PoD v3.1.3 was <olink targetdocent="download.xml">released</olink>.
+                    It is a patch release for PoD 3.1.
+                    See <ulink url="http://proof-on-demand.blogspot.com/2011/01/pod-313.html">the blog post</ulink> for more information.</para>
+                </listitem>
+            </varlistentry>
+
             <varlistentry><term>2011-01-07</term>
                 <listitem>
                     <para> PoD v3.1 was <olink targetdocent="download.xml">released</olink>.</para>
