@@ -148,7 +148,7 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 193 Downloads (last auto. update: Fri Jan 14 23:00:13 2011)</title>
+<section><title>Total: 193 Downloads (last auto. update: Sat Jan 15 23:00:08 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="chart_countries" /><my_chart name="bar_chart_countries" /></para>
