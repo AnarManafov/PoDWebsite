@@ -23,7 +23,7 @@ function drawVisualization() {
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Country');
     data.addColumn('number', 'Download');
-data.addRows(13);
+data.addRows(14);
 data.setValue(0, 0, 'Germany');
 data.setValue(0, 1, 105);
 data.setValue(1, 0, 'Switzerland');
@@ -48,8 +48,10 @@ data.setValue(10, 0, 'Denmark');
 data.setValue(10, 1, 5);
 data.setValue(11, 0, 'Netherlands');
 data.setValue(11, 1, 2);
-data.setValue(12, 0, 'Taiwan');
+data.setValue(12, 0, 'Finland');
 data.setValue(12, 1, 1);
+data.setValue(13, 0, 'Taiwan');
+data.setValue(13, 1, 1);
 // Create and draw the visualization.
 new google.visualization.PieChart(document.getElementById('chart_countries')).
 draw(data, {width: 700, height: 500, title:"Downloads by Country"});
@@ -95,7 +97,7 @@ data.setValue(8, 1, 54);
 data.setValue(9, 1, 36);
 data.setValue(10, 1, 34);
 data.setValue(11, 1, 18);
-data.setValue(0, 2, 15);
+data.setValue(0, 2, 16);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -121,8 +123,8 @@ data.setValue(0, 0, 'v3.2');
 data.setValue(0, 1, 1);
 data.setValue(0, 2, 1);
 data.setValue(1, 0, 'v3.1');
-data.setValue(1, 1, 11);
-data.setValue(1, 2, 8);
+data.setValue(1, 1, 12);
+data.setValue(1, 2, 9);
 data.setValue(2, 0, 'v3.0');
 data.setValue(2, 1, 18);
 data.setValue(2, 2, 11);
@@ -148,7 +150,7 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 194 Downloads (last auto. update: Tue Jan 25 07:40:44 2011)</title>
+<section><title>Total: 195 Downloads (last auto. update: Tue Jan 25 23:00:49 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="chart_countries" /><my_chart name="bar_chart_countries" /></para>
@@ -165,7 +167,7 @@ google.setOnLoadCallback(drawVisualization);
 <para>
 <screen>
 PoD-3.2-Source                          : 1
-PoD-3.1.3.gb8fc2-Source                 : 2
+PoD-3.1.3.gb8fc2-Source                 : 3
 PoD-3.1-Source                          : 9
 PoD-3.0.86.g5c5e-Source                 : 2
 PoD-3.0.77.g1335-Source                 : 1
