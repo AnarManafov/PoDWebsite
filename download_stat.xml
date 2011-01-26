@@ -25,7 +25,7 @@ function drawVisualization() {
     data.addColumn('number', 'Download');
 data.addRows(14);
 data.setValue(0, 0, 'Germany');
-data.setValue(0, 1, 105);
+data.setValue(0, 1, 106);
 data.setValue(1, 0, 'Switzerland');
 data.setValue(1, 1, 22);
 data.setValue(2, 0, 'United States of America');
@@ -97,7 +97,7 @@ data.setValue(8, 1, 54);
 data.setValue(9, 1, 36);
 data.setValue(10, 1, 34);
 data.setValue(11, 1, 18);
-data.setValue(0, 2, 16);
+data.setValue(0, 2, 17);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -120,8 +120,8 @@ function drawVisualization() {
     data.addColumn('number', 'Unique IP addresses');
 data.addRows(7);
 data.setValue(0, 0, 'v3.2');
-data.setValue(0, 1, 1);
-data.setValue(0, 2, 1);
+data.setValue(0, 1, 2);
+data.setValue(0, 2, 2);
 data.setValue(1, 0, 'v3.1');
 data.setValue(1, 1, 12);
 data.setValue(1, 2, 9);
@@ -150,7 +150,7 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 195 Downloads (last auto. update: Tue Jan 25 23:00:49 2011)</title>
+<section><title>Total: 196 Downloads (last auto. update: Wed Jan 26 23:00:03 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="chart_countries" /><my_chart name="bar_chart_countries" /></para>
@@ -166,6 +166,7 @@ google.setOnLoadCallback(drawVisualization);
 <section><title>Detailed by versions</title>
 <para>
 <screen>
+PoD-3.2.32.g9bfe-Source                 : 1
 PoD-3.2-Source                          : 1
 PoD-3.1.3.gb8fc2-Source                 : 3
 PoD-3.1-Source                          : 9
