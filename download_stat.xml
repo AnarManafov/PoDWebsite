@@ -23,11 +23,11 @@ function drawVisualization() {
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Country');
     data.addColumn('number', 'Download');
-data.addRows(14);
+data.addRows(15);
 data.setValue(0, 0, 'Germany');
 data.setValue(0, 1, 106);
 data.setValue(1, 0, 'Switzerland');
-data.setValue(1, 1, 22);
+data.setValue(1, 1, 23);
 data.setValue(2, 0, 'United States of America');
 data.setValue(2, 1, 10);
 data.setValue(3, 0, 'Spain');
@@ -50,8 +50,10 @@ data.setValue(11, 0, 'Finland');
 data.setValue(11, 1, 2);
 data.setValue(12, 0, 'Netherlands');
 data.setValue(12, 1, 2);
-data.setValue(13, 0, 'Taiwan');
+data.setValue(13, 0, '???');
 data.setValue(13, 1, 1);
+data.setValue(14, 0, 'Taiwan');
+data.setValue(14, 1, 1);
 // Create and draw the visualization.
 new google.visualization.PieChart(document.getElementById('chart_countries')).
 draw(data, {width: 700, height: 500, title:"Downloads by Country"});
@@ -97,7 +99,7 @@ data.setValue(8, 1, 54);
 data.setValue(9, 1, 36);
 data.setValue(10, 1, 34);
 data.setValue(11, 1, 18);
-data.setValue(0, 2, 20);
+data.setValue(0, 2, 22);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -133,7 +135,7 @@ data.setCell(5, 1, 161);
 data.setCell(6, 0, 'Dec., 2010');
 data.setCell(6, 1, 179);
 data.setCell(7, 0, 'Jan., 2011');
-data.setCell(7, 1, 199);
+data.setCell(7, 1, 201);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('accumulativeDownloads')).
 draw(data, {interpolateNulls: 'true',
@@ -159,8 +161,8 @@ data.setValue(0, 0, 'v3.2');
 data.setValue(0, 1, 2);
 data.setValue(0, 2, 2);
 data.setValue(1, 0, 'v3.1');
-data.setValue(1, 1, 15);
-data.setValue(1, 2, 12);
+data.setValue(1, 1, 17);
+data.setValue(1, 2, 14);
 data.setValue(2, 0, 'v3.0');
 data.setValue(2, 1, 18);
 data.setValue(2, 2, 11);
@@ -186,7 +188,7 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 199 Downloads (last auto. update: Thu Jan 27 23:00:14 2011)</title>
+<section><title>Total: 201 Downloads (last auto. update: Fri Jan 28 23:00:03 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="accumulativeDownloads" /></para>
@@ -208,7 +210,7 @@ google.setOnLoadCallback(drawVisualization);
 <screen>
 PoD-3.2.32.g9bfe-Source                 : 1
 PoD-3.2-Source                          : 1
-PoD-3.1.3.gb8fc2-Source                 : 6
+PoD-3.1.3.gb8fc2-Source                 : 8
 PoD-3.1-Source                          : 9
 PoD-3.0.86.g5c5e-Source                 : 2
 PoD-3.0.77.g1335-Source                 : 1
