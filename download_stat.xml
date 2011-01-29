@@ -32,9 +32,9 @@ data.setValue(2, 0, 'United States of America');
 data.setValue(2, 1, 10);
 data.setValue(3, 0, 'Spain');
 data.setValue(3, 1, 9);
-data.setValue(4, 0, 'France');
-data.setValue(4, 1, 8);
-data.setValue(5, 0, 'Russian Federation');
+data.setValue(4, 0, 'Russian Federation');
+data.setValue(4, 1, 9);
+data.setValue(5, 0, 'France');
 data.setValue(5, 1, 8);
 data.setValue(6, 0, '??');
 data.setValue(6, 1, 7);
@@ -97,7 +97,7 @@ data.setValue(8, 1, 54);
 data.setValue(9, 1, 36);
 data.setValue(10, 1, 34);
 data.setValue(11, 1, 18);
-data.setValue(0, 2, 22);
+data.setValue(0, 2, 23);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -133,7 +133,7 @@ data.setCell(5, 1, 161);
 data.setCell(6, 0, 'Dec., 2010');
 data.setCell(6, 1, 179);
 data.setCell(7, 0, 'Jan., 2011');
-data.setCell(7, 1, 201);
+data.setCell(7, 1, 202);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('accumulativeDownloads')).
 draw(data, {interpolateNulls: 'true',
@@ -159,7 +159,7 @@ data.setValue(0, 0, 'v3.2');
 data.setValue(0, 1, 2);
 data.setValue(0, 2, 2);
 data.setValue(1, 0, 'v3.1');
-data.setValue(1, 1, 17);
+data.setValue(1, 1, 18);
 data.setValue(1, 2, 14);
 data.setValue(2, 0, 'v3.0');
 data.setValue(2, 1, 18);
@@ -186,7 +186,7 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 201 Downloads (last auto. update: Fri Jan 28 23:40:29 2011)</title>
+<section><title>Total: 202 Downloads (last auto. update: Sat Jan 29 23:00:03 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="accumulativeDownloads" /></para>
@@ -208,7 +208,7 @@ google.setOnLoadCallback(drawVisualization);
 <screen>
 PoD-3.2.32.g9bfe-Source                 : 1
 PoD-3.2-Source                          : 1
-PoD-3.1.3.gb8fc2-Source                 : 8
+PoD-3.1.3.gb8fc2-Source                 : 9
 PoD-3.1-Source                          : 9
 PoD-3.0.86.g5c5e-Source                 : 2
 PoD-3.0.77.g1335-Source                 : 1
