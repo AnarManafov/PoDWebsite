@@ -66,6 +66,13 @@ draw(data,
 }
 google.setOnLoadCallback(drawVisualization);
 </script>
+111:1
+111:1
+111:1
+111:1
+111:1
+111:1
+111:1
 <script type="text/javascript" src="http://www.google.com/jsapi"></script>
 <script type="text/javascript">
 google.load('visualization', '1', {packages: ['corechart']});
@@ -187,7 +194,7 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 204 Downloads (last auto. update: Fri Feb  4 07:09:53 2011)</title>
+<section><title>Total: 204 Downloads (last auto. update: Fri Feb  4 07:12:35 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="accumulativeDownloads" /></para>
