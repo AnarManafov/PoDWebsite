@@ -66,13 +66,6 @@ draw(data,
 }
 google.setOnLoadCallback(drawVisualization);
 </script>
-111:1
-111:1
-111:1
-111:1
-111:1
-111:1
-111:1
 <script type="text/javascript" src="http://www.google.com/jsapi"></script>
 <script type="text/javascript">
 google.load('visualization', '1', {packages: ['corechart']});
@@ -125,7 +118,7 @@ function drawVisualization() {
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Date');
     data.addColumn('number', 'Downloads');
-data.addRows(8);
+data.addRows(9);
 data.setCell(0, 0, 'Jun., 2010');
 data.setCell(0, 1, 11);
 data.setCell(1, 0, 'Jul., 2010');
@@ -142,6 +135,8 @@ data.setCell(6, 0, 'Dec., 2010');
 data.setCell(6, 1, 179);
 data.setCell(7, 0, 'Jan., 2011');
 data.setCell(7, 1, 203);
+data.setCell(8, 0, 'Feb., 2011');
+data.setCell(8, 1, 204);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('accumulativeDownloads')).
 draw(data, {interpolateNulls: 'true',
@@ -194,7 +189,7 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 204 Downloads (last auto. update: Fri Feb  4 07:12:35 2011)</title>
+<section><title>Total: 204 Downloads (last auto. update: Fri Feb  4 07:41:41 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="accumulativeDownloads" /></para>
