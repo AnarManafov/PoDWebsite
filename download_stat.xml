@@ -29,9 +29,9 @@ data.setValue(0, 1, 108);
 data.setValue(1, 0, 'Switzerland');
 data.setValue(1, 1, 23);
 data.setValue(2, 0, 'Russian Federation');
-data.setValue(2, 1, 11);
+data.setValue(2, 1, 12);
 data.setValue(3, 0, 'United States of America');
-data.setValue(3, 1, 10);
+data.setValue(3, 1, 12);
 data.setValue(4, 0, 'Spain');
 data.setValue(4, 1, 9);
 data.setValue(5, 0, 'France');
@@ -100,7 +100,7 @@ data.setValue(9, 1, 36);
 data.setValue(10, 1, 34);
 data.setValue(11, 1, 18);
 data.setValue(0, 2, 24);
-data.setValue(1, 2, 6);
+data.setValue(1, 2, 9);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -138,7 +138,7 @@ data.setCell(6, 1, 179);
 data.setCell(7, 0, 'Jan., 2011');
 data.setCell(7, 1, 203);
 data.setCell(8, 0, 'Feb., 2011');
-data.setCell(8, 1, 209);
+data.setCell(8, 1, 212);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('accumulativeDownloads')).
 draw(data, {interpolateNulls: 'true',
@@ -161,11 +161,11 @@ function drawVisualization() {
     data.addColumn('number', 'Unique IP addresses');
 data.addRows(7);
 data.setValue(0, 0, 'v3.2');
-data.setValue(0, 1, 5);
-data.setValue(0, 2, 3);
+data.setValue(0, 1, 6);
+data.setValue(0, 2, 4);
 data.setValue(1, 0, 'v3.1');
-data.setValue(1, 1, 21);
-data.setValue(1, 2, 16);
+data.setValue(1, 1, 23);
+data.setValue(1, 2, 17);
 data.setValue(2, 0, 'v3.0');
 data.setValue(2, 1, 18);
 data.setValue(2, 2, 11);
@@ -191,7 +191,7 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 209 Downloads (last auto. update: Mon Feb  7 23:00:06 2011)</title>
+<section><title>Total: 212 Downloads (last auto. update: Tue Feb  8 23:00:11 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="accumulativeDownloads" /></para>
@@ -211,12 +211,13 @@ google.setOnLoadCallback(drawVisualization);
 <section><title>Detailed by versions</title>
 <para>
 <screen>
+PoD-3.2.57.gedc7-Source                 : 1
 PoD-3.2.56.g1596-Source                 : 1
 PoD-3.2.51.gbd77-Source                 : 1
 PoD-3.2.35.g2c37-Source                 : 1
 PoD-3.2.32.g9bfe-Source                 : 1
 PoD-3.2-Source                          : 1
-PoD-3.1.3.gb8fc2-Source                 : 12
+PoD-3.1.3.gb8fc2-Source                 : 14
 PoD-3.1-Source                          : 9
 PoD-3.0.86.g5c5e-Source                 : 2
 PoD-3.0.77.g1335-Source                 : 1
