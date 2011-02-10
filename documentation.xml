@@ -14,28 +14,35 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
 
     <table>
 		<title></title>
-  		<tgroup cols="2">
+  		<tgroup cols="3">
     		<thead>
                 <row>
+                    <entry>Name</entry>
                     <entry>Link</entry>
                     <entry>Description</entry>
                 </row>
     		</thead>
     		<tbody>
       	        <row>
-                    <entry><ulink url="http://www-linux.gsi.de/%7Emanafov/D-Grid/docz/PoD/html/">User's Manual (Nightly build)</ulink></entry>
+                    <entry>User's Manual (Nightly build)</entry>
+                     <entry><ulink url="http://www-linux.gsi.de/%7Emanafov/D-Grid/docz/PoD/html/html_help/index.html">HTML</ulink>, 
+                            <ulink url="http://www-linux.gsi.de/%7Emanafov/D-Grid/docz/PoD/html/html_help/PoD.pdf">PDF</ulink>,
+                            <ulink url="http://www-linux.gsi.de/%7Emanafov/D-Grid/docz/PoD/html/html_help/PoD.ps">PS</ulink> </entry>
                     <entry>User's manual of the latest development PoD version, which is build nightly.</entry>
                 </row>
                 <row>
-                    <entry><ulink url="http://pod.gsi.de/doc/3.1/index.html">User's Manual (v3.1)</ulink></entry>
+                    <entry>User's Manual (v3.1)</entry>
+                    <entry><ulink url="http://pod.gsi.de/doc/3.1/index.html">HTML</ulink></entry>
                     <entry>User's manual of the stable PoD v3.1.</entry>
                 </row>
                 <row>
+                    <entry>User's Manual (v2.4)</entry>
                     <entry><ulink url="http://pod.gsi.de/doc/2.4/index.html">User's Manual (v2.4)</ulink></entry>
                     <entry>User's manual of the stable PoD v2.4.</entry>
                 </row>
                 <row>
-                    <entry><ulink url="http://pod.gsi.de/doc/api-docs/index.html">Private API Documentation</ulink></entry>
+                    <entry>Private API Documentation</entry>
+                    <entry><ulink url="http://pod.gsi.de/doc/api-docs/index.html">link</ulink></entry>
                     <entry>A source code documentation of all PoD submodules.</entry>    
                 </row>
             </tbody>
