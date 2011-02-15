@@ -191,7 +191,7 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 218 Downloads (last auto. update: Mon Feb 14 22:00:03 2011)</title>
+<section><title>Total: 218 Downloads (last auto. update: Tue Feb 15 22:00:03 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="accumulativeDownloads" /></para>
