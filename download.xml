@@ -59,11 +59,11 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
                 <tbody>
                     
                     <row>
-                        <entry><ulink url="http://pod.gsi.de/releases/pod/nightly/PoD-3.2.61.geeb0-Source.tar.gz">Source tarball (3.3MB)</ulink></entry>
-                        <entry>3.2.61.geeb0</entry>
-                        <entry>2011-02-10</entry>
+                        <entry><ulink url="http://pod.gsi.de/releases/pod/nightly/PoD-3.2.72.g532fe-Source.tar.gz">Source tarball (3.3MB)</ulink></entry>
+                        <entry>3.2.72.g532fe</entry>
+                        <entry>2011-02-16</entry>
                         <entry><ulink url="http://www-linux.gsi.de/%7Emanafov/D-Grid/docz/PoD/html/html_help/Requirements.html">requirements</ulink></entry>
-                        <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=edc703f5c0099506bd1b441beda12058f318dcf8">ReleaseNotes</ulink></entry>
+                        <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=532fef2192d936266f3544a5aeb92caeb39de81d">ReleaseNotes</ulink></entry>
                         <entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>        
                     </row>
 
