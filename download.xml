@@ -57,7 +57,14 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
                     </row>
                 </thead>
                 <tbody>
-                    
+                    <row>
+                        <entry></entry>
+                        <entry></entry>
+                        <entry></entry>
+                        <entry></entry>
+                        <entry></entry>
+                        <entry></entry>        
+                    </row>
                 </tbody>
             </tgroup>
         </table>
