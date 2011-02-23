@@ -193,7 +193,7 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 234 Downloads (last auto. update: Wed Feb 23 10:57:18 2011)</title>
+<section><title>Total: 234 Downloads (last auto. update: Wed Feb 23 11:00:26 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="accumulativeDownloads" /></para>
@@ -212,65 +212,5 @@ google.setOnLoadCallback(drawVisualization);
 </section>
 
 Detailed by versions:
-PoD-3.2.75.gf680f7c-Source              : 2
-PoD-3.2.61.geeb0-Source                 : 3
-PoD-3.2.58.g618f-Source                 : 2
-PoD-3.2.57.gedc7-Source                 : 1
-PoD-3.2.56.g1596-Source                 : 1
-PoD-3.2.51.gbd77-Source                 : 1
-PoD-3.2.35.g2c37-Source                 : 1
-PoD-3.2.32.g9bfe-Source                 : 1
-PoD-3.2-Source                          : 1
-PoD-3.1.3.gb8fc2-Source                 : 29
-PoD-3.1-Source                          : 9
-PoD-3.0.86.g5c5e-Source                 : 2
-PoD-3.0.77.g1335-Source                 : 1
-PoD-3.0.75.g7311-Source                 : 1
-PoD-3.0.70.g9078c-Source                : 3
-PoD-3.0.66.g83090-Source                : 1
-PoD-3.0.51.g090ef-Source                : 1
-PoD-3.0.46.g1460-Source                 : 1
-PoD-3.0.38.g6c39-Source                 : 3
-PoD-3.0.37.ge7be-Source                 : 1
-PoD-3.0.36.g1f3d-Source                 : 2
-PoD-3.0.25.geaa77-Source                : 1
-PoD-3.0.15.g54ea-Source                 : 1
-PoD-2.4.1.g0230-Source                  : 20
-PoD-2.4.1.g0230-GSI-etch32-bin          : 6
-PoD-2.4-Source                          : 1
-PoD-2.3.90.g42a8-Source                 : 1
-PoD-2.3.48.g79aa-Source                 : 3
-PoD-2.3.47.gacc2-Source                 : 1
-PoD-2.3.47.gacc2-GSI-etch32-bin         : 1
-PoD-2.3.43.gb2f8-Source                 : 1
-PoD-2.3.3.g4844-Source                  : 3
-PoD-2.3.28.g776b-Source                 : 1
-PoD-2.3.28.g776b-GSI-etch32-bin         : 1
-PoD-2.3.20.gf1d9-GSI-etch32-bin         : 1
-PoD-2.3.115.g719f-Source                : 1
-PoD-2.3-Source                          : 22
-PoD-2.3-GSI-etch32-bin                  : 7
-PoD-2.2.6.g5233-Source                  : 1
-PoD-2.2.3.g8447-Source                  : 1
-PoD-2.2-Source                          : 9
-PoD-2.2-GSI-etch32-bin                  : 6
-PoD-2.1.4.1272.ga5a7-Source             : 3
-PoD-2.1.4.1242.gf5d9-Source             : 2
-PoD-2.1.4.1237.gddd8-Source             : 3
-PoD-2.1.4.1226.g01b69-Source            : 1
-PoD-2.1.4.1226.g01b69-GSI-etch32-bin    : 2
-PoD-2.1.4.1223.g0259-GSI-etch32-bin     : 1
-PoD-2.1.4.1214.g0ccb-GSI-etch32-bin     : 1
-PoD-2.1.4.1212.g2944-GSI-etch32-bin     : 1
-PoD-2.1.4.1183.g41d8-GSI-etch32-bin     : 1
-PoD-2.1.4.1180.g5cf3-GSI-etch32-bin     : 1
-PoD-2.1.4.1178.g5144-GSI-etch32-bin     : 1
-PoD-2.1.4.1176.g454a-GSI-etch32-bin     : 1
-PoD-2.1.4.1175.g4fcf-GSI-etch32-bin     : 1
-PoD-2.1.4.1174.g3300-GSI-etch32-bin     : 1
-PoD-2.1.4.1167.g6a3e-GSI-etch32-bin     : 1
-PoD-2.1.4.1166.g42ab-GSI-etch32-bin     : 1
-PoD-2.1.4-Source                        : 13
-PoD-2.1.4-GSI-etch32-bin                : 43
 
 </webpage>
