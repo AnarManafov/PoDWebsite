@@ -193,7 +193,7 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 234 Downloads (last auto. update: Tue Feb 22 22:00:05 2011)</title>
+<section><title>Total: 234 Downloads (last auto. update: Wed Feb 23 10:57:18 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="accumulativeDownloads" /></para>
@@ -210,9 +210,8 @@ google.setOnLoadCallback(drawVisualization);
 <para>
 <my_chart name="totals_by_versions" /></para>
 </section>
-<section><title>Detailed by versions</title>
-<para>
-<screen>
+
+Detailed by versions:
 PoD-3.2.75.gf680f7c-Source              : 2
 PoD-3.2.61.geeb0-Source                 : 3
 PoD-3.2.58.g618f-Source                 : 2
@@ -273,9 +272,5 @@ PoD-2.1.4.1167.g6a3e-GSI-etch32-bin     : 1
 PoD-2.1.4.1166.g42ab-GSI-etch32-bin     : 1
 PoD-2.1.4-Source                        : 13
 PoD-2.1.4-GSI-etch32-bin                : 43
-</screen>
-</para>
-</section>
-</section>
 
 </webpage>
