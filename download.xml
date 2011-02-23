@@ -29,11 +29,11 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
                 <tbody>
                     
                     <row>
-                        <entry><ulink url="http://pod.gsi.de/releases/pod/3.1/PoD-3.1.3.gb8fc2-Source.tar.gz">Source tarball (3.8MB)</ulink></entry>
-                        <entry>3.1.3</entry>
-                        <entry>2011-01-13</entry>
-                        <entry><ulink url="http://pod.gsi.de/doc/3.1/html_help/Requirements.html">requirements</ulink></entry>
-                        <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=f0b5dcdd30154655b9c28c4aa1747650a12b38d8">ReleaseNotes</ulink></entry>
+                        <entry><ulink url="http://pod.gsi.de/releases/pod/3.4/PoD-3.4-Source.tar.gz">Source tarball (3.3MB)</ulink></entry>
+                        <entry>3.4</entry>
+                        <entry>2011-02-23</entry>
+                        <entry><ulink url="http://pod.gsi.de/doc/3.4/Requirements.html">requirements</ulink></entry>
+                        <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=81d9b2dec769ad06a4a21efbb9634afe0f82f378">ReleaseNotes</ulink></entry>
                         <entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>        
                     </row>
 
@@ -58,15 +58,6 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
                 </thead>
                 <tbody>
                     
-                    <row>
-                        <entry><ulink url="http://pod.gsi.de/releases/pod/nightly/PoD-3.2.78.gcb50-Source.tar.gz">Source tarball (3.3MB)</ulink></entry>
-                        <entry>3.2.78.gcb50</entry>
-                        <entry>2011-02-21</entry>
-                        <entry><ulink url="http://www-linux.gsi.de/%7Emanafov/D-Grid/docz/PoD/html/html_help/Requirements.html">requirements</ulink></entry>
-                        <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=cb50e16bd5e79d746a9c1b79801b7efe59ba15f7">ReleaseNotes</ulink></entry>
-                        <entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>        
-                    </row>
-
                 </tbody>
             </tgroup>
         </table>
