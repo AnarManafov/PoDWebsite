@@ -198,18 +198,18 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 241 Downloads (last auto. update: Tue Mar  1 14:35:04 2011)</title>
+<section><title>Total: 241 Downloads (last auto. update: Tue Mar  1 14:40:33 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="accumulativeDownloads" /></para>
 </section>
 <section><title></title>
 <para>
-<my_chart name="chart_countries" /><my_chart name="bar_chart_countries" /></para>
+<my_chart name="monthly_downloads" /></para>
 </section>
 <section><title></title>
 <para>
-<my_chart name="monthly_downloads" /></para>
+<my_chart name="chart_countries" /><my_chart name="bar_chart_countries" /></para>
 </section>
 <section><title></title>
 <para>
