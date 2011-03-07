@@ -70,8 +70,8 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
             <listitem><para><emphasis role="bold">Multiuser/-core environment</emphasis></para>
                 <para>
                     PoD implements automatic port mapping algorithms to properly handle cases when several users start PoD instances
-                    (servers/ workers) on the same machine. PoD also automatically manages situations when multiple PoD workers are started on the same node.
-                    Private PoD instances can’t disturb each other.
+                    (servers/workers) on the same machine. PoD also automatically manages situations when multiple PoD workers are started on the same node.
+                    Private PoD instances of different users can't disturb each other.
                 </para>
             </listitem>
             

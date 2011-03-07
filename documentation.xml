@@ -66,12 +66,13 @@ proof->SetParameter( "PROOF_MaxSlavesPerNode", (Long_t)100 );
             </listitem>
             <listitem>
                 <para>
-                    Automate your connection string by using the <command>pod-info</command> command:
+                    Automate your connection string by using the <ulink url="http://pod.gsi.de/doc/pro/pod-info.html">pod-info</ulink> command:
 <programlisting>
 TProof::Open(gSystem->GetFromPipe("pod-info -c"));
 </programlisting>
-                    This is needed, since PoD's automatic port mapping will time to time assign PROOF's server to a different ports. The <command>pod-info</command> command
-                    insures you that you always get the current connection string.
+                    This is needed, since PoD's automatic port mapping will time to time assign PROOF server to different ports. The 
+                    <ulink url="http://pod.gsi.de/doc/pro/pod-info.html">pod-info</ulink> command
+                    insures that you always get the current connection string.
                 </para>
             </listitem>
         </itemizedlist>
@@ -79,7 +80,7 @@ TProof::Open(gSystem->GetFromPipe("pod-info -c"));
 
         <section><title>PoD at GSI (Grid Engine)</title>
             <para>
-                For GSI users, who wants to use PoD with our new SGE cluster. You need to build a source package of PoD using the following environment.
+                For GSI users, who want to use PoD with our new SGE cluster. You need to build a source package of PoD using the following environment.
             </para>
 <screen>
 export LD_LIBRARY_PATH=$SGE_ROOT/lib/$SGE_ARCH/:$LD_LIBRARY_PATH
@@ -91,7 +92,7 @@ export LD_LIBRARY_PATH=/misc/manafov/Qt/4.4.2_lenny64/lib:$LD_LIBRARY_PATH
         
         <section><title>PoD at GSI (LSF)</title>
             <para>
-                User's at GSI can install PoD from a source package or they can use a central installation of PoD.
+                Users at GSI can install PoD from a source package or they can use a central installation of PoD.
                 To enable a central installation the following command must be issued. The command will
                 setup the environment for PoD and enable a given version (new, pro, or old).
             </para>
@@ -102,7 +103,7 @@ export LD_LIBRARY_PATH=/misc/manafov/Qt/4.4.2_lenny64/lib:$LD_LIBRARY_PATH
         
         <section><title>PoD at CERN's AFS</title>
             <para>
-                PoD has been tested and is used at CERN. The following environment settings could help to build PoD from the source in a CERN AFS directory on lxplus.cern.ch.
+                PoD has been tested and is used at CERN (with LSF, SGE, SSH plug-ins). The following environment settings could help to build PoD from the source in a CERN AFS directory on lxplus.cern.ch.
 <screen>
 # GCC
 . /afs/cern.ch/sw/lcg/contrib/gcc/4.3/x86_64-slc5/setup.sh
