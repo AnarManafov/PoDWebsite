@@ -54,9 +54,9 @@ data.setValue(13, 0, 'Finland');
 data.setValue(13, 1, 3);
 data.setValue(14, 0, 'Turkey');
 data.setValue(14, 1, 2);
-data.setValue(15, 0, 'Taiwan');
+data.setValue(15, 0, 'Romania');
 data.setValue(15, 1, 1);
-data.setValue(16, 0, 'ro');
+data.setValue(16, 0, 'Taiwan');
 data.setValue(16, 1, 1);
 // Create and draw the visualization.
 new google.visualization.PieChart(document.getElementById('chart_countries')).
@@ -201,7 +201,7 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 254 Downloads (last auto. update: Mon Mar 14 22:00:11 2011)</title>
+<section><title>Total: 254 Downloads (last auto. update: Tue Mar 15 13:10:11 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="accumulativeDownloads" /></para>
