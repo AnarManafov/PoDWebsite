@@ -137,6 +137,14 @@ export LD_LIBRARY_PATH=/afs/cern.ch/sw/lcg/external/qt/4.4.2/x86_64-slc5-gcc43-o
                     </thead>
                     <tbody>
                         <row>
+                            <entry>2011-03-23</entry>
+                            <entry>
+                                <ulink url="http://demac012.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ISGC/2011/PoD_Anar_Manafov.pdf;hb=HEAD">pdf</ulink>,
+                                <ulink url="http://demac012.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ISGC/2011/PoD_Anar_Manafov.key;hb=HEAD">keynote</ulink>
+                            </entry>
+                            <entry><ulink url="http://event.twgrid.org/isgc2011/index.html">ISGC 2011:</ulink>PROOF on Demand (PoD): dynamic PROOF clusters on the fly</entry>
+                        </row>
+                        <row>
                             <entry>2011-03-10</entry>
                             <entry>
                                 <ulink url="http://demac012.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ALICE+Offlineweek/PoD_ALICE_Offline_03_2011.pdf;hb=HEAD">pdf</ulink>,
