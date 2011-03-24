@@ -23,7 +23,7 @@ function drawVisualization() {
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Country');
     data.addColumn('number', 'Download');
-data.addRows(17);
+data.addRows(18);
 data.setValue(0, 0, 'Germany');
 data.setValue(0, 1, 115);
 data.setValue(1, 0, 'Switzerland');
@@ -33,7 +33,7 @@ data.setValue(2, 1, 17);
 data.setValue(3, 0, 'Russian Federation');
 data.setValue(3, 1, 17);
 data.setValue(4, 0, 'United States of America');
-data.setValue(4, 1, 15);
+data.setValue(4, 1, 14);
 data.setValue(5, 0, 'France');
 data.setValue(5, 1, 11);
 data.setValue(6, 0, 'Denmark');
@@ -58,6 +58,8 @@ data.setValue(15, 0, 'Romania');
 data.setValue(15, 1, 1);
 data.setValue(16, 0, 'Taiwan');
 data.setValue(16, 1, 1);
+data.setValue(17, 0, 'Ukraine');
+data.setValue(17, 1, 1);
 // Create and draw the visualization.
 new google.visualization.PieChart(document.getElementById('chart_countries')).
 draw(data, {width: 700, height: 500, title:"Downloads by Country"});
@@ -201,7 +203,7 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 258 Downloads (last auto. update: Wed Mar 23 22:00:09 2011)</title>
+<section><title>Total: 258 Downloads (last auto. update: Thu Mar 24 22:00:20 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="accumulativeDownloads" /></para>
