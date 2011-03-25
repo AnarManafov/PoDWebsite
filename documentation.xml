@@ -56,7 +56,7 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
         <itemizedlist>
             <listitem>
                 <para>
-                    If the packet-forwarding is used to connect workers, than don't forget to add the following to you PROOF script:
+                    If the packet-forwarding is used to connect workers, then don't forget to add the following to you PROOF script:
 <programlisting>
 proof->SetParameter( "PROOF_MaxSlavesPerNode", (Long_t)100 );
 </programlisting>
