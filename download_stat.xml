@@ -68,7 +68,7 @@ new google.visualization.ColumnChart(document.getElementById('bar_chart_countrie
 draw(data,
      {title:"Downloads by Country",
      legend:"none",
-     width:800, height:400,
+     width:850, height:400,
          vAxis: {title: "Downloads"}}
      );
 }
@@ -111,7 +111,7 @@ data.setValue(2, 2, 19);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
-width: 800, height: 400, pointSize:7,
+width: 850, height: 400, pointSize:7,
 title: "Monthly Download Statistics" }
      );
 }
@@ -151,7 +151,7 @@ data.setCell(9, 1, 260);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('accumulativeDownloads')).
 draw(data, {interpolateNulls: 'true',
-width: 800, height: 400, pointSize:7,
+width: 850, height: 400, pointSize:7,
 title: "Download Statistics (Accumulative)" }
      );
 }
@@ -199,14 +199,14 @@ data.setValue(8, 2, 35);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('totals_by_versions')).
 draw(data, {reverseCategories: 'true',
-width: 800, height: 400,
+width: 850, height: 400,
 title: "Downloads by Versions" }
      );
 }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 260 Downloads (last auto. update: Sat Mar 26 22:00:04 2011)</title>
+<section><title>Total: 260 Downloads (last auto. update: Sun Mar 27 20:05:24 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="accumulativeDownloads" /></para>
