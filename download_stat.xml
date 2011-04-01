@@ -129,7 +129,7 @@ function drawVisualization() {
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Date');
     data.addColumn('number', 'Downloads');
-data.addRows(10);
+data.addRows(11);
 data.setCell(0, 0, 'Jun., 2010');
 data.setCell(0, 1, 11);
 data.setCell(1, 0, 'Jul., 2010');
@@ -150,6 +150,8 @@ data.setCell(8, 0, 'Feb., 2011');
 data.setCell(8, 1, 241);
 data.setCell(9, 0, 'Mar., 2011');
 data.setCell(9, 1, 265);
+data.setCell(10, 0, 'Apr., 2011');
+data.setCell(10, 1, 265);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('accumulativeDownloads')).
 draw(data, {interpolateNulls: 'true',
@@ -208,7 +210,7 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 265 Downloads (last auto. update: Thu Mar 31 22:00:02 2011)</title>
+<section><title>Total: 265 Downloads (last auto. update: Fri Apr  1 22:00:14 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="accumulativeDownloads" /></para>
