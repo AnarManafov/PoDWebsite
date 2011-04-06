@@ -25,7 +25,7 @@ function drawVisualization() {
     data.addColumn('number', 'Download');
 data.addRows(19);
 data.setValue(0, 0, 'Germany');
-data.setValue(0, 1, 121);
+data.setValue(0, 1, 122);
 data.setValue(1, 0, 'Switzerland');
 data.setValue(1, 1, 26);
 data.setValue(2, 0, 'Poland');
@@ -47,7 +47,7 @@ data.setValue(9, 1, 6);
 data.setValue(10, 0, 'Slovak Republic');
 data.setValue(10, 1, 6);
 data.setValue(11, 0, 'Ukraine');
-data.setValue(11, 1, 5);
+data.setValue(11, 1, 6);
 data.setValue(12, 0, 'Italy');
 data.setValue(12, 1, 4);
 data.setValue(13, 0, 'Netherlands');
@@ -110,7 +110,7 @@ data.setValue(11, 1, 18);
 data.setValue(0, 2, 24);
 data.setValue(1, 2, 38);
 data.setValue(2, 2, 24);
-data.setValue(3, 2, 1);
+data.setValue(3, 2, 3);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -152,7 +152,7 @@ data.setCell(8, 1, 241);
 data.setCell(9, 0, 'Mar., 2011');
 data.setCell(9, 1, 265);
 data.setCell(10, 0, 'Apr., 2011');
-data.setCell(10, 1, 266);
+data.setCell(10, 1, 268);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('accumulativeDownloads')).
 draw(data, {interpolateNulls: 'true',
@@ -178,8 +178,8 @@ data.setValue(0, 0, 'v3.5');
 data.setValue(0, 1, 4);
 data.setValue(0, 2, 3);
 data.setValue(1, 0, 'v3.4');
-data.setValue(1, 1, 26);
-data.setValue(1, 2, 19);
+data.setValue(1, 1, 28);
+data.setValue(1, 2, 20);
 data.setValue(2, 0, 'v3.2');
 data.setValue(2, 1, 13);
 data.setValue(2, 2, 7);
@@ -211,7 +211,7 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 266 Downloads (last auto. update: Tue Apr  5 22:00:03 2011)</title>
+<section><title>Total: 268 Downloads (last auto. update: Wed Apr  6 22:00:04 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="accumulativeDownloads" /></para>
