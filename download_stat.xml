@@ -23,7 +23,7 @@ function drawVisualization() {
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Country');
     data.addColumn('number', 'Download');
-data.addRows(19);
+data.addRows(20);
 data.setValue(0, 0, 'Germany');
 data.setValue(0, 1, 122);
 data.setValue(1, 0, 'Switzerland');
@@ -58,10 +58,12 @@ data.setValue(15, 0, 'South Korea');
 data.setValue(15, 1, 2);
 data.setValue(16, 0, 'Turkey');
 data.setValue(16, 1, 2);
-data.setValue(17, 0, 'Romania');
+data.setValue(17, 0, 'India');
 data.setValue(17, 1, 1);
-data.setValue(18, 0, 'Taiwan');
+data.setValue(18, 0, 'Romania');
 data.setValue(18, 1, 1);
+data.setValue(19, 0, 'Taiwan');
+data.setValue(19, 1, 1);
 // Create and draw the visualization.
 new google.visualization.PieChart(document.getElementById('chart_countries')).
 draw(data, {width: 700, height: 500, title:"Downloads by Country"});
@@ -110,7 +112,7 @@ data.setValue(11, 1, 18);
 data.setValue(0, 2, 24);
 data.setValue(1, 2, 38);
 data.setValue(2, 2, 24);
-data.setValue(3, 2, 3);
+data.setValue(3, 2, 4);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -152,7 +154,7 @@ data.setCell(8, 1, 241);
 data.setCell(9, 0, 'Mar., 2011');
 data.setCell(9, 1, 265);
 data.setCell(10, 0, 'Apr., 2011');
-data.setCell(10, 1, 268);
+data.setCell(10, 1, 269);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('accumulativeDownloads')).
 draw(data, {interpolateNulls: 'true',
@@ -178,8 +180,8 @@ data.setValue(0, 0, 'v3.5');
 data.setValue(0, 1, 4);
 data.setValue(0, 2, 3);
 data.setValue(1, 0, 'v3.4');
-data.setValue(1, 1, 28);
-data.setValue(1, 2, 20);
+data.setValue(1, 1, 29);
+data.setValue(1, 2, 21);
 data.setValue(2, 0, 'v3.2');
 data.setValue(2, 1, 13);
 data.setValue(2, 2, 7);
@@ -211,7 +213,7 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 268 Downloads (last auto. update: Tue Apr 12 22:00:08 2011)</title>
+<section><title>Total: 269 Downloads (last auto. update: Wed Apr 13 22:00:05 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="accumulativeDownloads" /></para>
