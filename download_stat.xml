@@ -75,7 +75,7 @@ draw(data,
      {title:"Downloads by Country",
      legend:"none",
      width:900, height:500,
-         vAxis: {title: "Downloads"}}
+         hAxis: {title: "Downloads"}}
      );
 }
 google.setOnLoadCallback(drawVisualization);
@@ -215,7 +215,7 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 284 Downloads (last auto. update: Mon Apr 18 17:50:53 2011)</title>
+<section><title>Total: 284 Downloads (last auto. update: Mon Apr 18 17:52:17 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="accumulativeDownloads" /></para>
