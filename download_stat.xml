@@ -22,7 +22,7 @@ function drawVisualization() {
     // Create and populate the data table.
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Country');
-    data.addColumn('number', 'Download');
+   // data.addColumn('number', 'Download');
 data.addRows(21);
 data.setValue(0, 0, 'Germany');
 data.setValue(0, 1, 122);
@@ -215,7 +215,7 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 284 Downloads (last auto. update: Mon Apr 18 17:39:00 2011)</title>
+<section><title>Total: 284 Downloads (last auto. update: Mon Apr 18 17:46:27 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="accumulativeDownloads" /></para>
