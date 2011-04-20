@@ -178,31 +178,31 @@ function drawVisualization() {
     data.addColumn('number', 'IP addresses');
     data.addColumn('number', 'Unique IP addresses');
 data.addRows(9);
-data.setValue(0, 0, 'v3.5');
+data.setValue(0, 0, 'v3.5.x');
 data.setValue(0, 1, 57);
 data.setValue(0, 2, 10);
-data.setValue(1, 0, 'v3.4');
+data.setValue(1, 0, 'v3.4.x');
 data.setValue(1, 1, 31);
 data.setValue(1, 2, 22);
-data.setValue(2, 0, 'v3.2');
+data.setValue(2, 0, 'v3.2.x');
 data.setValue(2, 1, 13);
 data.setValue(2, 2, 7);
-data.setValue(3, 0, 'v3.1');
+data.setValue(3, 0, 'v3.1.x');
 data.setValue(3, 1, 41);
 data.setValue(3, 2, 22);
-data.setValue(4, 0, 'v3.0');
+data.setValue(4, 0, 'v3.0.x');
 data.setValue(4, 1, 18);
 data.setValue(4, 2, 11);
-data.setValue(5, 0, 'v2.4');
+data.setValue(5, 0, 'v2.4.x');
 data.setValue(5, 1, 29);
 data.setValue(5, 2, 16);
-data.setValue(6, 0, 'v2.3');
+data.setValue(6, 0, 'v2.3.x');
 data.setValue(6, 1, 45);
 data.setValue(6, 2, 35);
-data.setValue(7, 0, 'v2.2');
+data.setValue(7, 0, 'v2.2.x');
 data.setValue(7, 1, 17);
 data.setValue(7, 2, 12);
-data.setValue(8, 0, 'v2.1');
+data.setValue(8, 0, 'v2.1.x');
 data.setValue(8, 1, 80);
 data.setValue(8, 2, 36);
 // Create and draw the visualization.
@@ -215,7 +215,7 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 331 Downloads (last auto. update: Wed Apr 20 22:00:05 2011)</title>
+<section><title>Total: 331 Downloads (last auto. update: Wed Apr 20 22:16:45 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="accumulativeDownloads" /></para>
