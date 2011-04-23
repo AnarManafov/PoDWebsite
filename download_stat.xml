@@ -42,9 +42,9 @@ data.setValue(7, 0, 'Denmark');
 data.setValue(7, 1, 9);
 data.setValue(8, 0, 'Spain');
 data.setValue(8, 1, 9);
-data.setValue(9, 0, '??');
-data.setValue(9, 1, 7);
-data.setValue(10, 0, 'Slovak Republic');
+data.setValue(9, 0, 'Slovak Republic');
+data.setValue(9, 1, 8);
+data.setValue(10, 0, '??');
 data.setValue(10, 1, 7);
 data.setValue(11, 0, 'China');
 data.setValue(11, 1, 6);
@@ -114,7 +114,7 @@ data.setValue(11, 1, 18);
 data.setValue(0, 2, 24);
 data.setValue(1, 2, 38);
 data.setValue(2, 2, 24);
-data.setValue(3, 2, 91);
+data.setValue(3, 2, 92);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -156,7 +156,7 @@ data.setCell(8, 1, 241);
 data.setCell(9, 0, 'Mar., 2011');
 data.setCell(9, 1, 265);
 data.setCell(10, 0, 'Apr., 2011');
-data.setCell(10, 1, 356);
+data.setCell(10, 1, 357);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('accumulativeDownloads')).
 draw(data, {interpolateNulls: 'true',
@@ -179,7 +179,7 @@ function drawVisualization() {
     data.addColumn('number', 'Unique IP addresses');
 data.addRows(9);
 data.setValue(0, 0, 'v3.5.x');
-data.setValue(0, 1, 81);
+data.setValue(0, 1, 82);
 data.setValue(0, 2, 11);
 data.setValue(1, 0, 'v3.4.x');
 data.setValue(1, 1, 32);
@@ -215,7 +215,7 @@ title: "Downloads by Versions" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 356 Downloads (last auto. update: Fri Apr 22 22:00:03 2011)</title>
+<section><title>Total: 357 Downloads (last auto. update: Sat Apr 23 22:00:03 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="accumulativeDownloads" /></para>
