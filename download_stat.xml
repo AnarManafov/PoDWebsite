@@ -30,9 +30,9 @@ data.setValue(1, 0, 'Switzerland');
 data.setValue(1, 1, 59);
 data.setValue(2, 0, 'France');
 data.setValue(2, 1, 56);
-data.setValue(3, 0, 'Russian Federation');
-data.setValue(3, 1, 18);
-data.setValue(4, 0, 'United States of America');
+data.setValue(3, 0, 'United States of America');
+data.setValue(3, 1, 19);
+data.setValue(4, 0, 'Russian Federation');
 data.setValue(4, 1, 18);
 data.setValue(5, 0, 'Poland');
 data.setValue(5, 1, 17);
@@ -114,7 +114,7 @@ data.setValue(11, 1, 18);
 data.setValue(0, 2, 24);
 data.setValue(1, 2, 38);
 data.setValue(2, 2, 24);
-data.setValue(3, 2, 101);
+data.setValue(3, 2, 102);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -133,35 +133,20 @@ function drawVisualization() {
     // Create and populate the data table.
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Date');
-    data.addColumn('number', 'Downloads');
-data.addRows(11);
-data.setCell(0, 0, 'Jun., 2010');
-data.setCell(0, 1, 11);
-data.setCell(1, 0, 'Jul., 2010');
-data.setCell(1, 1, 19);
-data.setCell(2, 0, 'Avg., 2010');
-data.setCell(2, 1, 37);
-data.setCell(3, 0, 'Sep., 2010');
-data.setCell(3, 1, 91);
-data.setCell(4, 0, 'Okt., 2010');
-data.setCell(4, 1, 127);
-data.setCell(5, 0, 'Nov., 2010');
-data.setCell(5, 1, 161);
-data.setCell(6, 0, 'Dec., 2010');
-data.setCell(6, 1, 179);
-data.setCell(7, 0, 'Jan., 2011');
-data.setCell(7, 1, 203);
-data.setCell(8, 0, 'Feb., 2011');
-data.setCell(8, 1, 241);
-data.setCell(9, 0, 'Mar., 2011');
-data.setCell(9, 1, 265);
-data.setCell(10, 0, 'Apr., 2011');
-data.setCell(10, 1, 366);
+    data.addColumn('number', 'All IPs');
+    data.addColumn('number', 'Unique IPs');
+data.addRows(2);
+data.setCell(0, 0, '2010');
+data.setCell(0, 1, 179);
+data.setCell(0, 2, 82);
+data.setCell(1, 0, '2011');
+data.setCell(1, 1, 188);
+data.setCell(1, 2, 59);
 // Create and draw the visualization.
-new google.visualization.LineChart(document.getElementById('accumulativeDownloads')).
-draw(data, {interpolateNulls: 'true',
-width: 900, height: 400, pointSize:7,
-title: "Download Statistics (Accumulative)" }
+new google.visualization.ColumnChart(document.getElementById('downloads_per_year')).
+draw(data, {
+width: 900, height: 400,
+title: "Downloads per year" }
      );
 }
 google.setOnLoadCallback(drawVisualization);
@@ -179,7 +164,7 @@ function drawVisualization() {
     data.addColumn('number', 'Unique IP addresses');
 data.addRows(9);
 data.setValue(0, 0, 'v3.5.x');
-data.setValue(0, 1, 91);
+data.setValue(0, 1, 92);
 data.setValue(0, 2, 12);
 data.setValue(1, 0, 'v3.4.x');
 data.setValue(1, 1, 32);
@@ -209,16 +194,16 @@ data.setValue(8, 2, 36);
 new google.visualization.ColumnChart(document.getElementById('totals_by_versions')).
 draw(data, {reverseCategories: 'true',
 width: 900, height: 400,
-title: "Downloads by Versions" }
+title: "Downloads by Versions (accumulated by minor numbers)" }
      );
 }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 366 Downloads (last auto. update: Tue Apr 26 22:00:13 2011)</title>
+<section><title>Total: 367 Downloads (last auto. update: Wed Apr 27 19:58:44 2011)</title>
 <section><title></title>
 <para>
-<my_chart name="accumulativeDownloads" /></para>
+<my_chart name="downloads_per_year" /></para>
 </section>
 <section><title></title>
 <para>
