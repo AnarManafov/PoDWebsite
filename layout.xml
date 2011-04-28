@@ -53,6 +53,7 @@
             href="http://pod.gsi.de/doc/pro/QuickStart.html">
             <title>Quick Start</title></tocentry>
         <tocentry page="documentation.xml" filename="documentation.html"/>
+        <tocentry page="video_tutorials.xml" filename="video_tutorials.html"/>
         <tocentry page="support.xml" filename="support.html"/>
         <tocentry page="development.xml" filename="development.html"/>
     </toc>

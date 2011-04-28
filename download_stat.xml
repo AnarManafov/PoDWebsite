@@ -133,35 +133,20 @@ function drawVisualization() {
     // Create and populate the data table.
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Date');
-    data.addColumn('number', 'Downloads');
-data.addRows(11);
-data.setCell(0, 0, 'Jun., 2010');
-data.setCell(0, 1, 11);
-data.setCell(1, 0, 'Jul., 2010');
-data.setCell(1, 1, 19);
-data.setCell(2, 0, 'Avg., 2010');
-data.setCell(2, 1, 37);
-data.setCell(3, 0, 'Sep., 2010');
-data.setCell(3, 1, 91);
-data.setCell(4, 0, 'Okt., 2010');
-data.setCell(4, 1, 127);
-data.setCell(5, 0, 'Nov., 2010');
-data.setCell(5, 1, 161);
-data.setCell(6, 0, 'Dec., 2010');
-data.setCell(6, 1, 179);
-data.setCell(7, 0, 'Jan., 2011');
-data.setCell(7, 1, 203);
-data.setCell(8, 0, 'Feb., 2011');
-data.setCell(8, 1, 241);
-data.setCell(9, 0, 'Mar., 2011');
-data.setCell(9, 1, 265);
-data.setCell(10, 0, 'Apr., 2011');
-data.setCell(10, 1, 356);
+    data.addColumn('number', 'All IPs');
+    data.addColumn('number', 'Unique IPs');
+data.addRows(2);
+data.setCell(0, 0, '2010');
+data.setCell(0, 1, 179);
+data.setCell(0, 2, 82);
+data.setCell(1, 0, '2011');
+data.setCell(1, 1, 177);
+data.setCell(1, 2, 58);
 // Create and draw the visualization.
-new google.visualization.LineChart(document.getElementById('accumulativeDownloads')).
-draw(data, {interpolateNulls: 'true',
-width: 900, height: 400, pointSize:7,
-title: "Download Statistics (Accumulative)" }
+new google.visualization.ColumnChart(document.getElementById('downloads_per_year')).
+draw(data, {
+width: 900, height: 400,
+title: "Downloads per year" }
      );
 }
 google.setOnLoadCallback(drawVisualization);
@@ -209,16 +194,16 @@ data.setValue(8, 2, 36);
 new google.visualization.ColumnChart(document.getElementById('totals_by_versions')).
 draw(data, {reverseCategories: 'true',
 width: 900, height: 400,
-title: "Downloads by Versions" }
+title: "Downloads by Versions (accumulated by minor numbers)" }
      );
 }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 356 Downloads (last auto. update: Fri Apr 22 22:00:03 2011)</title>
+<section><title>Total: 356 Downloads (last auto. update: Wed Apr 27 19:12:54 2011)</title>
 <section><title></title>
 <para>
-<my_chart name="accumulativeDownloads" /></para>
+<my_chart name="downloads_per_year" /></para>
 </section>
 <section><title></title>
 <para>

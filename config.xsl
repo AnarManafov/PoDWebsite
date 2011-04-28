@@ -56,6 +56,14 @@ It is used in the table of contents when a table of tables is generated.
     <div id="{$chart_name}" style="{$chart_style}"></div>
 </xsl:template>
 
+<xsl:template match="my_video">
+   <xsl:variable name="video_url">
+      <xsl:value-of select="@video_url" />
+   </xsl:variable>
+<object width="640" height="510"><param name="movie" value="{$video_url}"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="{$video_url}" type="application/x-shockwave-flash" width="640" height="510" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+</xsl:template>
+
+
 <!-- ****** Template customizations go here ****** -->
 <xsl:template match="webpage">
 
