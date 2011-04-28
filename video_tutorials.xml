@@ -16,13 +16,29 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
 
 </head>
 
-<section><title>Installation of PoD</title>
+<section><title>Content</title>
+   <itemizedlist>
+      <listitem>
+       <para>
+       <xref linkend="video_install_PoD" endterm="video_install_PoD_title" />
+       </para>
+      </listitem>
+      <listitem>
+      <para>
+ 	<xref linkend="video_PoD_LSF" endterm="video_PoD_LSF_title" />
+      </para>
+      </listitem>
+   </itemizedlist>
+</section>
+
+
+<section id="video_install_PoD"><title id="video_install_PoD_title">Installation of PoD</title>
 <para>
 <my_video video_url="http://www.youtube-nocookie.com/v/8hoZ5s0vs60?fs=1&amp;hl=en_US&amp;hd=1" />
 </para>
 </section>
 
-<section><title>Setup a dynamic PROOF cluster using PoD (on LSF)</title>
+<section id="video_PoD_LSF"><title id="video_PoD_LSF_title">Setup a dynamic PROOF cluster using PoD (on LSF)</title>
 <para>
 <my_video video_url="http://www.youtube-nocookie.com/v/Tuqf7xLKGH8?fs=1&amp;hl=en_US&amp;hd=1" />
 </para>
