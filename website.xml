@@ -86,7 +86,8 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
                     <listitem><para>LSF (Load Sharing Facility),</para></listitem>
                     <listitem><para>PBS Pro/OpenPBS/Torque (Portable Batch System),</para></listitem>
                     <listitem><para>Grid Engine (Oracle/Sun Grid Engine),</para></listitem>
-                    <listitem><para>Condor,</para></listitem>                    
+                    <listitem><para>Condor,</para></listitem>
+                    <listitem><para>LoadLeveler (IBM Tivoli Workload Scheduler LoadLeveler),</para></listitem>                   
                     <listitem><para>gLite.</para></listitem>
                 </itemizedlist>
             </listitem>
