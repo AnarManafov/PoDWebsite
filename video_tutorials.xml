@@ -34,13 +34,13 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
 
 <section id="video_install_PoD"><title id="video_install_PoD_title">Installation of PoD</title>
 <para>
-<my_video video_url="http://www.youtube.com/embed/8hoZ5s0vs60?html5=1" />
+<my_video video_url="http://www.youtube.com/embed/8hoZ5s0vs60" />
 </para>
 </section>
 
 <section id="video_PoD_LSF"><title id="video_PoD_LSF_title">Setup a dynamic PROOF cluster using PoD (on LSF)</title>
 <para>
-<my_video video_url="http://www.youtube.com/embed/Tuqf7xLKGH8?html5=1" />
+<my_video video_url="http://www.youtube.com/embed/Tuqf7xLKGH8" />
 </para>
 </section>
 
