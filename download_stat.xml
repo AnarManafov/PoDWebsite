@@ -14,7 +14,7 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
 <title>Download Statistics</title>
 <summary>Download Statistics</summary>
 <!--Load the AJAX API-->
-<script type="text/javascript" src="https://www.google.com/jsapi"></script>;
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 <script type="text/javascript">
 google.load('visualization', '1', {packages: ['corechart']});
 </script>
@@ -201,7 +201,7 @@ title: "Downloads by Versions (accumulated by minor numbers)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 430 Downloads (last auto. update: Mon May 30 10:23:35 2011)</title>
+<section><title>Total: 430 Downloads (last auto. update: Mon May 30 10:26:33 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
