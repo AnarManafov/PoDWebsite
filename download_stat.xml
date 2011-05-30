@@ -84,9 +84,6 @@ draw(data,
 google.setOnLoadCallback(drawVisualization);
 </script>
 <script type="text/javascript">
-google.load('visualization', '1', {packages: ['corechart']});
-</script>
-<script type="text/javascript">
 function drawVisualization() {
     // Create and populate the data table.
     var data = new google.visualization.DataTable();
@@ -128,9 +125,6 @@ title: "Monthly Download Statistics" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 <script type="text/javascript">
-google.load('visualization', '1', {packages: ['corechart']});
-</script>
-<script type="text/javascript">
 function drawVisualization() {
     // Create and populate the data table.
     var data = new google.visualization.DataTable();
@@ -152,9 +146,6 @@ title: "Downloads per year" }
      );
 }
 google.setOnLoadCallback(drawVisualization);
-</script>
-<script type="text/javascript">
-google.load('visualization', '1', {packages: ['corechart']});
 </script>
 <script type="text/javascript">
 function drawVisualization() {
@@ -201,7 +192,7 @@ title: "Downloads by Versions (accumulated by minor numbers)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 430 Downloads (last auto. update: Mon May 30 10:26:33 2011)</title>
+<section><title>Total: 430 Downloads (last auto. update: Mon May 30 10:32:47 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
