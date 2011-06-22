@@ -26,9 +26,9 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
     		<tbody>
       	        <row>
                     <entry>User's Manual (Nightly build)</entry>
-                     <entry><ulink url="http://www-linux.gsi.de/%7Emanafov/D-Grid/docz/PoD/html/html_help/index.html">HTML</ulink>, 
-                            <ulink url="http://www-linux.gsi.de/%7Emanafov/D-Grid/docz/PoD/html/html_help/PoD.pdf">PDF</ulink>,
-                            <ulink url="http://www-linux.gsi.de/%7Emanafov/D-Grid/docz/PoD/html/html_help/PoD.ps">PS</ulink> </entry>
+                    <entry><ulink url="http://pod.gsi.de/doc/nightly/index.html">HTML</ulink>,
+                           <ulink url="http://pod.gsi.de/doc/nightly/PoD.pdf">PDF</ulink>,
+                           <ulink url="http://pod.gsi.de/doc/nightly/PoD.ps">PS</ulink> </entry>
                     <entry>User's manual of the latest development PoD version, which is build nightly.</entry>
                 </row>
                 <row>
