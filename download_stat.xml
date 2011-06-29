@@ -63,7 +63,7 @@ data.setValue(17, 0, 'South Korea');
 data.setValue(17, 1, 2);
 data.setValue(18, 0, 'Mexico');
 data.setValue(18, 1, 2);
-data.setValue(19, 0, '???');
+data.setValue(19, 0, 'Canada');
 data.setValue(19, 1, 1);
 data.setValue(20, 0, 'India');
 data.setValue(20, 1, 1);
@@ -194,7 +194,7 @@ title: "Downloads by Versions (accumulated by minor numbers)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 499 Downloads (last auto. update: Wed Jun 29 13:26:00 2011)</title>
+<section><title>Total: 499 Downloads (last auto. update: Wed Jun 29 13:31:29 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
