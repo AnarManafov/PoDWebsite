@@ -134,11 +134,11 @@ function drawVisualization() {
     data.addColumn('number', 'unique IP addresses');
 data.addRows(2);
 data.setCell(0, 0, '2010');
-data.setCell(0, 1, 97);
-data.setCell(0, 2, 82);
+data.setCell(0, 2, 97);
+data.setCell(0, 1, 82);
 data.setCell(1, 0, '2011');
-data.setCell(1, 1, 224);
-data.setCell(1, 2, 96);
+data.setCell(1, 2, 224);
+data.setCell(1, 1, 96);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('downloads_per_year')).
 draw(data, {
@@ -194,7 +194,7 @@ title: "Downloads by Versions (accumulated by minor numbers)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 499 Downloads (last auto. update: Wed Jun 29 13:14:10 2011)</title>
+<section><title>Total: 499 Downloads (last auto. update: Wed Jun 29 13:20:23 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
