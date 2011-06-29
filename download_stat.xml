@@ -130,8 +130,8 @@ function drawVisualization() {
     // Create and populate the data table.
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Date');
-    data.addColumn('number', 'duplicate IP addresses');
     data.addColumn('number', 'unique IP addresses');
+    data.addColumn('number', 'duplicate IP addresses');
 data.addRows(2);
 data.setCell(0, 0, '2010');
 data.setCell(0, 2, 97);
@@ -194,7 +194,7 @@ title: "Downloads by Versions (accumulated by minor numbers)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 499 Downloads (last auto. update: Wed Jun 29 13:20:23 2011)</title>
+<section><title>Total: 499 Downloads (last auto. update: Wed Jun 29 13:26:00 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
