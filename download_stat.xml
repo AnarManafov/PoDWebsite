@@ -154,47 +154,48 @@ function drawVisualization() {
     // Create and populate the data table.
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Version');
-    data.addColumn('number', 'IP addresses');
-    data.addColumn('number', 'Unique IP addresses');
+    data.addColumn('number', 'unique IP addresses');
+    data.addColumn('number', 'duplicate IP addresses');
 data.addRows(9);
 data.setValue(0, 0, 'v3.5.x');
-data.setValue(0, 1, 174);
-data.setValue(0, 2, 39);
+data.setValue(0, 2, 135);
+data.setValue(0, 1, 39);
 data.setValue(1, 0, 'v3.4.x');
-data.setValue(1, 1, 61);
-data.setValue(1, 2, 45);
+data.setValue(1, 2, 16);
+data.setValue(1, 1, 45);
 data.setValue(2, 0, 'v3.2.x');
-data.setValue(2, 1, 13);
-data.setValue(2, 2, 7);
+data.setValue(2, 2, 6);
+data.setValue(2, 1, 7);
 data.setValue(3, 0, 'v3.1.x');
-data.setValue(3, 1, 44);
-data.setValue(3, 2, 23);
+data.setValue(3, 2, 21);
+data.setValue(3, 1, 23);
 data.setValue(4, 0, 'v3.0.x');
-data.setValue(4, 1, 18);
-data.setValue(4, 2, 11);
+data.setValue(4, 2, 7);
+data.setValue(4, 1, 11);
 data.setValue(5, 0, 'v2.4.x');
-data.setValue(5, 1, 35);
-data.setValue(5, 2, 17);
+data.setValue(5, 2, 18);
+data.setValue(5, 1, 17);
 data.setValue(6, 0, 'v2.3.x');
-data.setValue(6, 1, 51);
-data.setValue(6, 2, 36);
+data.setValue(6, 2, 15);
+data.setValue(6, 1, 36);
 data.setValue(7, 0, 'v2.2.x');
-data.setValue(7, 1, 17);
-data.setValue(7, 2, 12);
+data.setValue(7, 2, 5);
+data.setValue(7, 1, 12);
 data.setValue(8, 0, 'v2.1.x');
-data.setValue(8, 1, 86);
-data.setValue(8, 2, 37);
+data.setValue(8, 2, 49);
+data.setValue(8, 1, 37);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('totals_by_versions')).
 draw(data, {reverseCategories: 'true',
 width: 900, height: 400,
+isStacked: true,
 title: "Downloads by Versions (accumulated by minor numbers)" }
      );
 }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 499 Downloads (last auto. update: Wed Jun 29 13:31:29 2011)</title>
+<section><title>Total: 499 Downloads (last auto. update: Wed Jun 29 13:34:54 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
