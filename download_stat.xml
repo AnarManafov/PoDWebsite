@@ -26,9 +26,9 @@ function drawVisualization() {
     data.addColumn('number', 'Download');
 data.addRows(23);
 data.setValue(0, 0, 'Germany');
-data.setValue(0, 1, 136);
+data.setValue(0, 1, 138);
 data.setValue(1, 0, 'Switzerland');
-data.setValue(1, 1, 82);
+data.setValue(1, 1, 83);
 data.setValue(2, 0, 'France');
 data.setValue(2, 1, 57);
 data.setValue(3, 0, 'Russian Federation');
@@ -53,18 +53,18 @@ data.setValue(12, 0, '??');
 data.setValue(12, 1, 7);
 data.setValue(13, 0, 'China');
 data.setValue(13, 1, 6);
-data.setValue(14, 0, 'Finland');
-data.setValue(14, 1, 3);
-data.setValue(15, 0, 'Romania');
+data.setValue(14, 0, '???');
+data.setValue(14, 1, 4);
+data.setValue(15, 0, 'Finland');
 data.setValue(15, 1, 3);
-data.setValue(16, 0, 'Turkey');
+data.setValue(16, 0, 'Romania');
 data.setValue(16, 1, 3);
-data.setValue(17, 0, 'South Korea');
-data.setValue(17, 1, 2);
-data.setValue(18, 0, 'Mexico');
+data.setValue(17, 0, 'Turkey');
+data.setValue(17, 1, 3);
+data.setValue(18, 0, 'South Korea');
 data.setValue(18, 1, 2);
-data.setValue(19, 0, '???');
-data.setValue(19, 1, 1);
+data.setValue(19, 0, 'Mexico');
+data.setValue(19, 1, 2);
 data.setValue(20, 0, 'Canada');
 data.setValue(20, 1, 1);
 data.setValue(21, 0, 'India');
@@ -117,7 +117,8 @@ data.setValue(1, 2, 38);
 data.setValue(2, 2, 24);
 data.setValue(3, 2, 107);
 data.setValue(4, 2, 63);
-data.setValue(5, 2, 66);
+data.setValue(5, 2, 67);
+data.setValue(6, 2, 5);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -139,8 +140,8 @@ data.setCell(0, 0, '2010');
 data.setCell(0, 2, 97);
 data.setCell(0, 1, 82);
 data.setCell(1, 0, '2011');
-data.setCell(1, 2, 225);
-data.setCell(1, 1, 97);
+data.setCell(1, 2, 228);
+data.setCell(1, 1, 100);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('downloads_per_year')).
 draw(data, {
@@ -160,11 +161,11 @@ function drawVisualization() {
     data.addColumn('number', 'duplicate IP addresses');
 data.addRows(9);
 data.setValue(0, 0, 'v3.5.x');
-data.setValue(0, 2, 136);
-data.setValue(0, 1, 39);
+data.setValue(0, 2, 138);
+data.setValue(0, 1, 41);
 data.setValue(1, 0, 'v3.4.x');
 data.setValue(1, 2, 16);
-data.setValue(1, 1, 46);
+data.setValue(1, 1, 48);
 data.setValue(2, 0, 'v3.2.x');
 data.setValue(2, 2, 6);
 data.setValue(2, 1, 7);
@@ -197,7 +198,7 @@ title: "Downloads by Versions (accumulated by minor numbers)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 501 Downloads (last auto. update: Thu Jun 30 22:00:05 2011)</title>
+<section><title>Total: 507 Downloads (last auto. update: Fri Jul  1 22:00:16 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
