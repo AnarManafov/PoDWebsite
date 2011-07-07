@@ -60,7 +60,7 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
        <emphasis role="bold">Check out PoD <olink targetdocent="video_tutorials.xml">VIDEO Tutorials</olink></emphasis>.
     </para>
     
-    <section>
+    <section><title/>
         <section><title>PoD at GSI (Grid Engine)</title>
             <para>
                 For GSI users, who want to use PoD with our new SGE cluster. You need to build a source package of PoD using the following environment.
