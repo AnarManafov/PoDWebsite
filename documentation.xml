@@ -32,6 +32,13 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
                     <entry>User's manual of the latest development PoD version, which is build nightly.</entry>
                 </row>
                 <row>
+                    <entry>User's Manual (v3.6)</entry>
+                    <entry><ulink url="http://pod.gsi.de/doc/3.6/index.html">HTML</ulink>, 
+                        <ulink url="http://pod.gsi.de/doc/3.6/PoD.pdf">PDF</ulink>,
+                        <ulink url="http://pod.gsi.de/doc/3.6/PoD.ps">PS</ulink> </entry>
+                    <entry>User's manual of the stable PoD v3.6.</entry>
+                </row>
+                <row>
                     <entry>User's Manual (v3.4)</entry>
                      <entry><ulink url="http://pod.gsi.de/doc/3.4/index.html">HTML</ulink>, 
                             <ulink url="http://pod.gsi.de/doc/3.4/PoD.pdf">PDF</ulink>,
@@ -39,11 +46,6 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
                     <entry>User's manual of the stable PoD v3.4.</entry>
                 </row>
 
-                <row>
-                    <entry>User's Manual (v3.1)</entry>
-                    <entry><ulink url="http://pod.gsi.de/doc/3.1/index.html">HTML</ulink></entry>
-                    <entry>User's manual of the stable PoD v3.1.</entry>
-                </row>
                 <row>
                     <entry>Private API Documentation</entry>
                     <entry><ulink url="http://pod.gsi.de/doc/api-docs/index.html">link</ulink></entry>
@@ -53,36 +55,11 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
         </tgroup>
     </table>
    
+    
     <para>
        <emphasis role="bold">Check out PoD <olink targetdocent="video_tutorials.xml">VIDEO Tutorials</olink></emphasis>.
     </para>
 
-    
-    <section><title>Useful Tips</title>
-        <itemizedlist>
-            <listitem>
-                <para>
-                    If the packet-forwarding is used to connect workers, then don't forget to add the following to you PROOF script:
-<programlisting>
-proof->SetParameter( "PROOF_MaxSlavesPerNode", (Long_t)100 );
-</programlisting>
-                    Otherwise PROOF will not use all workers you actually requested.
-                    <ulink url="http://www-linux.gsi.de/%7Emanafov/D-Grid/docz/PoD/html/html_help/Known_Issues.html#MaxSlavesPerNode">Find out more on this.</ulink>
-                </para>
-            </listitem>
-            <listitem>
-                <para>
-                    Automate your connection string by using the <ulink url="http://pod.gsi.de/doc/pro/pod-info.html">pod-info</ulink> command:
-<programlisting>
-TProof::Open(gSystem->GetFromPipe("pod-info -c"));
-</programlisting>
-                    This is needed, since PoD's automatic port mapping will time to time assign PROOF server to different ports. The 
-                    <ulink url="http://pod.gsi.de/doc/pro/pod-info.html">pod-info</ulink> command
-                    insures that you always get the current connection string.
-                </para>
-            </listitem>
-        </itemizedlist>
-        
 
         <section><title>PoD at GSI (Grid Engine)</title>
             <para>

@@ -49,7 +49,7 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
             <listitem><para><emphasis role="bold">GUI &amp; Command-line</emphasis></para>
                 <para>
                     PoD provides a simple and intuitive graphics user interface in order to simplify access to its functionality.
-                    For user’s convenience there is also a command line interface, it helps to manage a PoD cluster remotely or use it in a batch mode.
+                    For user's convenience there is also a command line interface, it helps to manage a PoD cluster remotely or use it in a batch mode.
                 </para>
             </listitem>
             
@@ -101,6 +101,12 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
         <title>What's New</title>
         <variablelist>
 
+            <varlistentry><term>2011-07-07</term>
+                <listitem>
+                    <para> PoD v3.6 was <olink targetdocent="download.xml">released</olink>.</para>
+                </listitem>
+            </varlistentry>
+            
             <varlistentry><term>2011-04-28</term>
                 <listitem>
                     <para>We now provide users with <olink targetdocent="video_tutorials.xml">VIDEO Tutorials</olink>.</para>

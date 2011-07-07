@@ -29,19 +29,19 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
                 <tbody>
                     
                     <row>
-                        <entry><ulink url="http://pod.gsi.de/releases/pod/3.4/PoD-3.4-Source.tar.gz">Source tarball (3.3MB)</ulink></entry>
-                        <entry>3.4</entry>
-                        <entry>2011-02-23</entry>
-                        <entry><ulink url="http://pod.gsi.de/doc/3.4/Requirements.html">requirements</ulink></entry>
-                        <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=78aca2666d19417faf65d5b50cd44eb809ddafaf">ReleaseNotes</ulink></entry>
+                        <entry><ulink url="http://pod.gsi.de/releases/pod/3.6/PoD-3.6-Source.tar.gz">Source tarball (3.2MB)</ulink></entry>
+                        <entry>3.6</entry>
+                        <entry>2011-07-07</entry>
+                        <entry><ulink url="http://pod.gsi.de/doc/3.6/Requirements.html">requirements</ulink></entry>
+                        <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=a840f0aadd546d49f67028abe9661322b79c9f00">ReleaseNotes</ulink></entry>
                         <entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>        
                     </row>
-
+                    
                 </tbody>
             </tgroup>
         </table>
     </section>
-
+    
     <section><title>Cutting Edge (or Beta)</title>
         <table>
             <title>Available versions to download</title>
@@ -57,20 +57,20 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
                     </row>
                 </thead>
                 <tbody>
-                    <row>
+                    <!--row>
                         <entry><ulink url="http://pod.gsi.de/releases/pod/nightly/PoD-3.5.99.g5710b-Source.tar.gz">Source tarball (3.3MB)</ulink></entry>
                         <entry>3.5.99.g5710b</entry>
                         <entry>2011-06-29</entry>
                         <entry><ulink url="http://www-linux.gsi.de/%7Emanafov/D-Grid/docz/PoD/html/html_help/Requirements.html">requirements</ulink></entry>
                         <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=HEAD">ReleaseNotes</ulink></entry>
                         <entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>        
-                    </row>
+                    </row-->
                 </tbody>
             </tgroup>
         </table>
     </section>
-
-
+    
+    
     <section><title>Older Versions</title>
         <para>
             <ulink url="http://pod.gsi.de/releases/pod/">Browse older PoD versions</ulink> 
@@ -87,6 +87,6 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
         <para>
             <olink targetdocent="download_stat.xml">Download Statistics</olink>
         </para>
-   </section>
+    </section>
     
 </webpage>
