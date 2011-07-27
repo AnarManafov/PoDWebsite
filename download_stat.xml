@@ -24,11 +24,11 @@ function drawVisualization() {
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Country');
     data.addColumn('number', 'Download');
-data.addRows(23);
+data.addRows(22);
 data.setValue(0, 0, 'Germany');
 data.setValue(0, 1, 147);
 data.setValue(1, 0, 'Switzerland');
-data.setValue(1, 1, 95);
+data.setValue(1, 1, 97);
 data.setValue(2, 0, 'France');
 data.setValue(2, 1, 58);
 data.setValue(3, 0, 'Russian Federation');
@@ -61,16 +61,14 @@ data.setValue(16, 0, 'Romania');
 data.setValue(16, 1, 3);
 data.setValue(17, 0, 'Turkey');
 data.setValue(17, 1, 3);
-data.setValue(18, 0, '???');
+data.setValue(18, 0, 'South Korea');
 data.setValue(18, 1, 2);
-data.setValue(19, 0, 'South Korea');
+data.setValue(19, 0, 'Mexico');
 data.setValue(19, 1, 2);
-data.setValue(20, 0, 'Mexico');
-data.setValue(20, 1, 2);
-data.setValue(21, 0, 'Canada');
+data.setValue(20, 0, 'Canada');
+data.setValue(20, 1, 1);
+data.setValue(21, 0, 'Taiwan');
 data.setValue(21, 1, 1);
-data.setValue(22, 0, 'Taiwan');
-data.setValue(22, 1, 1);
 // Create and draw the visualization.
 new google.visualization.PieChart(document.getElementById('chart_countries')).
 draw(data, {width: 700, height: 500, title:"Downloads by Country"});
@@ -204,7 +202,7 @@ title: "Downloads by Versions (accumulated by minor numbers)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 551 Downloads (last auto. update: Wed Jul 27 19:23:48 2011)</title>
+<section><title>Total: 551 Downloads (last auto. update: Wed Jul 27 19:24:55 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
