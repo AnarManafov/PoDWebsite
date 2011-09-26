@@ -140,7 +140,7 @@ export LD_LIBRARY_PATH=/afs/cern.ch/sw/lcg/external/qt/4.4.2/x86_64-slc5-gcc43-o
                                 <ulink url="http://demac012.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ACAT/2011/ACAT2011-AnarManafov.pdf;hb=HEAD">pdf</ulink>,
                                 <ulink url="http://demac012.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ACAT/2011/ACAT2011-AnarManafov.key;hb=HEAD">keynote</ulink>
                             </entry>
-                             <entry><ulink url="http://acat2011.cern.ch/">ACAT 2011 Plenary talk:</ulink>Computing On Demand: Analysis in the Cloud</entry>
+                             <entry><ulink url="http://acat2011.cern.ch/">ACAT 2011 Plenary talk:</ulink> Computing On Demand: Analysis in the Cloud</entry>
                         </row>
                         <row>
                             <entry>2011-03-23</entry>
@@ -148,7 +148,7 @@ export LD_LIBRARY_PATH=/afs/cern.ch/sw/lcg/external/qt/4.4.2/x86_64-slc5-gcc43-o
                                 <ulink url="http://demac012.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ISGC/2011/PoD_Anar_Manafov.pdf;hb=HEAD">pdf</ulink>,
                                 <ulink url="http://demac012.gsi.de:22222/git/?p=Documentation.git;a=blob_plain;f=ISGC/2011/PoD_Anar_Manafov.key;hb=HEAD">keynote</ulink>
                             </entry>
-                            <entry><ulink url="http://event.twgrid.org/isgc2011/index.html">ISGC 2011:</ulink>PROOF on Demand (PoD): dynamic PROOF clusters on the fly</entry>
+                            <entry><ulink url="http://event.twgrid.org/isgc2011/index.html">ISGC 2011:</ulink> PROOF on Demand (PoD): dynamic PROOF clusters on the fly</entry>
                         </row>
                         <row>
                             <entry>2011-03-10</entry>
