@@ -108,8 +108,14 @@ export LD_LIBRARY_PATH=/afs/cern.ch/sw/lcg/external/qt/4.4.2/x86_64-slc5-gcc43-o
             </para>
             <para>
                 Since AFS doesn't support pipes you need to change PoD server working directory in the user defaults configuration.
-                <ulink url="http://www-linux.gsi.de/%7Emanafov/D-Grid/docz/PoD/html/html_help/Known_Issues.html#PoDonAFS">Find out more on this.</ulink>
+                <ulink url="http://pod.gsi.de/doc/nightly/Known_Issues.html#PoDonAFS">Find out more on this.</ulink>
             </para>
+            <important>
+               <para>
+                  If PoD doens't work for you out of the box at CERN on LSF, PoD jobs fail to start PoD workers, then most probably you are facing so called "gLite environment" issue.  <ulink url="http://pod.gsi.de/doc/nightly/Known_Issues.html#gLiteEnvironmentissueAtCERNLSF">Find out more on this.</ulink>
+               </para>
+            </important>
+          
         </section>
     </section>
     
