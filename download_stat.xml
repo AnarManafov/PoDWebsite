@@ -24,9 +24,9 @@ function drawVisualization() {
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Country');
     data.addColumn('number', 'Download');
-data.addRows(23);
+data.addRows(22);
 data.setValue(0, 0, 'Germany');
-data.setValue(0, 1, 171);
+data.setValue(0, 1, 172);
 data.setValue(1, 0, 'Switzerland');
 data.setValue(1, 1, 148);
 data.setValue(2, 0, 'Russian Federation');
@@ -67,10 +67,8 @@ data.setValue(19, 0, 'South Korea');
 data.setValue(19, 1, 2);
 data.setValue(20, 0, 'Mexico');
 data.setValue(20, 1, 2);
-data.setValue(21, 0, '???');
+data.setValue(21, 0, 'Taiwan');
 data.setValue(21, 1, 1);
-data.setValue(22, 0, 'Taiwan');
-data.setValue(22, 1, 1);
 // Create and draw the visualization.
 new google.visualization.PieChart(document.getElementById('chart_countries')).
 draw(data, {width: 700, height: 500, title:"Downloads by Country"});
@@ -207,7 +205,7 @@ title: "Downloads by Versions (accumulated by minor numbers)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 640 Downloads (last auto. update: Fri Oct 28 12:04:06 2011)</title>
+<section><title>Total: 640 Downloads (last auto. update: Fri Oct 28 18:30:28 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
