@@ -28,7 +28,7 @@ data.addRows(22);
 data.setValue(0, 0, 'Germany');
 data.setValue(0, 1, 177);
 data.setValue(1, 0, 'Switzerland');
-data.setValue(1, 1, 157);
+data.setValue(1, 1, 159);
 data.setValue(2, 0, 'Russian Federation');
 data.setValue(2, 1, 69);
 data.setValue(3, 0, 'France');
@@ -120,7 +120,7 @@ data.setValue(6, 2, 50);
 data.setValue(7, 2, 36);
 data.setValue(8, 2, 43);
 data.setValue(9, 2, 52);
-data.setValue(10, 2, 19);
+data.setValue(10, 2, 21);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -142,8 +142,8 @@ data.setCell(0, 0, '2010');
 data.setCell(0, 2, 97);
 data.setCell(0, 1, 82);
 data.setCell(1, 0, '2011');
-data.setCell(1, 2, 319);
-data.setCell(1, 1, 168);
+data.setCell(1, 2, 320);
+data.setCell(1, 1, 169);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('downloads_per_year')).
 draw(data, {
@@ -161,43 +161,46 @@ function drawVisualization() {
     data.addColumn('string', 'Version');
     data.addColumn('number', 'unique IP addresses');
     data.addColumn('number', 'duplicate IP addresses');
-data.addRows(12);
-data.setValue(0, 0, 'v3.8.x');
-data.setValue(0, 2, 2);
-data.setValue(0, 1, 5);
-data.setValue(1, 0, 'v3.7.x');
-data.setValue(1, 2, 26);
-data.setValue(1, 1, 37);
-data.setValue(2, 0, 'v3.6.x');
-data.setValue(2, 2, 51);
-data.setValue(2, 1, 67);
-data.setValue(3, 0, 'v3.5.x');
-data.setValue(3, 2, 133);
-data.setValue(3, 1, 42);
-data.setValue(4, 0, 'v3.4.x');
-data.setValue(4, 2, 9);
-data.setValue(4, 1, 48);
-data.setValue(5, 0, 'v3.2.x');
-data.setValue(5, 2, 6);
-data.setValue(5, 1, 7);
-data.setValue(6, 0, 'v3.1.x');
-data.setValue(6, 2, 19);
-data.setValue(6, 1, 23);
-data.setValue(7, 0, 'v3.0.x');
-data.setValue(7, 2, 7);
-data.setValue(7, 1, 11);
-data.setValue(8, 0, 'v2.4.x');
-data.setValue(8, 2, 13);
-data.setValue(8, 1, 18);
-data.setValue(9, 0, 'v2.3.x');
-data.setValue(9, 2, 10);
-data.setValue(9, 1, 35);
-data.setValue(10, 0, 'v2.2.x');
-data.setValue(10, 2, 5);
-data.setValue(10, 1, 12);
-data.setValue(11, 0, 'v2.1.x');
-data.setValue(11, 2, 44);
-data.setValue(11, 1, 36);
+data.addRows(13);
+data.setValue(0, 0, 'v3.9.x');
+data.setValue(0, 2, 0);
+data.setValue(0, 1, 2);
+data.setValue(1, 0, 'v3.8.x');
+data.setValue(1, 2, 2);
+data.setValue(1, 1, 5);
+data.setValue(2, 0, 'v3.7.x');
+data.setValue(2, 2, 26);
+data.setValue(2, 1, 37);
+data.setValue(3, 0, 'v3.6.x');
+data.setValue(3, 2, 51);
+data.setValue(3, 1, 67);
+data.setValue(4, 0, 'v3.5.x');
+data.setValue(4, 2, 133);
+data.setValue(4, 1, 42);
+data.setValue(5, 0, 'v3.4.x');
+data.setValue(5, 2, 9);
+data.setValue(5, 1, 48);
+data.setValue(6, 0, 'v3.2.x');
+data.setValue(6, 2, 6);
+data.setValue(6, 1, 7);
+data.setValue(7, 0, 'v3.1.x');
+data.setValue(7, 2, 19);
+data.setValue(7, 1, 23);
+data.setValue(8, 0, 'v3.0.x');
+data.setValue(8, 2, 7);
+data.setValue(8, 1, 11);
+data.setValue(9, 0, 'v2.4.x');
+data.setValue(9, 2, 13);
+data.setValue(9, 1, 18);
+data.setValue(10, 0, 'v2.3.x');
+data.setValue(10, 2, 10);
+data.setValue(10, 1, 35);
+data.setValue(11, 0, 'v2.2.x');
+data.setValue(11, 2, 5);
+data.setValue(11, 1, 12);
+data.setValue(12, 0, 'v2.1.x');
+data.setValue(12, 2, 44);
+data.setValue(12, 1, 36);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('totals_by_versions')).
 draw(data, {reverseCategories: 'true',
@@ -209,7 +212,7 @@ title: "Downloads by Versions (accumulated by minor numbers)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 666 Downloads (last auto. update: Wed Nov 16 11:33:44 2011)</title>
+<section><title>Total: 668 Downloads (last auto. update: Wed Nov 16 19:44:12 2011)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
