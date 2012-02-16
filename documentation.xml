@@ -99,11 +99,6 @@ export BOOST_LIBRARYDIR=$BOOST_ROOT/lib
 export LD_LIBRARY_PATH=$BOOST_LIBRARYDIR:$LD_LIBRARY_PATH
 # cmake
 export PATH=/afs/cern.ch/sw/lcg/external/CMake/2.8.2/x86_64-slc5-gcc43-opt/bin/:$PATH
-
-# Optional
-# Qt
-export PATH=/afs/cern.ch/sw/lcg/external/qt/4.4.2/x86_64-slc5-gcc43-opt/bin:$PATH
-export LD_LIBRARY_PATH=/afs/cern.ch/sw/lcg/external/qt/4.4.2/x86_64-slc5-gcc43-opt/lib:$LD_LIBRARY_PATH
 </screen>
             </para>
             <para>
