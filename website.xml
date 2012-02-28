@@ -46,10 +46,10 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
                 </para>
             </listitem>
             
-            <listitem><para><emphasis role="bold">GUI &amp; Command-line</emphasis></para>
+            <listitem><para><emphasis role="bold">CLI</emphasis></para>
                 <para>
-                    PoD provides a simple and intuitive graphics user interface in order to simplify access to its functionality.
-                    For user's convenience there is also a command line interface, it helps to manage a PoD cluster remotely or use it in a batch mode.
+                    PoD provides a simple and intuitive command line interface in order to simplify access to its functionality.
+                    It helps to manage a PoD cluster remotely, utilize it in a batch mode or to design own higher level tools using PoD commands.
                 </para>
             </listitem>
             
@@ -100,28 +100,15 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
     <section id="whatsnew">
         <title>What's New</title>
         <variablelist>
+            <varlistentry><term>2012-02-28</term>
+                <listitem>
+                    <para> PoD v3.10 was <olink targetdocent="download.xml">released</olink>.</para>
+                </listitem>
+            </varlistentry>
 
             <varlistentry><term>2011-11-15</term>
                 <listitem>
                     <para> PoD v3.8 was <olink targetdocent="download.xml">released</olink>.</para>
-                </listitem>
-            </varlistentry>
-
-            <varlistentry><term>2011-07-07</term>
-                <listitem>
-                    <para> PoD v3.6 was <olink targetdocent="download.xml">released</olink>.</para>
-                </listitem>
-            </varlistentry>
-            
-            <varlistentry><term>2011-04-28</term>
-                <listitem>
-                    <para>We now provide users with <olink targetdocent="video_tutorials.xml">VIDEO Tutorials</olink>.</para>
-                </listitem>
-            </varlistentry>
-
-            <varlistentry><term>2011-02-23</term>
-                <listitem>
-                    <para> PoD v3.4 was <olink targetdocent="download.xml">released</olink>.</para>
                 </listitem>
             </varlistentry>
                         
