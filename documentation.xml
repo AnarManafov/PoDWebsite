@@ -93,8 +93,8 @@ export LD_LIBRARY_PATH=/misc/manafov/Qt/4.4.2_lenny64/lib:$LD_LIBRARY_PATH
 # ROOT (you can use your version)
 . /afs/cern.ch/sw/lcg/app/releases/ROOT/5.30.00/x86_64-slc5-gcc43-opt/root/bin/thisroot.sh
 # BOOST
-export BOOST_ROOT=/afs/cern.ch/sw/lcg/external/Boost/1.44.0_python2.6/x86_64-slc5-gcc43-opt/
-export BOOST_INCLUDEDIR=$BOOST_ROOT/include/boost-1_44
+export BOOST_ROOT=/afs/cern.ch/sw/lcg/external/Boost/1.48.0_python2.7/x86_64-slc5-gcc43-opt/
+export BOOST_INCLUDEDIR=/afs/cern.ch/sw/lcg/external/Boost/1.48.0_python2.7/x86_64-slc5-gcc43-opt/include/boost-1_48/
 export BOOST_LIBRARYDIR=$BOOST_ROOT/lib
 export LD_LIBRARY_PATH=$BOOST_LIBRARYDIR:$LD_LIBRARY_PATH
 # cmake
