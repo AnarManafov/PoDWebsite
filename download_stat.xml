@@ -39,10 +39,10 @@ data.setValue(5, 0, 'Slovak Republic');
 data.setValue(5, 1, 44);
 data.setValue(6, 0, 'United States of America');
 data.setValue(6, 1, 43);
-data.setValue(7, 0, 'Canada');
-data.setValue(7, 1, 28);
-data.setValue(8, 0, 'Ukraine');
-data.setValue(8, 1, 26);
+data.setValue(7, 0, 'Ukraine');
+data.setValue(7, 1, 30);
+data.setValue(8, 0, 'Canada');
+data.setValue(8, 1, 28);
 data.setValue(9, 0, 'Poland');
 data.setValue(9, 1, 21);
 data.setValue(10, 0, 'Denmark');
@@ -142,7 +142,7 @@ data.setValue(3, 3, 56);
 data.setValue(4, 3, 34);
 data.setValue(5, 3, 32);
 data.setValue(6, 3, 43);
-data.setValue(7, 3, 13);
+data.setValue(7, 3, 17);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -167,8 +167,8 @@ data.setCell(1, 0, '2011');
 data.setCell(1, 2, 323);
 data.setCell(1, 1, 181);
 data.setCell(2, 0, '2012');
-data.setCell(2, 2, 123);
-data.setCell(2, 1, 136);
+data.setCell(2, 2, 125);
+data.setCell(2, 1, 138);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('downloads_per_year')).
 draw(data, {
@@ -198,7 +198,7 @@ data.setValue(2, 2, 10);
 data.setValue(2, 1, 39);
 data.setValue(3, 0, 'v2.4.x');
 data.setValue(3, 2, 13);
-data.setValue(3, 1, 19);
+data.setValue(3, 1, 21);
 data.setValue(4, 0, 'v3.0.x');
 data.setValue(4, 2, 7);
 data.setValue(4, 1, 11);
@@ -216,13 +216,13 @@ data.setValue(8, 2, 133);
 data.setValue(8, 1, 42);
 data.setValue(9, 0, 'v3.6.x');
 data.setValue(9, 2, 53);
-data.setValue(9, 1, 80);
+data.setValue(9, 1, 81);
 data.setValue(10, 0, 'v3.7.x');
 data.setValue(10, 2, 26);
 data.setValue(10, 1, 37);
 data.setValue(11, 0, 'v3.8.x');
 data.setValue(11, 2, 27);
-data.setValue(11, 1, 38);
+data.setValue(11, 1, 39);
 data.setValue(12, 0, 'v3.9.x');
 data.setValue(12, 2, 8);
 data.setValue(12, 1, 9);
@@ -243,7 +243,7 @@ title: "Downloads by Versions (accumulated by minor numbers)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 942 Downloads (last auto. update: Fri Aug 10 20:22:23 2012)</title>
+<section><title>Total: 946 Downloads (last auto. update: Sat Aug 11 07:12:51 2012)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
