@@ -28,7 +28,7 @@ data.addRows(29);
 data.setValue(0, 0, 'Switzerland');
 data.setValue(0, 1, 282);
 data.setValue(1, 0, 'Germany');
-data.setValue(1, 1, 211);
+data.setValue(1, 1, 212);
 data.setValue(2, 0, 'Russian Federation');
 data.setValue(2, 1, 95);
 data.setValue(3, 0, 'France');
@@ -49,12 +49,12 @@ data.setValue(10, 0, 'Denmark');
 data.setValue(10, 1, 20);
 data.setValue(11, 0, 'Spain');
 data.setValue(11, 1, 18);
-data.setValue(12, 0, 'China');
+data.setValue(12, 0, '??');
 data.setValue(12, 1, 8);
-data.setValue(13, 0, 'Netherlands');
+data.setValue(13, 0, 'China');
 data.setValue(13, 1, 8);
-data.setValue(14, 0, '??');
-data.setValue(14, 1, 7);
+data.setValue(14, 0, 'Netherlands');
+data.setValue(14, 1, 8);
 data.setValue(15, 0, 'Turkey');
 data.setValue(15, 1, 6);
 data.setValue(16, 0, 'Belgium');
@@ -145,7 +145,7 @@ data.setValue(4, 3, 34);
 data.setValue(5, 3, 32);
 data.setValue(6, 3, 43);
 data.setValue(7, 3, 28);
-data.setValue(8, 3, 16);
+data.setValue(8, 3, 18);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -170,8 +170,8 @@ data.setCell(1, 0, '2011');
 data.setCell(1, 2, 323);
 data.setCell(1, 1, 181);
 data.setCell(2, 0, '2012');
-data.setCell(2, 2, 143);
-data.setCell(2, 1, 147);
+data.setCell(2, 2, 144);
+data.setCell(2, 1, 148);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('downloads_per_year')).
 draw(data, {
@@ -230,8 +230,8 @@ data.setValue(12, 0, 'v3.9.x');
 data.setValue(12, 2, 8);
 data.setValue(12, 1, 9);
 data.setValue(13, 0, 'v3.10.x');
-data.setValue(13, 2, 52);
-data.setValue(13, 1, 94);
+data.setValue(13, 2, 53);
+data.setValue(13, 1, 95);
 data.setValue(14, 0, 'v3.11.x');
 data.setValue(14, 2, 11);
 data.setValue(14, 1, 40);
@@ -246,7 +246,7 @@ title: "Downloads by Versions (accumulated by minor numbers)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 973 Downloads (last auto. update: Thu Sep 13 11:58:58 2012)</title>
+<section><title>Total: 975 Downloads (last auto. update: Thu Sep 13 23:59:03 2012)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
