@@ -100,15 +100,16 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
     <section id="whatsnew">
         <title>What's New</title>
         <variablelist>
-            <varlistentry><term>2012-02-28</term>
+
+            <varlistentry><term>2012-10-04</term>
                 <listitem>
-                    <para> PoD v3.10 was <olink targetdocent="download.xml">released</olink>.</para>
+                    <para> PoD v3.12 was <olink targetdocent="download.xml">released</olink>.</para>
                 </listitem>
             </varlistentry>
 
-            <varlistentry><term>2011-11-15</term>
+            <varlistentry><term>2012-02-28</term>
                 <listitem>
-                    <para> PoD v3.8 was <olink targetdocent="download.xml">released</olink>.</para>
+                    <para> PoD v3.10 was <olink targetdocent="download.xml">released</olink>.</para>
                 </listitem>
             </varlistentry>
                         

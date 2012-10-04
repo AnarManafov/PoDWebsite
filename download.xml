@@ -29,6 +29,14 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
                 <tbody>
                     
                     <row>
+                        <entry><ulink url="http://pod.gsi.de/releases/pod/3.12/PoD-3.12-Source.tar.gz">Source tarball (1.4MB)</ulink></entry>
+                        <entry>3.12</entry>
+                        <entry>2012-10-04</entry>
+                        <entry><ulink url="http://pod.gsi.de/doc/3.12/Requirements.html">requirements</ulink></entry>
+                        <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=b2cf03b2f3a8746148851c6c4a1bae60f08946d5">ReleaseNotes</ulink></entry>
+                        <entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>        
+                    </row>
+                    <row>
                         <entry><ulink url="http://pod.gsi.de/releases/pod/3.10/PoD-3.10-Source.tar.gz">Source tarball (1.3MB)</ulink></entry>
                         <entry>3.10</entry>
                         <entry>2012-02-28</entry>
