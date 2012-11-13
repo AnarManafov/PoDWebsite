@@ -62,19 +62,8 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
     </para>
     
     <section><title/>
-        <section><title>PoD at GSI (Grid Engine)</title>
-            <para>
-                For GSI users, who want to use PoD with our new SGE cluster. You need to build a source package of PoD using the following environment.
-            </para>
-<screen>
-export LD_LIBRARY_PATH=$SGE_ROOT/lib/$SGE_ARCH/:$LD_LIBRARY_PATH
-export PATH=/misc/manafov/cmake/cmake_64bit/cmake/bin:$PATH
-export PATH=/misc/manafov/Qt/4.4.2_lenny64/bin:$PATH
-export LD_LIBRARY_PATH=/misc/manafov/Qt/4.4.2_lenny64/lib:$LD_LIBRARY_PATH
-</screen>
-        </section>
         
-        <section><title>PoD at GSI (LSF)</title>
+        <section><title>PoD at GSI</title>
             <para>
                 Users at GSI can install PoD from a source package or they can use a central installation of PoD.
                 To enable a central installation the following command must be issued. The command will
