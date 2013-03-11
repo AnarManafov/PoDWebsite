@@ -91,7 +91,7 @@ data.setValue(31, 0, 'Taiwan');
 data.setValue(31, 1, 1);
 // Create and draw the visualization.
 new google.visualization.PieChart(document.getElementById('chart_countries')).
-draw(data, {width: 700, height: 500, title:"Downloads by Country"});
+draw(data, {width: 700, height: 600, title:"Downloads by Country"});
 // Create and draw the visualization.
 new google.visualization.BarChart(document.getElementById('bar_chart_countries')).
 draw(data,
@@ -268,7 +268,7 @@ title: "Downloads by Versions (accumulated by minor numbers)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 1254 Downloads (last auto. update: Mon Mar 11 10:47:36 2013)</title>
+<section><title>Total: 1254 Downloads (last auto. update: Mon Mar 11 18:27:54 2013)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
