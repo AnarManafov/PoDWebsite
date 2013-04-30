@@ -34,7 +34,7 @@ data.setValue(2, 1, 115);
 data.setValue(3, 0, 'Italy');
 data.setValue(3, 1, 104);
 data.setValue(4, 0, 'United States of America');
-data.setValue(4, 1, 100);
+data.setValue(4, 1, 102);
 data.setValue(5, 0, 'France');
 data.setValue(5, 1, 78);
 data.setValue(6, 0, 'Ukraine');
@@ -159,7 +159,7 @@ data.setValue(11, 3, 51);
 data.setValue(0, 4, 39);
 data.setValue(1, 4, 55);
 data.setValue(2, 4, 36);
-data.setValue(3, 4, 19);
+data.setValue(3, 4, 21);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -187,8 +187,8 @@ data.setCell(2, 0, '2012');
 data.setCell(2, 2, 254);
 data.setCell(2, 1, 220);
 data.setCell(3, 0, '2013');
-data.setCell(3, 2, 87);
-data.setCell(3, 1, 62);
+data.setCell(3, 2, 88);
+data.setCell(3, 1, 63);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('downloads_per_year')).
 draw(data, {
@@ -248,7 +248,7 @@ data.setValue(12, 2, 8);
 data.setValue(12, 1, 9);
 data.setValue(13, 0, 'v3.10.x');
 data.setValue(13, 2, 65);
-data.setValue(13, 1, 122);
+data.setValue(13, 1, 123);
 data.setValue(14, 0, 'v3.11.x');
 data.setValue(14, 2, 11);
 data.setValue(14, 1, 42);
@@ -257,7 +257,7 @@ data.setValue(15, 2, 80);
 data.setValue(15, 1, 93);
 data.setValue(16, 0, 'v3.13.x');
 data.setValue(16, 2, 14);
-data.setValue(16, 1, 25);
+data.setValue(16, 1, 26);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('totals_by_versions')).
 draw(data, {reverseCategories: 'false',
@@ -269,7 +269,7 @@ title: "Downloads by Versions (accumulated by minor numbers)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 1306 Downloads (last auto. update: Tue Apr 30 11:36:11 2013)</title>
+<section><title>Total: 1308 Downloads (last auto. update: Tue Apr 30 23:36:15 2013)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
