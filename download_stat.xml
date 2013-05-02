@@ -28,11 +28,11 @@ data.addRows(32);
 data.setValue(0, 0, 'Switzerland');
 data.setValue(0, 1, 337);
 data.setValue(1, 0, 'Germany');
-data.setValue(1, 1, 269);
+data.setValue(1, 1, 275);
 data.setValue(2, 0, 'Russian Federation');
 data.setValue(2, 1, 115);
 data.setValue(3, 0, 'United States of America');
-data.setValue(3, 1, 110);
+data.setValue(3, 1, 112);
 data.setValue(4, 0, 'Italy');
 data.setValue(4, 1, 104);
 data.setValue(5, 0, 'France');
@@ -160,7 +160,7 @@ data.setValue(0, 4, 39);
 data.setValue(1, 4, 55);
 data.setValue(2, 4, 36);
 data.setValue(3, 4, 21);
-data.setValue(4, 4, 9);
+data.setValue(4, 4, 17);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -188,7 +188,7 @@ data.setCell(2, 0, '2012');
 data.setCell(2, 2, 254);
 data.setCell(2, 1, 220);
 data.setCell(3, 0, '2013');
-data.setCell(3, 2, 96);
+data.setCell(3, 2, 104);
 data.setCell(3, 1, 64);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('downloads_per_year')).
@@ -209,13 +209,13 @@ function drawVisualization() {
     data.addColumn('number', 'duplicate IP addresses');
 data.addRows(17);
 data.setValue(0, 0, 'v2.1.x');
-data.setValue(0, 2, 47);
+data.setValue(0, 2, 48);
 data.setValue(0, 1, 51);
 data.setValue(1, 0, 'v2.2.x');
 data.setValue(1, 2, 5);
 data.setValue(1, 1, 12);
 data.setValue(2, 0, 'v2.3.x');
-data.setValue(2, 2, 13);
+data.setValue(2, 2, 14);
 data.setValue(2, 1, 49);
 data.setValue(3, 0, 'v2.4.x');
 data.setValue(3, 2, 19);
@@ -254,7 +254,7 @@ data.setValue(14, 0, 'v3.11.x');
 data.setValue(14, 2, 11);
 data.setValue(14, 1, 42);
 data.setValue(15, 0, 'v3.12.x');
-data.setValue(15, 2, 80);
+data.setValue(15, 2, 86);
 data.setValue(15, 1, 94);
 data.setValue(16, 0, 'v3.13.x');
 data.setValue(16, 2, 15);
@@ -270,7 +270,7 @@ title: "Downloads by Versions (accumulated by minor numbers)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 1317 Downloads (last auto. update: Wed May  1 23:36:59 2013)</title>
+<section><title>Total: 1325 Downloads (last auto. update: Thu May  2 11:36:32 2013)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
