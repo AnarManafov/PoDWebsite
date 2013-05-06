@@ -26,7 +26,7 @@ function drawVisualization() {
     data.addColumn('number', 'Download');
 data.addRows(32);
 data.setValue(0, 0, 'Switzerland');
-data.setValue(0, 1, 338);
+data.setValue(0, 1, 340);
 data.setValue(1, 0, 'Germany');
 data.setValue(1, 1, 275);
 data.setValue(2, 0, 'Russian Federation');
@@ -34,7 +34,7 @@ data.setValue(2, 1, 115);
 data.setValue(3, 0, 'United States of America');
 data.setValue(3, 1, 113);
 data.setValue(4, 0, 'Italy');
-data.setValue(4, 1, 104);
+data.setValue(4, 1, 105);
 data.setValue(5, 0, 'France');
 data.setValue(5, 1, 78);
 data.setValue(6, 0, 'Ukraine');
@@ -160,7 +160,7 @@ data.setValue(0, 4, 39);
 data.setValue(1, 4, 55);
 data.setValue(2, 4, 36);
 data.setValue(3, 4, 21);
-data.setValue(4, 4, 19);
+data.setValue(4, 4, 22);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -189,7 +189,7 @@ data.setCell(2, 2, 254);
 data.setCell(2, 1, 220);
 data.setCell(3, 0, '2013');
 data.setCell(3, 2, 105);
-data.setCell(3, 1, 65);
+data.setCell(3, 1, 68);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('downloads_per_year')).
 draw(data, {
@@ -255,10 +255,10 @@ data.setValue(14, 2, 11);
 data.setValue(14, 1, 42);
 data.setValue(15, 0, 'v3.12.x');
 data.setValue(15, 2, 87);
-data.setValue(15, 1, 95);
+data.setValue(15, 1, 97);
 data.setValue(16, 0, 'v3.13.x');
 data.setValue(16, 2, 15);
-data.setValue(16, 1, 26);
+data.setValue(16, 1, 27);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('totals_by_versions')).
 draw(data, {reverseCategories: 'false',
@@ -270,7 +270,7 @@ title: "Downloads by Versions (accumulated by minor numbers)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 1327 Downloads (last auto. update: Sun May  5 23:38:34 2013)</title>
+<section><title>Total: 1330 Downloads (last auto. update: Mon May  6 20:49:47 2013)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
