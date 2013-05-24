@@ -26,7 +26,7 @@ function drawVisualization() {
     data.addColumn('number', 'Download');
 data.addRows(32);
 data.setValue(0, 0, 'Switzerland');
-data.setValue(0, 1, 342);
+data.setValue(0, 1, 343);
 data.setValue(1, 0, 'Germany');
 data.setValue(1, 1, 275);
 data.setValue(2, 0, 'Russian Federation');
@@ -42,7 +42,7 @@ data.setValue(6, 1, 51);
 data.setValue(7, 0, 'Slovak Republic');
 data.setValue(7, 1, 48);
 data.setValue(8, 0, 'Poland');
-data.setValue(8, 1, 32);
+data.setValue(8, 1, 33);
 data.setValue(9, 0, 'Canada');
 data.setValue(9, 1, 31);
 data.setValue(10, 0, 'Denmark');
@@ -160,7 +160,7 @@ data.setValue(0, 4, 39);
 data.setValue(1, 4, 55);
 data.setValue(2, 4, 36);
 data.setValue(3, 4, 21);
-data.setValue(4, 4, 27);
+data.setValue(4, 4, 29);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -189,7 +189,7 @@ data.setCell(2, 2, 254);
 data.setCell(2, 1, 220);
 data.setCell(3, 0, '2013');
 data.setCell(3, 2, 105);
-data.setCell(3, 1, 73);
+data.setCell(3, 1, 75);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('downloads_per_year')).
 draw(data, {
@@ -248,7 +248,7 @@ data.setValue(12, 0, 'v3.9.x');
 data.setValue(12, 2, 8);
 data.setValue(12, 1, 9);
 data.setValue(13, 0, 'v3.10.x');
-data.setValue(13, 2, 65);
+data.setValue(13, 2, 66);
 data.setValue(13, 1, 124);
 data.setValue(14, 0, 'v3.11.x');
 data.setValue(14, 2, 11);
@@ -258,7 +258,7 @@ data.setValue(15, 2, 87);
 data.setValue(15, 1, 100);
 data.setValue(16, 0, 'v3.13.x');
 data.setValue(16, 2, 15);
-data.setValue(16, 1, 28);
+data.setValue(16, 1, 29);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('totals_by_versions')).
 draw(data, {reverseCategories: 'false',
@@ -270,7 +270,7 @@ title: "Downloads by Versions (accumulated by minor numbers)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 1335 Downloads (last auto. update: Fri May 24 08:49:55 2013)</title>
+<section><title>Total: 1337 Downloads (last auto. update: Fri May 24 20:52:04 2013)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
