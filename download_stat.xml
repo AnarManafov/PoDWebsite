@@ -28,7 +28,7 @@ data.addRows(37);
 data.setValue(0, 0, 'Switzerland');
 data.setValue(0, 1, 387);
 data.setValue(1, 0, 'Germany');
-data.setValue(1, 1, 314);
+data.setValue(1, 1, 315);
 data.setValue(2, 0, 'United States of America');
 data.setValue(2, 1, 126);
 data.setValue(3, 0, 'Russian Federation');
@@ -174,7 +174,7 @@ data.setValue(4, 4, 32);
 data.setValue(5, 4, 36);
 data.setValue(6, 4, 42);
 data.setValue(7, 4, 66);
-data.setValue(8, 4, 33);
+data.setValue(8, 4, 34);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -203,7 +203,7 @@ data.setCell(2, 2, 254);
 data.setCell(2, 1, 220);
 data.setCell(3, 0, '2013');
 data.setCell(3, 2, 217);
-data.setCell(3, 1, 143);
+data.setCell(3, 1, 144);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('downloads_per_year')).
 draw(data, {
@@ -221,7 +221,7 @@ function drawVisualization() {
     data.addColumn('string', 'Version');
     data.addColumn('number', 'unique IP addresses');
     data.addColumn('number', 'duplicate IP addresses');
-data.addRows(17);
+data.addRows(18);
 data.setValue(0, 0, 'v2.1.x');
 data.setValue(0, 2, 52);
 data.setValue(0, 1, 54);
@@ -273,6 +273,9 @@ data.setValue(15, 1, 150);
 data.setValue(16, 0, 'v3.13.x');
 data.setValue(16, 2, 24);
 data.setValue(16, 1, 37);
+data.setValue(17, 0, 'v3.14.x');
+data.setValue(17, 2, 0);
+data.setValue(17, 1, 1);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('totals_by_versions')).
 draw(data, {reverseCategories: 'false',
@@ -284,7 +287,7 @@ title: "Downloads by Versions (accumulated by minor numbers)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 1517 Downloads (last auto. update: Fri Sep 20 09:27:02 2013)</title>
+<section><title>Total: 1518 Downloads (last auto. update: Fri Sep 20 21:32:26 2013)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
