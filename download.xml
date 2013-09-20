@@ -28,20 +28,21 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
                 </thead>
                 <tbody>
                     
+		     <row>
+                        <entry><ulink url="http://pod.gsi.de/releases/pod/3.14/PoD-3.14-Source.tar.gz">Source tarball (1.4MB)</ulink></entry>
+                        <entry>3.14</entry>
+                        <entry>2013-09-20</entry>
+                        <entry><ulink url="http://pod.gsi.de/doc/3.14/Requirements.html">requirements</ulink></entry>
+                        <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=0a5f62841994a3cec0b2d0333dc3486174b11370">ReleaseNotes</ulink></entry>
+                        <entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>
+                    </row>
+
                     <row>
                         <entry><ulink url="http://pod.gsi.de/releases/pod/3.12/PoD-3.12-Source.tar.gz">Source tarball (1.4MB)</ulink></entry>
                         <entry>3.12</entry>
                         <entry>2012-10-04</entry>
                         <entry><ulink url="http://pod.gsi.de/doc/3.12/Requirements.html">requirements</ulink></entry>
                         <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=b2cf03b2f3a8746148851c6c4a1bae60f08946d5">ReleaseNotes</ulink></entry>
-                        <entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>        
-                    </row>
-                    <row>
-                        <entry><ulink url="http://pod.gsi.de/releases/pod/3.10/PoD-3.10-Source.tar.gz">Source tarball (1.3MB)</ulink></entry>
-                        <entry>3.10</entry>
-                        <entry>2012-02-28</entry>
-                        <entry><ulink url="http://pod.gsi.de/doc/3.10/Requirements.html">requirements</ulink></entry>
-                        <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=fde80de8269c858fbc1863458c02683bd42292db">ReleaseNotes</ulink></entry>
                         <entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>        
                     </row>
                     
