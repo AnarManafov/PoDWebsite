@@ -42,7 +42,7 @@ data.setValue(6, 1, 51);
 data.setValue(7, 0, 'Slovak Republic');
 data.setValue(7, 1, 48);
 data.setValue(8, 0, 'Poland');
-data.setValue(8, 1, 37);
+data.setValue(8, 1, 39);
 data.setValue(9, 0, 'Canada');
 data.setValue(9, 1, 33);
 data.setValue(10, 0, 'Great Britain');
@@ -52,7 +52,7 @@ data.setValue(11, 1, 20);
 data.setValue(12, 0, 'Spain');
 data.setValue(12, 1, 18);
 data.setValue(13, 0, 'Netherlands');
-data.setValue(13, 1, 17);
+data.setValue(13, 1, 18);
 data.setValue(14, 0, 'Afghanistan');
 data.setValue(14, 1, 16);
 data.setValue(15, 0, 'China');
@@ -174,7 +174,7 @@ data.setValue(4, 4, 32);
 data.setValue(5, 4, 36);
 data.setValue(6, 4, 42);
 data.setValue(7, 4, 66);
-data.setValue(8, 4, 49);
+data.setValue(8, 4, 52);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -202,8 +202,8 @@ data.setCell(2, 0, '2012');
 data.setCell(2, 2, 254);
 data.setCell(2, 1, 220);
 data.setCell(3, 0, '2013');
-data.setCell(3, 2, 222);
-data.setCell(3, 1, 154);
+data.setCell(3, 2, 224);
+data.setCell(3, 1, 155);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('downloads_per_year')).
 draw(data, {
@@ -269,12 +269,12 @@ data.setValue(14, 2, 11);
 data.setValue(14, 1, 42);
 data.setValue(15, 0, 'v3.12.x');
 data.setValue(15, 2, 160);
-data.setValue(15, 1, 156);
+data.setValue(15, 1, 157);
 data.setValue(16, 0, 'v3.13.x');
 data.setValue(16, 2, 24);
 data.setValue(16, 1, 37);
 data.setValue(17, 0, 'v3.14.x');
-data.setValue(17, 2, 0);
+data.setValue(17, 2, 2);
 data.setValue(17, 1, 5);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('totals_by_versions')).
@@ -287,7 +287,7 @@ title: "Downloads by Versions (accumulated by minor numbers)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 1533 Downloads (last auto. update: Thu Sep 26 09:26:51 2013)</title>
+<section><title>Total: 1536 Downloads (last auto. update: Thu Sep 26 21:27:15 2013)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
