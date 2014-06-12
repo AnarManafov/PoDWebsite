@@ -17,7 +17,7 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
         <listitem><para><ulink url="http://pod.gsi.de/doc/pro/Known_Issues.html">Known issues.</ulink>
         </para>
         </listitem>
-        <listitem><para><ulink url="http://demac012.gsi.de:22222/bugzilla/">Bug Reports and Feature Requests.</ulink>
+        <listitem><para><ulink url="https://github.com/AnarManafov/PoD/issues">Bug Reports and Feature Requests.</ulink>
         </para>
         </listitem>
         <listitem><para><ulink url="mailto:anar.manafov@gmail.com?subject=PoD%20support">Give us Feedback.</ulink>
