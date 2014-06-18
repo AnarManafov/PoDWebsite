@@ -30,7 +30,7 @@ data.setValue(0, 1, 422);
 data.setValue(1, 0, 'Germany');
 data.setValue(1, 1, 369);
 data.setValue(2, 0, 'United States of America');
-data.setValue(2, 1, 143);
+data.setValue(2, 1, 144);
 data.setValue(3, 0, 'Russian Federation');
 data.setValue(3, 1, 125);
 data.setValue(4, 0, 'Italy');
@@ -73,14 +73,14 @@ data.setValue(22, 0, 'Romania');
 data.setValue(22, 1, 8);
 data.setValue(23, 0, 'Belgium');
 data.setValue(23, 1, 6);
-data.setValue(24, 0, 'Croatia');
+data.setValue(24, 0, 'Brazil');
 data.setValue(24, 1, 6);
-data.setValue(25, 0, 'India');
+data.setValue(25, 0, 'Croatia');
 data.setValue(25, 1, 6);
-data.setValue(26, 0, 'Turkey');
+data.setValue(26, 0, 'India');
 data.setValue(26, 1, 6);
-data.setValue(27, 0, 'Brazil');
-data.setValue(27, 1, 5);
+data.setValue(27, 0, 'Turkey');
+data.setValue(27, 1, 6);
 data.setValue(28, 0, 'Hungary');
 data.setValue(28, 1, 5);
 data.setValue(29, 0, 'Israel');
@@ -183,7 +183,7 @@ data.setValue(8, 4, 67);
 data.setValue(9, 4, 77);
 data.setValue(10, 4, 97);
 data.setValue(11, 4, 5);
-data.setValue(5, 5, 48);
+data.setValue(5, 5, 50);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -214,8 +214,8 @@ data.setCell(3, 0, '2013');
 data.setCell(3, 2, 315);
 data.setCell(3, 1, 258);
 data.setCell(4, 0, '2014');
-data.setCell(4, 2, 30);
-data.setCell(4, 1, 18);
+data.setCell(4, 2, 31);
+data.setCell(4, 1, 19);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('downloads_per_year')).
 draw(data, {
@@ -281,7 +281,7 @@ data.setValue(14, 2, 11);
 data.setValue(14, 1, 42);
 data.setValue(15, 0, 'v3.12.x');
 data.setValue(15, 2, 228);
-data.setValue(15, 1, 227);
+data.setValue(15, 1, 228);
 data.setValue(16, 0, 'v3.13.x');
 data.setValue(16, 2, 24);
 data.setValue(16, 1, 37);
@@ -293,7 +293,7 @@ data.setValue(18, 2, 1);
 data.setValue(18, 1, 7);
 data.setValue(19, 0, 'v3.16.x');
 data.setValue(19, 2, 0);
-data.setValue(19, 1, 1);
+data.setValue(19, 1, 2);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('totals_by_versions')).
 draw(data, {reverseCategories: 'false',
@@ -305,7 +305,7 @@ title: "Downloads by Versions (accumulated by minor numbers)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 1778 Downloads (last auto. update: Wed Jun 18 13:39:17 2014)</title>
+<section><title>Total: 1780 Downloads (last auto. update: Thu Jun 19 01:02:12 2014)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
