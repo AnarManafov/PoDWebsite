@@ -28,7 +28,7 @@ data.addRows(40);
 data.setValue(0, 0, 'Switzerland');
 data.setValue(0, 1, 422);
 data.setValue(1, 0, 'Germany');
-data.setValue(1, 1, 366);
+data.setValue(1, 1, 367);
 data.setValue(2, 0, 'United States of America');
 data.setValue(2, 1, 139);
 data.setValue(3, 0, 'Russian Federation');
@@ -185,7 +185,7 @@ data.setValue(8, 4, 67);
 data.setValue(9, 4, 77);
 data.setValue(10, 4, 97);
 data.setValue(11, 4, 5);
-data.setValue(5, 5, 47);
+data.setValue(5, 5, 48);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -217,7 +217,7 @@ data.setCell(3, 2, 315);
 data.setCell(3, 1, 258);
 data.setCell(4, 0, '2014');
 data.setCell(4, 2, 30);
-data.setCell(4, 1, 17);
+data.setCell(4, 1, 18);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('downloads_per_year')).
 draw(data, {
@@ -235,7 +235,7 @@ function drawVisualization() {
     data.addColumn('string', 'Version');
     data.addColumn('number', 'unique IP addresses');
     data.addColumn('number', 'duplicate IP addresses');
-data.addRows(19);
+data.addRows(20);
 data.setValue(0, 0, 'v2.1.x');
 data.setValue(0, 2, 55);
 data.setValue(0, 1, 59);
@@ -293,6 +293,9 @@ data.setValue(17, 1, 57);
 data.setValue(18, 0, 'v3.15.x');
 data.setValue(18, 2, 1);
 data.setValue(18, 1, 7);
+data.setValue(19, 0, 'v3.16.x');
+data.setValue(19, 2, 0);
+data.setValue(19, 1, 1);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('totals_by_versions')).
 draw(data, {reverseCategories: 'false',
@@ -304,7 +307,7 @@ title: "Downloads by Versions (accumulated by minor numbers)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 1777 Downloads (last auto. update: Wed Jun 18 01:00:47 2014)</title>
+<section><title>Total: 1778 Downloads (last auto. update: Wed Jun 18 13:00:55 2014)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
