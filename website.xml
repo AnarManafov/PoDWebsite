@@ -87,7 +87,8 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
                     <listitem><para>PBS Pro/OpenPBS/Torque (Portable Batch System),</para></listitem>
                     <listitem><para>Grid Engine (Oracle/Sun Grid Engine),</para></listitem>
                     <listitem><para>Condor,</para></listitem>
-                    <listitem><para>LoadLeveler (IBM Tivoli Workload Scheduler LoadLeveler),</para></listitem>                   
+                    <listitem><para>LoadLeveler (IBM Tivoli Workload Scheduler LoadLeveler),</para></listitem>
+		    <listitem><para>SLURM,</para></listitem>                    
                     <listitem><para>gLite.</para></listitem>
                 </itemizedlist>
             </listitem>
@@ -101,15 +102,15 @@ PUBLIC "-//Norman Walsh//DTD Website V2.6.0//EN"
         <title>What's New</title>
         <variablelist>
 
-            <varlistentry><term>2013-09-20</term>
+            <varlistentry><term>2014-06-18</term>
                 <listitem>
-                    <para> PoD v3.14 was <olink targetdocent="download.xml">released</olink>.</para>
+                    <para> PoD v3.16 was <olink targetdocent="download.xml">released</olink>.</para>
                 </listitem>
             </varlistentry>
 
-            <varlistentry><term>2012-10-04</term>
+            <varlistentry><term>2013-09-20</term>
                 <listitem>
-                    <para> PoD v3.12 was <olink targetdocent="download.xml">released</olink>.</para>
+                    <para> PoD v3.14 was <olink targetdocent="download.xml">released</olink>.</para>
                 </listitem>
             </varlistentry>
 

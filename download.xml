@@ -27,23 +27,23 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
                     </row>
                 </thead>
                 <tbody>
+
+		    <row>
+                        <entry><ulink url="http://pod.gsi.de/releases/pod/3.16/PoD-3.12-Source.tar.gz">Source tarball (1.4MB)</ulink></entry>
+                        <entry>3.16</entry>
+                        <entry>2014-06-18</entry>
+                        <entry><ulink url="http://pod.gsi.de/doc/3.16/Requirements.html">requirements</ulink></entry>
+                        <entry><ulink url="https://github.com/AnarManafov/PoD/blob/v3.16/ReleaseNotes">ReleaseNotes</ulink></entry>
+                        <entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>        
+                    </row>
                     
 		     <row>
                         <entry><ulink url="http://pod.gsi.de/releases/pod/3.14/PoD-3.14-Source.tar.gz">Source tarball (1.4MB)</ulink></entry>
                         <entry>3.14</entry>
                         <entry>2013-09-20</entry>
                         <entry><ulink url="http://pod.gsi.de/doc/3.14/Requirements.html">requirements</ulink></entry>
-                        <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=0a5f62841994a3cec0b2d0333dc3486174b11370">ReleaseNotes</ulink></entry>
+                        <entry><ulink url="https://github.com/AnarManafov/PoD/blob/v3.14/ReleaseNotes">ReleaseNotes</ulink></entry>
                         <entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>
-                    </row>
-
-                    <row>
-                        <entry><ulink url="http://pod.gsi.de/releases/pod/3.12/PoD-3.12-Source.tar.gz">Source tarball (1.4MB)</ulink></entry>
-                        <entry>3.12</entry>
-                        <entry>2012-10-04</entry>
-                        <entry><ulink url="http://pod.gsi.de/doc/3.12/Requirements.html">requirements</ulink></entry>
-                        <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=b2cf03b2f3a8746148851c6c4a1bae60f08946d5">ReleaseNotes</ulink></entry>
-                        <entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>        
                     </row>
                     
                 </tbody>
@@ -67,11 +67,11 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
                 </thead>
                 <tbody>
                     <row>
-                        <entry><ulink url="http://pod.gsi.de/releases/pod/nightly/PoD-3.13.11.g36c6-Source.tar.gz">Source tarball (1.4MB)</ulink></entry>
-                        <entry>PoD-3.13.11.g36c6</entry>
-                        <entry>2013-05-16</entry>
+                        <entry><ulink url="">Source tarball (1.4MB)</ulink></entry>
+                        <entry>PoD-3.17</entry>
+                        <entry></entry>
                         <entry><ulink url="http://pod.gsi.de/doc/nightly/Requirements.html">requirements</ulink></entry>
-                        <entry><ulink url="http://demac012.gsi.de:22222/git/?p=PoD.git;a=blob_plain;f=ReleaseNotes;hb=de4fa09513277b02afb23c958d5bca23c1fea7c4">ReleaseNotes</ulink></entry>
+                        <entry><ulink url="https://github.com/AnarManafov/PoD/blob/v3.17/ReleaseNotes">ReleaseNotes</ulink></entry>
                         <entry><ulink url="http://www.gnu.org/licenses/gpl-2.0.html">GPL v2</ulink></entry>        
                     </row>
                 </tbody>

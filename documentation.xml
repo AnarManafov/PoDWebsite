@@ -31,7 +31,15 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
                            <ulink url="http://pod.gsi.de/doc/nightly/PoD.ps">PS</ulink> </entry>
                     <entry>User's manual of the latest development PoD version, which is build nightly.</entry>
                 </row>
-		
+
+                <row>
+                    <entry>User's Manual (v3.16)</entry>
+                     <entry><ulink url="http://pod.gsi.de/doc/3.16/index.html">HTML</ulink>,
+                            <ulink url="http://pod.gsi.de/doc/3.16/PoD.pdf">PDF</ulink>,
+                            <ulink url="http://pod.gsi.de/doc/3.16/PoD.ps">PS</ulink> </entry>
+                    <entry>User's manual of the stable PoD v3.16.</entry>
+                </row>	
+	
                 <row>
                     <entry>User's Manual (v3.14)</entry>
                      <entry><ulink url="http://pod.gsi.de/doc/3.14/index.html">HTML</ulink>,
@@ -40,14 +48,6 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
                     <entry>User's manual of the stable PoD v3.14.</entry>
                 </row>
 	
-		<row>
-                    <entry>User's Manual (v3.12)</entry>
-                     <entry><ulink url="http://pod.gsi.de/doc/3.12/index.html">HTML</ulink>, 
-                            <ulink url="http://pod.gsi.de/doc/3.12/PoD.pdf">PDF</ulink>,
-                            <ulink url="http://pod.gsi.de/doc/3.12/PoD.ps">PS</ulink> </entry>
-                    <entry>User's manual of the stable PoD v3.12.</entry>
-                </row>
-
                 <row>
                     <entry>Private API Documentation</entry>
                     <entry><ulink url="http://pod.gsi.de/doc/api-docs/index.html">link</ulink></entry>
@@ -76,22 +76,6 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
         </section>
         
         <section><title>PoD at CERN's AFS</title>
-            <para>
-                PoD has been tested and is used at CERN (with LSF, SGE, SSH plug-ins). The following environment settings could help to build PoD from the source in a CERN AFS directory on lxplus.cern.ch.
-<screen>
-# GCC
-. /afs/cern.ch/sw/lcg/contrib/gcc/4.3/x86_64-slc5/setup.sh
-# ROOT (you can use your version)
-. /afs/cern.ch/sw/lcg/app/releases/ROOT/5.30.00/x86_64-slc5-gcc43-opt/root/bin/thisroot.sh
-# BOOST
-export BOOST_ROOT=/afs/cern.ch/sw/lcg/external/Boost/1.48.0_python2.7/x86_64-slc5-gcc43-opt/
-export BOOST_INCLUDEDIR=/afs/cern.ch/sw/lcg/external/Boost/1.48.0_python2.7/x86_64-slc5-gcc43-opt/include/boost-1_48/
-export BOOST_LIBRARYDIR=$BOOST_ROOT/lib
-export LD_LIBRARY_PATH=$BOOST_LIBRARYDIR:$LD_LIBRARY_PATH
-# cmake
-export PATH=/afs/cern.ch/sw/lcg/external/CMake/2.8.2/x86_64-slc5-gcc43-opt/bin/:$PATH
-</screen>
-            </para>
             <para>
                 Since AFS doesn't support pipes you need to change PoD server working directory in the user defaults configuration.
                 <ulink url="http://pod.gsi.de/doc/nightly/Known_Issues.html#PoDonAFS">Find out more on this.</ulink>
