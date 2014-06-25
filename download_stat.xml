@@ -46,7 +46,7 @@ data.setValue(8, 1, 49);
 data.setValue(9, 0, 'Canada');
 data.setValue(9, 1, 38);
 data.setValue(10, 0, 'Afghanistan');
-data.setValue(10, 1, 33);
+data.setValue(10, 1, 34);
 data.setValue(11, 0, 'Netherlands');
 data.setValue(11, 1, 33);
 data.setValue(12, 0, 'Great Britain');
@@ -59,9 +59,9 @@ data.setValue(15, 0, 'Spain');
 data.setValue(15, 1, 22);
 data.setValue(16, 0, 'Japan');
 data.setValue(16, 1, 16);
-data.setValue(17, 0, 'China');
-data.setValue(17, 1, 14);
-data.setValue(18, 0, 'South Korea');
+data.setValue(17, 0, 'South Korea');
+data.setValue(17, 1, 16);
+data.setValue(18, 0, 'China');
 data.setValue(18, 1, 14);
 data.setValue(19, 0, '??');
 data.setValue(19, 1, 12);
@@ -183,7 +183,7 @@ data.setValue(8, 4, 67);
 data.setValue(9, 4, 77);
 data.setValue(10, 4, 97);
 data.setValue(11, 4, 5);
-data.setValue(5, 5, 64);
+data.setValue(5, 5, 67);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -215,7 +215,7 @@ data.setCell(3, 2, 315);
 data.setCell(3, 1, 258);
 data.setCell(4, 0, '2014');
 data.setCell(4, 2, 41);
-data.setCell(4, 1, 23);
+data.setCell(4, 1, 26);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('downloads_per_year')).
 draw(data, {
@@ -287,13 +287,13 @@ data.setValue(16, 2, 24);
 data.setValue(16, 1, 37);
 data.setValue(17, 0, 'v3.14.x');
 data.setValue(17, 2, 13);
-data.setValue(17, 1, 58);
+data.setValue(17, 1, 59);
 data.setValue(18, 0, 'v3.15.x');
 data.setValue(18, 2, 1);
 data.setValue(18, 1, 7);
 data.setValue(19, 0, 'v3.16.x');
 data.setValue(19, 2, 5);
-data.setValue(19, 1, 6);
+data.setValue(19, 1, 8);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('totals_by_versions')).
 draw(data, {reverseCategories: 'false',
@@ -305,7 +305,7 @@ title: "Downloads by Versions (accumulated by minor numbers)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 1794 Downloads (last auto. update: Wed Jun 25 01:01:00 2014)</title>
+<section><title>Total: 1797 Downloads (last auto. update: Wed Jun 25 13:00:53 2014)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
