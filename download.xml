@@ -67,8 +67,8 @@ PUBLIC "-//Norman Walsh//DTD Website Full V2.6.0//EN"
                 </thead>
                 <tbody>
                     <row>
-                        <entry><ulink url="">Source tarball (1.4MB)</ulink></entry>
-                        <entry>PoD-3.17</entry>
+                        <entry><ulink url="http://pod.gsi.de/releases/pod/nightly/PoD-3.17-Source.tar.gz">Source tarball (1.4MB)</ulink></entry>
+                        <entry>3.17</entry>
                         <entry></entry>
                         <entry><ulink url="http://pod.gsi.de/doc/nightly/Requirements.html">requirements</ulink></entry>
                         <entry><ulink url="https://github.com/AnarManafov/PoD/blob/v3.17/ReleaseNotes">ReleaseNotes</ulink></entry>
