@@ -41,10 +41,10 @@ data.setValue(6, 0, 'Slovak Republic');
 data.setValue(6, 1, 58);
 data.setValue(7, 0, 'Ukraine');
 data.setValue(7, 1, 51);
-data.setValue(8, 0, 'Poland');
+data.setValue(8, 0, 'Afghanistan');
 data.setValue(8, 1, 49);
-data.setValue(9, 0, 'Afghanistan');
-data.setValue(9, 1, 47);
+data.setValue(9, 0, 'Poland');
+data.setValue(9, 1, 49);
 data.setValue(10, 0, 'Canada');
 data.setValue(10, 1, 39);
 data.setValue(11, 0, 'Netherlands');
@@ -186,7 +186,7 @@ data.setValue(9, 4, 77);
 data.setValue(10, 4, 97);
 data.setValue(11, 4, 5);
 data.setValue(5, 5, 77);
-data.setValue(6, 5, 14);
+data.setValue(6, 5, 16);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -218,7 +218,7 @@ data.setCell(3, 2, 315);
 data.setCell(3, 1, 258);
 data.setCell(4, 0, '2014');
 data.setCell(4, 2, 50);
-data.setCell(4, 1, 41);
+data.setCell(4, 1, 43);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('downloads_per_year')).
 draw(data, {
@@ -239,7 +239,7 @@ function drawVisualization() {
 data.addRows(20);
 data.setValue(0, 0, 'v2.1.x');
 data.setValue(0, 2, 55);
-data.setValue(0, 1, 60);
+data.setValue(0, 1, 61);
 data.setValue(1, 0, 'v2.2.x');
 data.setValue(1, 2, 5);
 data.setValue(1, 1, 12);
@@ -254,7 +254,7 @@ data.setValue(4, 2, 7);
 data.setValue(4, 1, 11);
 data.setValue(5, 0, 'v3.1.x');
 data.setValue(5, 2, 21);
-data.setValue(5, 1, 40);
+data.setValue(5, 1, 41);
 data.setValue(6, 0, 'v3.2.x');
 data.setValue(6, 2, 6);
 data.setValue(6, 1, 7);
@@ -308,7 +308,7 @@ title: "Downloads by Versions (accumulated by minor numbers)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 1821 Downloads (last auto. update: Sun Jul 20 13:26:14 2014)</title>
+<section><title>Total: 1823 Downloads (last auto. update: Mon Jul 21 01:25:49 2014)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
