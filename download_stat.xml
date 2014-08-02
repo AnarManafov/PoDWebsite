@@ -32,7 +32,7 @@ data.setValue(1, 1, 425);
 data.setValue(2, 0, 'Germany');
 data.setValue(2, 1, 369);
 data.setValue(3, 0, 'United States of America');
-data.setValue(3, 1, 150);
+data.setValue(3, 1, 152);
 data.setValue(4, 0, 'Italy');
 data.setValue(4, 1, 130);
 data.setValue(5, 0, 'Russian Federation');
@@ -40,7 +40,7 @@ data.setValue(5, 1, 125);
 data.setValue(6, 0, 'France');
 data.setValue(6, 1, 102);
 data.setValue(7, 0, 'Afghanistan');
-data.setValue(7, 1, 59);
+data.setValue(7, 1, 60);
 data.setValue(8, 0, 'Slovak Republic');
 data.setValue(8, 1, 58);
 data.setValue(9, 0, 'Ukraine');
@@ -187,7 +187,7 @@ data.setValue(10, 4, 97);
 data.setValue(11, 4, 5);
 data.setValue(5, 5, 77);
 data.setValue(6, 5, 1387);
-data.setValue(7, 5, 2);
+data.setValue(7, 5, 5);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -219,7 +219,7 @@ data.setCell(3, 2, 315);
 data.setCell(3, 1, 258);
 data.setCell(4, 0, '2014');
 data.setCell(4, 2, 1404);
-data.setCell(4, 1, 62);
+data.setCell(4, 1, 65);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('downloads_per_year')).
 draw(data, {
@@ -249,7 +249,7 @@ data.setValue(2, 2, 21);
 data.setValue(2, 1, 60);
 data.setValue(3, 0, 'v2.4.x');
 data.setValue(3, 2, 27);
-data.setValue(3, 1, 44);
+data.setValue(3, 1, 45);
 data.setValue(4, 0, 'v3.0.x');
 data.setValue(4, 2, 7);
 data.setValue(4, 1, 11);
@@ -285,13 +285,13 @@ data.setValue(14, 2, 11);
 data.setValue(14, 1, 42);
 data.setValue(15, 0, 'v3.12.x');
 data.setValue(15, 2, 228);
-data.setValue(15, 1, 231);
+data.setValue(15, 1, 232);
 data.setValue(16, 0, 'v3.13.x');
 data.setValue(16, 2, 24);
 data.setValue(16, 1, 37);
 data.setValue(17, 0, 'v3.14.x');
 data.setValue(17, 2, 13);
-data.setValue(17, 1, 61);
+data.setValue(17, 1, 62);
 data.setValue(18, 0, 'v3.15.x');
 data.setValue(18, 2, 1);
 data.setValue(18, 1, 7);
@@ -312,7 +312,7 @@ title: "Downloads by Versions (accumulated by minor numbers)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 3196 Downloads (last auto. update: Sat Aug  2 13:26:32 2014)</title>
+<section><title>Total: 3199 Downloads (last auto. update: Sun Aug  3 01:26:51 2014)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
