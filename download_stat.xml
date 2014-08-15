@@ -312,7 +312,7 @@ title: "Downloads by Versions (accumulated by minor numbers)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 3212 Downloads (last auto. update: Fri Aug 15 13:27:25 2014)</title>
+<section><title>Total: 3212 Downloads (last auto. update: Sat Aug 16 01:27:29 2014)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
