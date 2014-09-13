@@ -60,7 +60,7 @@ data.setValue(15, 1, 22);
 data.setValue(16, 0, 'Spain');
 data.setValue(16, 1, 22);
 data.setValue(17, 0, 'Japan');
-data.setValue(17, 1, 19);
+data.setValue(17, 1, 22);
 data.setValue(18, 0, 'China');
 data.setValue(18, 1, 14);
 data.setValue(19, 0, '??');
@@ -188,7 +188,7 @@ data.setValue(11, 4, 5);
 data.setValue(5, 5, 77);
 data.setValue(6, 5, 1387);
 data.setValue(7, 5, 28);
-data.setValue(8, 5, 35);
+data.setValue(8, 5, 38);
 // Create and draw the visualization.
 new google.visualization.LineChart(document.getElementById('monthly_downloads')).
 draw(data, {interpolateNulls: 'true',
@@ -219,8 +219,8 @@ data.setCell(3, 0, '2013');
 data.setCell(3, 2, 315);
 data.setCell(3, 1, 258);
 data.setCell(4, 0, '2014');
-data.setCell(4, 2, 1430);
-data.setCell(4, 1, 97);
+data.setCell(4, 2, 1432);
+data.setCell(4, 1, 98);
 // Create and draw the visualization.
 new google.visualization.ColumnChart(document.getElementById('downloads_per_year')).
 draw(data, {
@@ -256,19 +256,19 @@ data.setValue(4, 2, 7);
 data.setValue(4, 1, 11);
 data.setValue(5, 0, 'v3.1.x');
 data.setValue(5, 2, 22);
-data.setValue(5, 1, 41);
+data.setValue(5, 1, 42);
 data.setValue(6, 0, 'v3.2.x');
 data.setValue(6, 2, 6);
 data.setValue(6, 1, 7);
 data.setValue(7, 0, 'v3.4.x');
 data.setValue(7, 2, 13);
-data.setValue(7, 1, 69);
+data.setValue(7, 1, 70);
 data.setValue(8, 0, 'v3.5.x');
 data.setValue(8, 2, 133);
 data.setValue(8, 1, 42);
 data.setValue(9, 0, 'v3.6.x');
 data.setValue(9, 2, 58);
-data.setValue(9, 1, 100);
+data.setValue(9, 1, 101);
 data.setValue(10, 0, 'v3.7.x');
 data.setValue(10, 2, 26);
 data.setValue(10, 1, 37);
@@ -313,7 +313,7 @@ title: "Downloads by Versions (accumulated by minor numbers)" }
 google.setOnLoadCallback(drawVisualization);
 </script>
 </head>
-<section><title>Total: 3257 Downloads (last auto. update: Sat Sep 13 02:25:34 2014)</title>
+<section><title>Total: 3260 Downloads (last auto. update: Sat Sep 13 14:25:35 2014)</title>
 <section><title></title>
 <para>
 <my_chart name="downloads_per_year" /></para>
